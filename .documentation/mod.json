@@ -1,0 +1,13 @@
+{
+    "Name": "Sacellum Gear and Mechs",
+    "Enabled": true,
+    "Version": "1.0",
+    
+	"Manifest": [
+		{ "Type": "WeaponDef", "Path": "weapon" },
+		{ "Type": "UpgradeDef", "Path": "upgrade" },
+		{ "Type": "HeatSinkDef", "Path": "heatsink" },
+		{ "Type": "ChassisDef", "Path": "chassis" },
+		{ "Type": "MechDef", "Path": "mech" }
+		]
+}

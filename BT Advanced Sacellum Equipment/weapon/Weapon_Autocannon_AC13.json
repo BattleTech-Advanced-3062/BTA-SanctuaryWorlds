@@ -1,0 +1,71 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			}
+		]
+	},
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC10",
+    "MinRange" : 0,
+    "MaxRange" : 480,
+    "RangeSplit" : [
+        120,
+        240,
+        360
+    ],
+    "AmmoCategory" : "AC13",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 75,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 3,
+    "Instability" : 30,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
+    "Description" : {
+        "Cost" : 140000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Sacellum Engineering",
+        "Model" : "Heavy Autocannon",
+        "UIName" : "AC/13",
+        "Id" : "Weapon_Autocannon_AC13",
+        "Name" : "AC/13",
+        "Details" : "The largest of the Sacellum's autocannons, the AC/13 is still a flexible and powerful weapon and anchors many Sacellum battle plans. It deals surprisingly devastating damage with better than expected range for a weapon its size.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC10",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 13,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

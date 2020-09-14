@@ -1,0 +1,71 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			}
+		]
+	},
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC10",
+    "MinRange" : 0,
+    "MaxRange" : 630,
+    "RangeSplit" : [
+        180,
+        330,
+        480
+    ],
+    "AmmoCategory" : "AC9",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 8,
+    "Damage" : 55,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 2,
+    "AttackRecoil" : 2,
+    "Instability" : 18,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
+    "Description" : {
+        "Cost" : 100000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Sacellum Engineering",
+        "Model" : "Tactical Autocannon",
+        "UIName" : "AC/9",
+        "Id" : "Weapon_Autocannon_AC9",
+        "Name" : "AC/9",
+        "Details" : "The middle-weight Sacellum autocannon, the AC/9 is a flexible and powerful weapon. While unassuming, it does solid damage at all ranges and is a staple of Sacellum combat doctrines. With moderately generous ammo bins, the AC/9 is rarely silenced on the battlefield.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC10",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_very-long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

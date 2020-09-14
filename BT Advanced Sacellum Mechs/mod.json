@@ -1,0 +1,13 @@
+{
+    "Name": "BT Advanced Sacellum Mechs",
+    "Enabled": true,
+	"Hidden": true,
+
+	"Version": "1.0",
+    "Description": "Contains Dane Sacellum mech designs.",
+	
+	"Manifest": [
+		{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+		{ "Type": "MechDef", "Path": "mech", "AddToDB": true }
+    ]
+}

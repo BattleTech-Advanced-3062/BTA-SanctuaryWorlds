@@ -1,0 +1,91 @@
+Settings for Weapon Recolors for Sacellum Weapons
+
+Orange - Small E-Laser
+  "ColorsTable": [
+    {
+      "C": "#ff8f00",
+      "I": 5
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorChangeRule": "Linear",
+  
+Purple - Large E-Laser and Twin-Linked E-Laser
+  "ColorsTable": [
+    {
+      "C": "#ad0097",
+      "I": 5
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorChangeRule": "Linear",
+
+Yellow - Medium E-Laser
+  "ColorsTable": [
+    {
+      "C": "#eff500",
+      "I": 5
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorChangeRule": "Linear",
+
+Dark Green - Gamma Cannon
+  "ColorsTable": [
+    {
+      "C": "#00a123",
+      "I": 5
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorChangeRule": "Linear",
+
+Dark Blue - Directed X-Ray Cannon (DXR)
+  "ColorsTable": [
+    {
+      "C": "#010eb9",
+      "I": 5
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorChangeRule": "Linear",
+  
+Dark Red - Neutrino Projector Cannon
+  "ColorsTable": [
+    {
+      "C": "#c10000",
+      "I": 5
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorChangeRule": "Linear",
+  
+Cherry Redish - Variable-Range Missiles (VRMs)
+  "ColorsTable": [
+    {
+      "C": "#ed0000",
+      "I": 5
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorChangeRule": "Linear",
+  
+
+Info for reverse damage variance:
+"wr-reverse_variance_by_distance-150"
+-or-
+"DistantVariance": 0.55,
+"DistantVarianceReversed": false,
+
+Info for to-hit bonus
+				"statName": "ToHitThisActor",
+                "operation": "Float_Add",
+                "modValue": "-1.0",
+                "modType": "System.Single",

@@ -1,0 +1,66 @@
+"FixedEquipment": [
+	{
+	  "MountedLocation": "Head",
+	  "ComponentDefID": "Gear_Cockpit_Sacellum_Drone",
+	  "SimGameUID": "",
+	  "ComponentDefType": "Upgrade",
+	  "HardpointSlot": 0,
+	  "GUID": null,
+	  "DamageLevel": "Functional",
+	  "prefabName": null,
+	  "hasPrefabName": false
+	},	
+	{
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_sacellum_ferrosfibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_sacellum_endosteel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true
+    }
+  ],
+  
+  
+  {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_exl_center",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+	{
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+	{
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
