@@ -13,7 +13,7 @@
 	},
     "Category" : "Missile",
     "Type" : "LRM",
-    "WeaponSubType" : "LRM15",
+    "WeaponSubType" : "LRM20",
     "MinRange" : 150,
     "MaxRange" : 1000,
     "RangeSplit" : [
@@ -41,15 +41,15 @@
     "Instability" : 1,
     "AMSHitChance": 0,
 	"ColorsTable": [
-    {
-      "C": "#ed0000",
-      "I": 5
-    }
+		{
+		  "C": "#ed0000",
+		  "I": 5
+		}
 	],
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
-    "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
     "Description" : {
         "Cost" : 480000,
         "Rarity" : 0,
@@ -59,14 +59,14 @@
         "UIName" : "VRM24",
         "Id" : "Weapon_VRM_VRM24",
         "Name" : "VRM24",
-        "Details" : "The Variable-Range Missile Launcher, or VRM, is a weapon system designed to improve performance the further the missiles travel. Powered by a unique self-compounding rocket design, VRMs gain more and more velocity as they move, though they sputter out at far enough away. Combined with a kinetic shaped charge for a payload and VRMs are capable of extreme damage at similarly extreme ranges.",
+        "Details" : "The Variable-Range Missile Launcher, or VRM, is a weapon system designed to improve performance the further the missiles travel. Powered by a unique self-compounding rocket design, VRMs gain more and more velocity as they move, though they sputter out if they get too far away. Combined with a kinetic shaped charge for a payload and VRMs are capable of extreme damage at similarly extreme ranges.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "lrm15",
+    "PrefabIdentifier" : "lrm20",
     "BattleValue" : 0,
     "InventorySize" : 4,
     "Tonnage" : 12,

@@ -4,12 +4,7 @@
 			{
 				"CategoryID": "w/m/s/apm"
 			}
-		],
-		"BonusDescriptions": {
-			"Bonuses": [
-				"standin"
-			]
-		}
+		]
 	},
     "Category" : "Missile",
     "Type" : "SRM",
@@ -40,10 +35,10 @@
     "AttackRecoil" : 1,
     "Instability" : 1,
 	"ColorsTable": [
-    {
-      "C": "#00b82f",
-      "I": 5
-    }
+		{
+		  "C": "#00b82f",
+		  "I": 5
+		}
 	],
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
@@ -59,7 +54,7 @@
         "UIName" : "APM6",
         "Id" : "Weapon_APM_APM6",
         "Name" : "APM6",
-        "Details" : "The Dane Sacellum developed these, the Alternative Payload Missiles, to deliver various dangerous and debilitating payloads in the place of explosive charges like Inner Sphere SRMs. The APM system does virtually no damage and has a poor targeting system but the payloads it can deliver are varied and each devastating in their own way.",
+        "Details" : "The Dane Sacellum developed these, Alternative Payload Missiles, to deliver various dangerous and debilitating payloads instead of explosive charges like Inner Sphere SRMs do. The APM system does virtually no damage and has a poor targeting system but the payloads it can deliver are varied and each devastating in their own way.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",

@@ -1,8 +1,20 @@
 {
+	"Custom": {
+        "Category": [
+			{
+				"CategoryID": "w/e/p/npc"
+			}
+		],
+        "BonusDescriptions": {
+            "Bonuses": [
+				"MoveSpeed: -20%"
+            ]
+        }
+    },
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
-    "MinRange" : 90,
+    "MinRange" : 0,
     "MaxRange" : 720,
     "RangeSplit" : [
         180,

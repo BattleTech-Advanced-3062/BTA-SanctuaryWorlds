@@ -3,14 +3,14 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"ArmorFactor: 20%",
-				"ReservedSlots: 14"
+				"ReservedSlots: 8"
 			]
 		},
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
 		"DynamicSlots": {
-			"ReservedSlots": 4
+			"ReservedSlots": 8
 		},
 		"Weights": {
 			"ArmorFactor": 0.8

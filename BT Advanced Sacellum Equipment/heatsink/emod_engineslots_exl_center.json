@@ -8,7 +8,7 @@
 			"Bonuses": [
 				"EngineWeightReduction: 50%",
 				"ReservedSlots: 4",
-				"HeatGenerated: +10%"
+				"HeatGenerated: +15%"
 			]
 		},
 		"WorkOrderCosts": {
@@ -46,7 +46,7 @@
         "UIName" : "Enhanced XL Engine",
         "Id" : "emod_engineslots_exl_center",
         "Name" : "Enhanced XL Engine",
-        "Details" : "The Dane Sacellum took the XL Engine with them on their great exodus but they eventually made some modifications to them during the centuries of technological progress. The Enhanced XL Engines offers the same weight savings as the standard Inner Sphere XL engine and takes less space in the side torsos as well as less space in the center torso, however, the Enhanced XL also generates more waste heat due to a lack of reactor shielding, causing mechs with EXLs to generate 10% more bonus heat at all times.",
+        "Details" : "The Dane Sacellum took the XL Engine with them on their great exodus but they eventually made some modifications to them during the centuries of technological progress. The Enhanced XL Engines offers the same weight savings as the standard Inner Sphere XL engine and takes less space in the side torsos as well as less space in the center torso, however, the Enhanced XL also generates more waste heat due to a lack of reactor shielding, causing mechs with EXLs to generate 15% more bonus heat at all times.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
     "BonusValueA" : "",
@@ -87,7 +87,7 @@
 			"Description": {
 				"Id": "Sacellum_Engine-Heat_Geneartion",
 				"Name": "Increased Heat",
-				"Details": "Heat generation increased by 10%.",
+				"Details": "Heat generation increased by 15%.",
 				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 			},
 			"nature": "Buff",
@@ -96,7 +96,7 @@
 				"effectsPersistAfterDestruction": false,
 				"statName": "HeatGenerated",
 				"operation": "Float_Multiply",
-				"modValue": "1.1",
+				"modValue": "1.15",
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "Weapon",

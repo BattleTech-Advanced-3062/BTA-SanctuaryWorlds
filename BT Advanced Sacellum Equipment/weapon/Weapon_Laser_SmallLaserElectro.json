@@ -4,12 +4,7 @@
 			{
 				"CategoryID": "w/e/l/elec"
 			}
-		],
-		"BonusDescriptions": {
-			"Bonuses": [
-				"ElecLaser: 1"
-			]
-		}
+		]
 	},
     "Category" : "AntiPersonnel",
     "Type" : "Laser",

@@ -12,6 +12,14 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
 		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"Sensors: +30%",
+				"Sight: +30%",
+				"Health: +6",
+				"LanceResolve: +2"
+			]
+		},
 		"Flags": {
 			"flags": [
 				"ignore_damage",

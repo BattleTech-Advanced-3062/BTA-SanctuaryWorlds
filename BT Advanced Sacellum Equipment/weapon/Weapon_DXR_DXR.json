@@ -1,4 +1,16 @@
 {
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/p/dxr"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WpnCrits: +35%"
+			]
+		}
+	},
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
