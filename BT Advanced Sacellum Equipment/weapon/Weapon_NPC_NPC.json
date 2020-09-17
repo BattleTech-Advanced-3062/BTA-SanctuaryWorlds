@@ -7,7 +7,7 @@
 		],
         "BonusDescriptions": {
             "Bonuses": [
-				"MoveSpeed: -20%"
+				"WpnCrits: +25%"
             ]
         }
     },
@@ -23,33 +23,33 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 36,
-    "Damage" : 30,
+    "HeatGenerated" : 25,
+    "Damage" : 60,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 1,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 1.25,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
     "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 1,
+    "ProjectilesPerShot" : 6,
     "AttackRecoil" : 3,
     "Instability" : 0,
-	"APDamage": 30,
 	"ColorsTable": [
-    {
-      "C": "#c10000",
-      "I": 5
-    }
+		{
+		  "C": "#c10000",
+		  "I": 5
+		}
 	],
 	"ImprovedBallistic": true,
+	"HitGenerator": "Cluster",
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
-    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
     "Description" : {
         "Cost" : 350000,
         "Rarity" : 0,
@@ -59,10 +59,10 @@
         "UIName" : "NPC",
         "Id" : "Weapon_NPC_NPC",
         "Name" : "NPC",
-        "Details" : "The Neutrino Projector Cannon fires a series of quick neutrino bursts that pierce anything they strike, dealing damage to both the armor and the structure of the target. The NPC is extremely adept at dealing critical damage and penetrating enemy defenses, no matter how tough their armor. NPC shots have been known to instantly kill enemy mechs thanks to lucky damage to internal components.",
+        "Details" : "The Neutrino Projector Cannon fires a series of quick neutrino bursts that scatter and blast through anything they encounter. The neutrinos also debilitate the target and interfere with delicate electronics used for targeting systems, forcing a small but increasing targeting impairment for energy weapons based on how many neutrinos hit the target. The NPC is known inside the Sacellum for being a savage weapon, rarely unleashed on their battlefields, but all technology is required now that the Sacellum has rediscovered the Inner Sphere and so the NPC has been put into service again.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "Armor Pierce",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -79,51 +79,32 @@
                 "duration" : 1,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
+                "stackLimit" : 4
             },
             "targetingData" : {
                 "effectTriggerType" : "OnHit",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "NotSet",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "AbilityDefPPC",
-                "Name" : "SENSORS IMPAIRED",
+                "Id" : "AbilityDef-NPCDebuff",
+                "Name" : "Electronics Impaired",
                 "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
                 "Icon" : "uixSvgIcon_status_sensorsImpaired"
             },
             "nature" : "Debuff",
             "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
                 "modValue" : "1.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
-                "targetWeaponCategory" : "NotSet",
+                "targetWeaponCategory" : "Energy",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
+            }
         }
     ],
     "ComponentTags" : {
