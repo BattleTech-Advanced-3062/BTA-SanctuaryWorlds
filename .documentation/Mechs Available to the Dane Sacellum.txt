@@ -6,13 +6,13 @@ Banshee - 95 tons
 Emperor - 90 tons
 Longbow - 85 tons
 Victor - 80 tons
+Golem - 80 tons
 
 Heavies:
 Helepolis - 75 tons
 Orion - 75 tons
 Archer - 70 tons
 Warhammer - 70 tons
-GOLEM - 70 tons
 Guillotine - 70 tons
 Thunderbolt - 65 tons
 Catapult - 65 tons
