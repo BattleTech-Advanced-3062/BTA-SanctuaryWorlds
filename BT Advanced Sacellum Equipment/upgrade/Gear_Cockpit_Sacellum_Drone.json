@@ -51,8 +51,8 @@
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 2,
-    "Tonnage" : 3,
-    "AllowedLocations" : "CenterTorso",
+    "Tonnage" : 2,
+    "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false
     "statusEffects" : [
@@ -261,6 +261,61 @@
             "poorlyMaintainedEffectData" : null
         }	
     ],
+	"Auras": [
+        {
+            "Id": "Gear_Drone_ECM",
+            "Name": "ECM",
+            "ReticleColor": "#ffffff",
+            "Range": 30,
+            "RemoveOnSensorLock": false,
+            "State": "Persistent",
+            "ApplySelf": true,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "None",
+            "IsPositiveToAlly": true,
+            "IsNegativeToEnemy": false,
+            "ownerVFX": [],
+            "targetVFX": [],
+            "removeOwnerVFX": [],
+            "removeTargetVFX": [],
+            "ownerSFX": [],
+            "targetSFX": [],
+            "removeOwnerSFX": [],
+            "removeTargetSFX": [],
+            "statusEffects": [
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "specialRules": "NotSet",
+                        "effectTargetType": "AlliesWithinRange",
+                        "range": 0.0,
+                        "forcePathRebuild": false,
+                        "forceVisRebuild": false,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": true
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "Drone-ECM",
+                        "Name": "Drone System Interference",
+                        "Details": "The Drone system makes this unit harder to hit, +1 penalty to enemy attacks.",
+                        "Icon": "uixSvgIcon_equipment_Gyro"
+                    },
+                    "statisticData": {
+                        "statName": "ToHitThisActor",
+                        "operation": "Float_Add",
+                        "modValue": "1.0",
+                        "modType": "System.Single"
+                    },
+                    "nature": "Buff"
+                }
+            ]
+        }
+	],
     "ComponentTags" : {
         "items" : [
             "component_type_stock"
