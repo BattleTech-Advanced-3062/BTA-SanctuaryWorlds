@@ -1,0 +1,127 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/7",
+				"CBillCost": "250 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
+			}
+		},
+		"Weights": {
+			"ArmorFactor": 1.5
+		},
+		"ArmorStructureChanges": { 
+			"ArmorFactor": 1.5
+		},
+		"Category" : { 
+			"CategoryID" : "Armor" 
+		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.5, "ArmorCBCost" : 1.5 },		
+		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"ArmorProtection: +50%",
+				"ArmorFactor: +50%",			
+				"WalkSpeed: -10%",
+				"RunSpeed: -10%",
+				"ArmorTPCost: 50%",
+				"ArmorCBCost: 50%"				
+            ]
+        }						
+	},
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 500000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "NAIS",
+        "Model" : "Sacellum Weave",
+        "UIName" : "Titanium",
+        "Id" : "emod_armorslots_sacellum_titanium",
+        "Name" : "Sacellum Titanium Weave Armor",
+        "Details" : "The race between armor and weapons has long been one run by all who would wage war. However, the Sacellum hoped with this to tip the scales in favor of armor for once. Sacellum Titanium Weave armor is just that, woven sheets of titanium armor that allow overlapping protection at the cost of increased weight, 50% more protection at the cost of just as much extra weight. The weight does slow the mech down slightly though, which is a small price to pay for superior protection.",
+        "Icon" : "uixSvgIcon_action_end"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+			{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInStatusPanel" : true				
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "HardenedPenaltyRun",
+				"Name" : "Reduced Speed",
+				"Details" : "Hardened Armour reduces movement.",
+				"Icon" : "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData" : 
+			{
+				"statName": "CBTBE_RunMultiMod",
+				"operation": "Float_Add",
+				"modValue": "-0.1",
+				"modType": "System.Single"
+			},
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInStatusPanel" : false				
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "HardenedPenaltyWalk",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_run_n_gun"
+			},
+			"statisticData" : 
+			{
+				"statName" : "WalkSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.9",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}		
+
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
