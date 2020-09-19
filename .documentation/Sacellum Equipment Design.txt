@@ -1,0 +1,27 @@
+Sacellum Equipment Design:
+
+Weapons:
+Broken into a few categories: missile, energy, ballistic, support, artillery
+
+Support: MG, AMS, small electro-laser
+
+Energy: electro-lasers, NPC, GC, DXR
+
+Missile: APM, VRM
+
+Ballistic: Double-Barrel, Scattergun, Gatling Gun (big MG, the "small" ballistic); DB/SG both come in 5/10/15/20 classes
+
+Artillery: Sirocco (arrow analogue, single target high damage low aoe missile artillery), Bombard Cannon (a mortar-like ballistic saturation weapon, does lots of AoE but low direct damage, comes in 3/6/9/12 sizes)
+
+
+Mech Components (armor/structure/engine/etc):
+
+Structures: Sacellum Endo (50% weight reduction, 8 crits, reduced structure health)
+
+Armors: Sacellum Carbide (20% weight reduction, 10 crits), Sacellum Titanium Weave (50% more weight, 50% more armor)
+
+Engines: Enhanced XL (2 crits in each ST, 50% weight reduction, increased heat like XXL)
+
+Heat Sinks: Sacellum DHS (SDHS) (sink 8 heat each, explodes for 45 damage), Heat Controller (weak heat bank (-6) + weak exchanger (5%) combo)
+
+Protective: SHIELD (like IS CASE II, but reduces damage to 10), Drone Cockpit (bunch of benefits, gives 30 meter ECM bubble), Sacellum ECM (better than Angel ECM, 2 tons, 90 meter radius, stacks with Drone ECM), Sacellum Probe (it's literally a Bloodhound BAP)

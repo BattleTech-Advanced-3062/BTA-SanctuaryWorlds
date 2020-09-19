@@ -1,0 +1,100 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/gatling"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"ProjectileBurst: 5",
+				"VariableBurstCount: 3"
+			]
+		}
+	},
+	"Category": "Ballistic",
+	"Type": "MachineGun",
+	"WeaponSubType": "MachineGun",
+	"MinRange": 0,
+	"MaxRange": 240,
+	"RangeSplit": [
+		60,
+		120,
+		180
+	],
+	"AmmoCategory": "GATLING",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 5,
+	"Damage": 3,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.0,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 5,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+	"Description": {
+		"Cost": 60000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Sacellum Engineering",
+		"Model": "Gatling Gun",
+		"UIName": "Gatling Gun",
+		"Id": "Weapon_Gatling_Gatling",
+		"Name": "Gatling Gun",
+		"Details": "Essentially a dialed up version of the Sacellum's MG design, the Gatling Gun was named for an ancient Terran design and is capable of spitting an absurd number of bullets at enemies. The damage is mostly negligable, but enough bullets will damage just about anything. \n\n <b><color=#ffcc00>Uses Gatling Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Ammocount/Damage value during battle to switch firing mode</color> </b>",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "MachineGun",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 3,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0,
+			"HeatGenerated": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": true,
+			"ShotsWhenFired": 5,
+			"FlatJammingChance": 0.1,
+			"HeatGenerated": 5
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 10,
+			"FlatJammingChance": 0.3,
+			"HeatGenerated": 10
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close"
+		],
+		"tagSetSourceFile": ""
+	}
+}
