@@ -13,6 +13,7 @@ Helepolis - 75 tons
 Orion - 75 tons
 Archer - 70 tons
 Warhammer - 70 tons
+Hector - 70 tons
 Guillotine - 70 tons
 Thunderbolt - 65 tons
 Catapult - 65 tons
@@ -25,6 +26,7 @@ Mediums:
 Wolverine - 55 tons
 Shadow Hawk - 55 tons
 Griffin - 55 tons
+Gladiator - 55 tons
 Dervish - 55 tons
 Hunchback - 50 tons
 Talos - 50 tons
