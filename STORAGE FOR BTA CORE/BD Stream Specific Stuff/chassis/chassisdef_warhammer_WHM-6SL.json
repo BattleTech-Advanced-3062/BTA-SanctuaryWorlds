@@ -1,0 +1,270 @@
+{
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Lower",
+			"RightLimit": "Lower"
+		}
+	},
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_Quirk_Rugged_Warhammer", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_structureslots_endosteel", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
+    "Description": {
+        "Cost": 7311960, 
+        "Rarity": 3, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Warhammer", 
+        "Id": "chassisdef_warhammer_WHM-6SL", 
+        "Name": "Warhammer", 
+        "Details": "Recovered documents indicate that this Warhammer was a late-era Star League experiment with the newly developed Snub-Nose PPC to develop a powerful brawler. Apparently this mech was to herald a new era of combat doctrine which, as we all know, never came to pass. It seems to be a certainty though that their experiment would have been a great success, given the destructive ability of this mech's Snub-Nose PPCs, SRMs, and pulse lasers. Combined with plentiful heat sinks, armor, and ammunition, this Warhammer is a priceless treasure.", 
+        "Icon": "uixTxrIcon_warhammer"
+    }, 
+    "VariantName": "WHM-6SL", 
+    "StockRole": "Star League Brawler", 
+    "YangsThoughts": "Recovered documents indicate that this Warhammer was a late-era Star League experiment with the newly developed Snub-Nose PPC to develop a powerful brawler. Apparently this mech was to herald a new era of combat doctrine which, as we all know, never came to pass. It seems to be a certainty though that their experiment would have been a great success, given the destructive ability of this mech's Snub-Nose PPCs, SRMs, and pulse lasers. Combined with plentiful heat sinks, armor, and ammunition, this Warhammer is a priceless treasure.", 
+    "PrefabIdentifier": "chrPrfMech_warhammerBase-001", 
+    "PrefabBase": "warhammer", 
+    "Tonnage": 70, 
+    "InitialTonnage": 7, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 6577000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 30, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 90, 
+    "MeleeInstability": 70, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 90, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 90, 
+    "DFAInstability": 90, 
+    "ChassisTags": {
+        "items": [
+            "RoyalMech"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_warhammer_WHM-6R", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_warhammer", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 14, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 14, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 14, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 14, 
+            "z": 0
+        }, 
+        {
+            "x": 2.5, 
+            "y": 5, 
+            "z": 1
+        }, 
+        {
+            "x": -2.5, 
+            "y": 5, 
+            "z": 1
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 220, 
+            "MaxRearArmor": 110, 
+            "InternalStructure": 110
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }
+    ]
+}
