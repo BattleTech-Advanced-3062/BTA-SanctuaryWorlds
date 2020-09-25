@@ -11,9 +11,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Berserker",
-		"Id": "chassisdef_berserker_BRZ-C3",
+		"Id": "chassisdef_berserker_BRZ-B3",
 		"Name": "Berserker",
-		"Details": "An upgrade of the Berserker that makes use of a Light Fusion Engine and a C3 network, the C3 variant removes both of the Large Pulse Lasers and one Double Heat Sink. In their place, six ER Medium Lasers and a C3 Slave unit have been added. The 'Mech removes the MASC system and relies on Triple Strength Myomer. The 'Mech is able to move at speeds similar to that of the A3 model and can do a dramatically higher amount of damage with its Hatchet.",
+		"Details": "The Berserker was designed as a massive close range brawling 'Mech. Because it is designed to engage an enemy at close range, the 'Mech needs to be able to close with its target to bring its incredibly destructive power to bear on an enemy. The B3 variant is a modification of the Berserker that changes the 'Mech from a powerful brawler to a well armed fire support 'Mech. The twin Large Pulse Lasers have been replaced with a pair of LRM-10 launchers which allow the 'Mech to sit at long ranges and bombard the enemy. If a 'Mech closes to short range, the Berserker can act as its own bodyguard by using its Hatchet.",
 		"Icon": "uixTxrIcon_berserker"
 	},
 	"MovementCapDefID": "movedef_atlas_AS7-D",
@@ -72,6 +72,10 @@
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -84,15 +88,11 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Missile",
 					"Omni": false
 				}
 			],
@@ -120,15 +120,11 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Missile",
 					"Omni": false
 				}
 			],
@@ -248,11 +244,11 @@
 			"hasPrefabName": false
 		}
 	],
-	"VariantName": "BRZ-C3",
+	"VariantName": "BRZ-B3",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Melee Monster",
-	"YangsThoughts": "An upgrade of the Berserker that makes use of a Light Fusion Engine and a C3 network, the C3 variant removes both of the Large Pulse Lasers and one Double Heat Sink. In their place, six ER Medium Lasers and a C3 Slave unit have been added. The 'Mech removes the MASC system and relies on Triple Strength Myomer. The 'Mech is able to move at speeds similar to that of the A3 model and can do a dramatically higher amount of damage with its Hatchet."
+	"YangsThoughts": "The Berserker was designed as a massive close range brawling 'Mech. Because it is designed to engage an enemy at close range, the 'Mech needs to be able to close with its target to bring its incredibly destructive power to bear on an enemy. The B3 variant is a modification of the Berserker that changes the 'Mech from a powerful brawler to a well armed fire support 'Mech. The twin Large Pulse Lasers have been replaced with a pair of LRM-10 launchers which allow the 'Mech to sit at long ranges and bombard the enemy. If a 'Mech closes to short range, the Berserker can act as its own bodyguard by using its Hatchet."
 }
