@@ -11,7 +11,7 @@ Missile: APM, VRM
 
 Ballistic: Double-Barrel, Scattergun, Gatling Gun (big MG, the "small" ballistic); DB/SG both come in 5/10/15/20 classes
 
-Artillery: Sirocco (arrow analogue, single target high damage low aoe missile artillery), Bombard Cannon (a mortar-like ballistic saturation weapon, does lots of AoE but low direct damage, comes in 3/6/9/12 sizes)
+Artillery: Sirocco (arrow analogue, low damage low aoe multi-shot saturation-missile artillery), Bombard Cannon (a mortar-like ballistic saturation weapon, does lots of AoE but low direct damage, comes in 3/6/9/12 sizes)
 
 
 Mech Components (armor/structure/engine/etc):

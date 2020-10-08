@@ -42,7 +42,7 @@
         "Manufacturer" : "Sacellum Manufacturing",
         "Model" : "Armor",
         "UIName" : "Sacellum Carbide Armor",
-        "Id" : "emod_sacellum_carbide",
+        "Id" : "emod_armorslots_sacellum_carbide",
         "Name" : "Sacellum Carbide Armor",
         "Details" : "The Sacellum never had a technological backslide, so they never lost the skill and technology to make Ferro-Fibrous armor. However, over time they even improved upon it, bettering its protection while making it considerbly less bulky. The end result is this, Sacellum Carbide armor. It differed enough in composition from its original Ferro-Fibrous that they renamed it to represent the differences.",
         "Icon" : "uixSvgIcon_action_end"

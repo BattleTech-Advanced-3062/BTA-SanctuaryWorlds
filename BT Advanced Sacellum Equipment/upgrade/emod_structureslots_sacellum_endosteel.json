@@ -41,7 +41,7 @@
         "Manufacturer" : "Sacellum Manufacturing",
         "Model" : "Structure",
         "UIName" : "Sacellum Endo-Steel",
-        "Id" : "emod_sacellum_endosteel",
+        "Id" : "emod_structureslots_sacellum_endosteel",
         "Name" : "Sacellum Endo-Steel Structure",
         "Details" : "Since the Sacellum did not have a technological dark age like the Inner Sphere did, they never stopped innovating and iterating on Endo-Steel. They eventually developed their own formula for the material that makes it less bulky at the cost of some level of fragility. It otherwise remains the same as Inner Sphere Endo-Steel.",
         "Icon" : "uixSvgIcon_quantity"
