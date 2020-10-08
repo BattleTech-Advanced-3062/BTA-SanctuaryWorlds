@@ -3,7 +3,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "AreaOfEffect: 30",
-				"AreaOfEffectDmg: 14"
+				"AreaOfEffectDmg: 5"
             ]
         },
         "Category": [
