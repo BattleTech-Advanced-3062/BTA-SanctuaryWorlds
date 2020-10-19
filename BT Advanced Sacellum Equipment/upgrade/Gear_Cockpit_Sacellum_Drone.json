@@ -17,7 +17,9 @@
 				"Sensors: +30%",
 				"Sight: +30%",
 				"Health: +6",
-				"LanceResolve: +2"
+				"LanceResolve: +2",
+				"Defense: +1",
+				"ECMRadius: 30"
 			]
 		},
 		"Flags": {
