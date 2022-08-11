@@ -3,7 +3,8 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "AreaOfEffect: 30",
-				"AreaOfEffectDmg: 5"
+				"AreaOfEffectDmg: 10",
+				"WpnRecoil: 2"
             ]
         },
         "Category": [
@@ -43,7 +44,7 @@
 	"DisableClustering": false,
 	"AOECapable": true,
 	"AOERange": 30,
-	"AOEDamage": 5,
+	"AOEDamage": 10,
 	"HitGenerator": "Cluster",
 	"ImprovedBallistic": true,
 	"BallisticDamagePerPallet": true,
@@ -67,8 +68,8 @@
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "AC10",
     "BattleValue": 0,
-    "InventorySize": 6,
-    "Tonnage": 12,
+    "InventorySize": 4,
+    "Tonnage": 10,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,

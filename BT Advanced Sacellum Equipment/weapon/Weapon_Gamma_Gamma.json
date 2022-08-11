@@ -40,10 +40,10 @@
     "AttackRecoil" : 3,
     "Instability" : 0,
 	"ColorsTable": [
-    {
-      "C": "#00a123",
-      "I": 5
-    }
+		{
+		  "C": "#00a123",
+		  "I": 5
+		}
 	],
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
@@ -61,7 +61,7 @@
         "Details" : "The longest ranged direct-fire weapon in the Sacellum arsenal, the Gamma Cannon produces a tightly focused blast of gamma radiation and directs it to the targeted location, devastating anything it comes into contact with. The Gamma Cannon does devastating damage at immense range, but costs a lot of heat and is not a light or small weapon meaning it only is ever mounted on the most dangerous of Sacellum mechs.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "Speed Debuff",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -73,58 +73,58 @@
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-	{
-      "durationData": {
-        "duration": 2,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "stackLimit": 2
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "showInStatusPanel": true
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "Gamma-WalkSlow",
-        "Name": "Walk Impaired",
-        "Details": "This mech's movement is impaired 20% by the Gamma Cannon's effect.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "statName": "WalkSpeed",
-        "operation": "Float_Multiply",
-        "modValue": "0.8",
-        "modType": "System.Single"
-      }
-    },
-    {
-      "durationData": {
-        "duration": 2,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "stackLimit": 2
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "showInStatusPanel": true
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "Gamma-RunSlow",
-        "Name": "Walk Impaired",
-        "Details": "This mech's movement is impaired 20% by the Gamma Cannon's effect.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "statName": "CBTBE_RunMultiMod",
-        "operation": "Float_Add",
-        "modValue": "-0.2",
-        "modType": "System.Single"
-      }
-    }
+		{
+		  "durationData": {
+			"duration": 2,
+			"ticksOnActivations": true,
+			"useActivationsOfTarget": true,
+			"stackLimit": 2
+		  },
+		  "targetingData": {
+			"effectTriggerType": "OnHit",
+			"showInStatusPanel": true
+		  },
+		  "effectType": "StatisticEffect",
+		  "Description": {
+			"Id": "Gamma-WalkSlow",
+			"Name": "Walk Impaired",
+			"Details": "This mech's movement is impaired 20% by the Gamma Cannon's effect.",
+			"Icon": "uixSvgIcon_status_sensorsImpaired"
+		  },
+		  "nature": "Debuff",
+		  "statisticData": {
+			"statName": "WalkSpeed",
+			"operation": "Float_Multiply",
+			"modValue": "0.8",
+			"modType": "System.Single"
+		  }
+		},
+		{
+		  "durationData": {
+			"duration": 2,
+			"ticksOnActivations": true,
+			"useActivationsOfTarget": true,
+			"stackLimit": 2
+		  },
+		  "targetingData": {
+			"effectTriggerType": "OnHit",
+			"showInStatusPanel": true
+		  },
+		  "effectType": "StatisticEffect",
+		  "Description": {
+			"Id": "Gamma-RunSlow",
+			"Name": "Walk Impaired",
+			"Details": "This mech's movement is impaired 20% by the Gamma Cannon's effect.",
+			"Icon": "uixSvgIcon_status_sensorsImpaired"
+		  },
+		  "nature": "Debuff",
+		  "statisticData": {
+			"statName": "CBTBE_RunMultiMod",
+			"operation": "Float_Add",
+			"modValue": "-0.2",
+			"modType": "System.Single"
+		  }
+		}
     ],
     "ComponentTags" : {
         "items" : [

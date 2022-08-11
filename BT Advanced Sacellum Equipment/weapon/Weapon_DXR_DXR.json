@@ -23,13 +23,13 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 21,
-    "Damage" : 30,
+    "HeatGenerated" : 25,
+    "Damage" : 15,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
-    "HeatDamage" : 30,
+    "HeatDamage" : 45,
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1.35,
     "AOECapable" : false,
@@ -37,13 +37,13 @@
     "RefireModifier" : 0,
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 3,
+    "AttackRecoil" : 0,
     "Instability" : 0,
 	"ColorsTable": [
-    {
-      "C": "#010eb9",
-      "I": 5
-    }
+		{
+		  "C": "#010eb9",
+		  "I": 5
+		}
 	],
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
@@ -61,13 +61,13 @@
         "Details" : "The Directed X-Ray Cannon, or DXR, fires an extremely intense blast of X-rays at the target, bathing them in destructive radiation. While this doesn't do that much direct damage, it does have the benefit of interfering with the unit's cooling mechanisms and causing an extreme surge of heat in the target.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "+35% Crit",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "PPC",
     "BattleValue" : 0,
-    "InventorySize" : 3,
+    "InventorySize" : 2,
     "Tonnage" : 6,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",

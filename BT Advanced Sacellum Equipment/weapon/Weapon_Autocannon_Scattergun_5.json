@@ -3,7 +3,8 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "AreaOfEffect: 30",
-				"AreaOfEffectDmg: 5"
+				"AreaOfEffectDmg: 5",
+				"WpnRecoil: 1"
             ]
         },
         "Category": [
@@ -18,7 +19,7 @@
     "Category": "Ballistic",
     "Type": "Autocannon",
     "WeaponSubType": "AC5",
-    "MinRange" : 90,
+    "MinRange" : 0,
     "MaxRange" : 800,
     "RangeSplit" : [
         200,
@@ -70,8 +71,8 @@
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "AC5",
     "BattleValue": 0,
-    "InventorySize": 5,
-    "Tonnage": 9,
+    "InventorySize": 2,
+    "Tonnage": 8,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,

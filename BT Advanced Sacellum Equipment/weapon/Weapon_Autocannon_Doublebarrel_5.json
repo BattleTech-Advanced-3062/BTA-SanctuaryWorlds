@@ -2,22 +2,20 @@
     "Custom": {
         "BonusDescriptions": {
             "Bonuses": [
-                "DBAC"
+                "DBAC",
+				"WpnRecoil: 1"
             ]
         },
         "Category": [
 			{
 				"CategoryID": "w/a/a/ac"
-			},
-			{
-				"CategoryID": "NeverMelee"
 			}
 		]
     },
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "AC5",
-    "MinRange" : 90,
+    "MinRange" : 0,
     "MaxRange" : 800,
     "RangeSplit" : [
         200,
@@ -27,7 +25,7 @@
     "AmmoCategory" : "DBAC5",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 5,
-    "Damage" : 35,
+    "Damage" : 18,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -38,8 +36,8 @@
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 1,
-    "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 2,
+    "ShotsWhenFired" : 2,
+    "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
     "Instability" : 5,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
@@ -61,8 +59,8 @@
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "AC5",
     "BattleValue" : 0,
-    "InventorySize" : 4,
-    "Tonnage" : 7,
+    "InventorySize" : 3,
+    "Tonnage" : 8,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

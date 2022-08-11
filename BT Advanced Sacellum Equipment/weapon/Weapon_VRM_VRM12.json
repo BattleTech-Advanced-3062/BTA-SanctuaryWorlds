@@ -49,6 +49,11 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
+	"DistantVariance": 2,
+	"DamageFalloffStartDistance": 400,
+	"DamageFalloffEndDistance": 1000,
+	"DistantVarianceReversed": true,
+	"RangedDmgFalloffType": "Linear",
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM10",
     "Description" : {
         "Cost" : 320000,
@@ -79,8 +84,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "range_extreme",
-			"wr-reverse_variance_by_distance-200"
+            "range_extreme"
         ],
         "tagSetSourceFile" : ""
     }
