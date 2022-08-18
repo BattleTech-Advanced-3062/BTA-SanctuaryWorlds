@@ -10,7 +10,9 @@
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ElecLaser: 3"
+				"ElecLaser: 3",
+				"WpnAccuracy: +1",
+				"PipsIgnored: 1"
 			]
 		}
 	},
@@ -30,7 +32,7 @@
     "Damage" : 90,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 1,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
@@ -44,7 +46,7 @@
     "Instability" : 0,
 	"ColorsTable": [
     {
-      "C": "#ad0097",
+      "C": "#000000",
       "I": 5
     }
 	],
@@ -56,7 +58,7 @@
         "Cost" : 350000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Sacellum Electronics",
+        "Manufacturer" : "Sanctuary Electronics",
         "Model" : "Twin-Linked Electro-Laser",
         "UIName" : "Twin Elec-Laser",
         "Id" : "Weapon_Laser_TwinLaserElectro",
@@ -64,7 +66,7 @@
         "Details" : "The largest and most powerful of the electro-lasers, the Twin-Linked Electro-Laser fires a thin targeting beam that acts as a conduit for a huge blast of electricity that fries the target alive and scrambles electronics. The electro-laser family has extreme heat and very short range but do more damage than their Inner-Sphere counterparts. The Twin-Linked Electro-Laser specifically does tremendous damage but at the cost of terrible heat and minimal range and can explode when damaged.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "Impairs Targeting",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

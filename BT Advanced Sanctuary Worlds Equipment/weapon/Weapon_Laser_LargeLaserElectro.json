@@ -7,7 +7,9 @@
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ElecLaser: 2"
+				"ElecLaser: 2",
+				"WpnAccuracy: +1",
+				"PipsIgnored: 1"
 			]
 		}
 	},
@@ -27,7 +29,7 @@
     "Damage" : 50,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 1,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
@@ -41,7 +43,7 @@
     "Instability" : 0,
 	"ColorsTable": [
     {
-      "C": "#ad0097",
+      "C": "#000000",
       "I": 5
     }
 	],
@@ -53,7 +55,7 @@
         "Cost" : 175000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Sacellum Electronics",
+        "Manufacturer" : "Sanctuary Electronics",
         "Model" : "Large Electro-Laser",
         "UIName" : "L Elec-Laser",
         "Id" : "Weapon_Laser_LargeLaserElectro",
@@ -61,7 +63,7 @@
         "Details" : "The workhorse of the electro-laser family, the Large Electro-Laser fires a thin targeting beam that acts as a conduit for a huge blast of electricity that fries the target alive and scrambles electronics. The electro-laser family has extreme heat and very short range but do more damage than their Inner-Sphere counterparts.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "Impairs Targeting",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

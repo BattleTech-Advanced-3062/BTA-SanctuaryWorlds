@@ -8,7 +8,7 @@
         },
         "Category": [
 			{
-				"CategoryID": "w/a/a/ac"
+				"CategoryID": "w/a/a/dbac"
 			}
 		]
     },
@@ -45,12 +45,12 @@
         "Cost" : 240000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Sacellum Engineering",
+        "Manufacturer" : "Sanctuary Engineering",
         "Model" : "Sniper Autocannon",
         "UIName" : "DBAC/5",
         "Id" : "Weapon_Autocannon_Doublebarrel_5",
         "Name" : "DBAC/5",
-        "Details" : "Essentially a pair of ACs stapled together, the Double-Barrel Autocannon is the Sacellum's version of an Ultra Autocannon. Unlike the Inner Sphere's Ultras, the DBAC cannot jam but also cannot change fire modes, it always shoots two shots at once. It is a simple and effective weapon, which is why the Sacellum makes heavy use of the system.",
+        "Details" : "Essentially a pair of ACs stapled together, the Double-Barrel Autocannon is the Sanctuary's version of an Ultra Autocannon. Unlike the Inner Sphere's Ultras, the DBAC cannot jam but also cannot change fire modes, it always shoots two shots at once. It is a simple and effective weapon, which is why the Sanctuary Worlders make heavy use of the system.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",

@@ -1,86 +1,84 @@
 {
-	"Custom": {
+	"Custom": {	
 		"Category": [
 			{
-				"CategoryID": "w/e/p/dxr"
+				"CategoryID": "w/e/l/lance"
 			}
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"WpnCrits: +35%",
-				"AntiBA: 100%"
+				"WpnAccuracy: +1",
+				"StructureDmgMod: 20"
 			]
 		}
 	},
     "Category" : "Energy",
-    "Type" : "PPC",
-    "WeaponSubType" : "PPC",
+    "Type" : "Laser",
+    "WeaponSubType" : "LargeLaser",
     "MinRange" : 0,
     "MaxRange" : 360,
     "RangeSplit" : [
-        90,
-        180,
-        270
+        120,
+        240,
+        360
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 25,
-    "Damage" : 15,
+    "HeatGenerated" : 30,
+    "Damage" : 30,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
-    "HeatDamage" : 45,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1.35,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+	"CriticalChanceMultiplier" : 0.5,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 0,
+    "AttackRecoil" : 1,
     "Instability" : 0,
+	"StructureDamage": 20,
 	"ColorsTable": [
-		{
-		  "C": "#010eb9",
-		  "I": 5
-		}
+    {
+      "C": "#000000",
+      "I": 5
+    }
 	],
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
-	"TrooperSquadDamageModifier": 2,
-    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
     "Description" : {
-        "Cost" : 500000,
+        "Cost" : 225000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
-        "Model" : "Directed X-Ray Cannon",
-        "UIName" : "DXR",
-        "Id" : "Weapon_DXR_DXR",
-        "Name" : "DXR",
-        "Details" : "The Directed X-Ray Cannon, or DXR, fires an extremely intense blast of X-rays at the target, bathing them in destructive radiation. While this doesn't do that much direct damage, it does have the benefit of interfering with the unit's cooling mechanisms and causing an extreme surge of heat in the target.",
+        "Model" : "Large Lance",
+        "UIName" : "L Lance",
+        "Id" : "Weapon_Lance_LargeLance",
+        "Name" : "L Lance",
+        "Details" : "The Sanctuary Worlds developed laser technology in a different direction than the Inner Sphere. Where the Clans and the Inner Sphere developed extended range lasers, the Sanctuary Worlders developed the lance system. Essentially a high-powered and very precise laser scalpel, lances provide high armor penetration at longer range but do less traditional damage to armor itself. The Large Lance is the largest of the lance weapons and has the heaviest effect on enemy targets.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "PPC",
+    "PrefabIdentifier" : "Laser",
     "BattleValue" : 0,
     "InventorySize" : 2,
     "Tonnage" : 6,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "statusEffects" : [
-
-    ],
+    "statusEffects" : [],
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "range_very-long"
+            "range_long"
         ],
         "tagSetSourceFile" : ""
     }

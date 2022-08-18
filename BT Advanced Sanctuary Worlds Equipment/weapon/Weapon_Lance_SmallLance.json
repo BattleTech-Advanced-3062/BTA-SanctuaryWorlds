@@ -2,14 +2,15 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/e/l/elec"
+				"CategoryID": "w/e/l/lance"
 			}
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
 				"WpnAccuracy: +1",
-				"PipsIgnored: 4",
-				"AntiBA: 25%"
+				"PipsIgnored: 3",
+				"StructureDmgMod: 5",
+				"AntiBA: 50%"
 			]
 		}
 	},
@@ -25,15 +26,15 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 6,
-    "Damage" : 20,
+    "HeatGenerated" : 10,
+    "Damage" : 10,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 4,
+    "EvasivePipsIgnored" : 3,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 1,
+    "CriticalChanceMultiplier" : 0.5,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
@@ -41,6 +42,7 @@
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 0,
     "Instability" : 0,
+	"StructureDamage": 5,
 	"ColorsTable": [
     {
       "C": "#ffd966",
@@ -50,18 +52,18 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
-	"TrooperSquadDamageModifier": 1.25,
+	"TrooperSquadDamageModifier": 1.5,
     "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
     "Description" : {
-        "Cost" : 35000,
+        "Cost" : 65000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
-        "Model" : "Small Electro-Laser",
-        "UIName" : "S Elec-Laser",
-        "Id" : "Weapon_Laser_SmallLaserElectro",
-        "Name" : "S Elec-Laser",
-        "Details" : "The smallest of the electro-lasers, the Small Electro-Laser fires a thin targeting beam that acts as a conduit for a blast of electricity that fries the target alive and scrambles electronics. The electro-laser family has extreme heat and very short range but do more damage than their Inner-Sphere counterparts.",
+        "Model" : "Small Lance",
+        "UIName" : "S Lance",
+        "Id" : "Weapon_Lance_SmallLance",
+        "Name" : "S Lance",
+        "Details" : "The Sanctuary Worlds developed laser technology in a different direction than the Inner Sphere. Where the Clans and the Inner Sphere developed extended range lasers, the Sanctuary Worlders developed the lance system. Essentially a high-powered and very precise laser scalpel, lances provide high armor penetration at longer range but do less traditional damage to armor itself. The Large Lance is the largest of the lance weapons and has the heaviest effect on enemy targets.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",
@@ -71,13 +73,11 @@
     "PrefabIdentifier" : "Laser",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 0.5,
+    "Tonnage" : 1,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "statusEffects" : [
-        
-    ],
+    "statusEffects" : [],
     "ComponentTags" : {
         "items" : [
             "component_type_stock",

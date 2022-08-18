@@ -8,7 +8,7 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"IsMG",
-				"WpnCrits: -50%",
+				"WpnCrits: -95%",
 				"AntiBA: 25%",
 				"VariableBurstCount: 6",
 				"PipsIgnored: 3"
@@ -35,7 +35,7 @@
 	"DamageVariance": 0,
 	"HeatDamage": 0,
 	"AccuracyModifier": 0,
-	"CriticalChanceMultiplier": 0.25,
+	"CriticalChanceMultiplier": 0.05,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 0,
@@ -49,11 +49,11 @@
 		"Cost": 10000,
 		"Rarity": 0,
 		"Purchasable": true,
-		"Manufacturer": "Sacellum Engineering",
+		"Manufacturer": "Sanctuary Engineering",
 		"Model": "Machine Gun",
-		"UIName": "Sacellum MG",
-		"Id": "Weapon_MachineGun_Sacellum",
-		"Name": "Sacellum MG",
+		"UIName": "MG (S)",
+		"Id": "Weapon_MachineGun_Sanctuary",
+		"Name": "MG (S)",
 		"Details": "Sacellum Machine Guns deal very little damage, have limited range, and depend upon volatile ammunition stores.",
 		"Icon": "uixSvgIcon_weapon_Support"
 	},

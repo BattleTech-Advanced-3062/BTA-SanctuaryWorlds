@@ -59,7 +59,7 @@
         "Cost" : 320000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Sacellum Manufacturing",
+        "Manufacturer" : "Sanctuary Manufacturing",
         "Model" : "Variable-Range Missile Launcher",
         "UIName" : "VRM12",
         "Id" : "Weapon_VRM_VRM12",
