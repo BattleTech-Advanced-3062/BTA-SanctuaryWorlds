@@ -36,7 +36,7 @@
         "UIName": "Ammo APM [TRACE]",
         "Id": "Ammo_AmmunitionBox_Tracer_APM",
         "Name": "APM Tracer Ammo",
-        "Details": "Tracer ammo coats the target in a highly sensor-attractive gel, causing nearby target and tracking systems to more easily hone in on the target's location and more easily acquire weapon lock against them.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA": "+2 Bonus Accuracy",

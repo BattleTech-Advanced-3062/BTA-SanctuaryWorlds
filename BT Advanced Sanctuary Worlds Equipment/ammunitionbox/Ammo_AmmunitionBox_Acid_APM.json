@@ -36,7 +36,7 @@
         "UIName": "Ammo APM [ACID]",
         "Id": "Ammo_AmmunitionBox_Acid_APM",
         "Name": "APM Acid Ammo",
-        "Details": "This warhead replaces the normal explosive charge of the standard short-range missile with a small tank of a gelled Acid, weakening a Targets resistance and causing them to take 40% more damage from subsequent attacks. They deal additional damage to armor but are slightly less accurate.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA": "40$ Bonus Damage",

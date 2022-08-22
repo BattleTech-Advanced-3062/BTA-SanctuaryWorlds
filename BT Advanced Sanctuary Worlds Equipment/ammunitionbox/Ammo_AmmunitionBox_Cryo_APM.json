@@ -36,7 +36,7 @@
         "UIName" : "Ammo APM [CRYO]",
         "Id" : "Ammo_AmmunitionBox_Cryo_APM",
         "Name" : "Cryo APM",
-        "Details" : "Cryo missiles have a specialized payload that, while it does minimal damage, does an extremely good job at impairing mech movement speed due to snap freezing the myomer cables that mechs move with. The effect wears off quickly but for the duration the targeted unit's movement is heavily impaired.",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "Half Move Speed",

@@ -36,7 +36,7 @@
         "UIName": "Ammo APM [TDM]",
         "Id": "Ammo_AmmunitionBox_Tandem_APM",
         "Name": "APM Tandem Ammo",
-        "Details": "Designed to replace standard SRMs with special warheads that penetrate armor and inflict damage to the internal structure of the target, the Tandem-Charge Missile uses a pair of explosives to inflict damage. The first explosive is a shaped charge that penetrates the unit's outer armor, while the second charge is propelled through the newly created breach to damage internal components.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA": "+100% Crit",
