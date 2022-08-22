@@ -2,12 +2,12 @@
 	"Custom": {	
 		"Category": [
 			{
-				"CategoryID": "w/e/l/elec"
+				"CategoryID": "w/e/l/lelec"
 			}
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ElecLaser: 2",
+				"ElecLaser: -2",
 				"WpnAccuracy: +1",
 				"PipsIgnored: 1"
 			]

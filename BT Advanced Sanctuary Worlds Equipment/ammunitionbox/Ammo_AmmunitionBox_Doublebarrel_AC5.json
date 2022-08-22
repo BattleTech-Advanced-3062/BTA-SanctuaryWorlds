@@ -2,7 +2,7 @@
     "Custom": {
         "Category": [
 			{
-				"CategoryID": "a/m/s/apm"
+				"CategoryID": "a/a/a/dbac"
 			}
 		],
 		"Flags": {
@@ -11,35 +11,34 @@
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 1,
-            "StabilityDamagePerAmmo": 1
+            "ExplosionDamagePerAmmo": 18,
+            "StabilityDamagePerAmmo": 5
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"CostPerShot: 60",
-				"Acid: 40%",
-                "AmmoCount: 60"
+				"CostPerShot: 100",
+				"AmmoCount: 40"
             ]
         },
 		"AmmoCost": {
-			"PerUnitCost": 60
+			"PerUnitCost": 100
 		}
     },
-    "AmmoID": "Ammunition_APM_Acid",
-    "Capacity": 60,
+    "AmmoID": "Ammunition_DBAC5",
+    "Capacity": 40,
     "Description": {
-        "Cost": 40000,
+        "Cost": 20000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "APM Acid",
-        "UIName": "Ammo APM [ACID]",
-        "Id": "Ammo_AmmunitionBox_Acid_APM",
-        "Name": "APM Acid Ammo",
-        "Details": "This warhead replaces the normal explosive charge of the standard short-range missile with a small tank of a gelled Acid, weakening a Targets resistance and causing them to take 40% more damage from subsequent attacks. They deal additional damage to armor but are slightly less accurate.",
-        "Icon": "uixSvgIcon_ammoBox_Missile"
+        "Model": "DBAC",
+        "UIName": "Ammo DBAC/5",
+        "Id": "Ammo_AmmunitionBox_Doublebarrel_AC5",
+        "Name": "DBAC/5 Ammo",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
+        "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
-    "BonusValueA": "40$ Bonus Damage",
+    "BonusValueA": "",
     "BonusValueB": "",
     "ComponentType": "AmmunitionBox",
     "ComponentSubType": "Ammunition",

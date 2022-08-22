@@ -1,6 +1,11 @@
 {
     "Custom": {
-        "Flags": {
+        "Category": [
+			{
+				"CategoryID": "a/m/s/apm"
+			}
+		],
+		"Flags": {
             "flags": [
                 "not_broken"
             ]
@@ -11,13 +16,14 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
+				"CostPerShot: 45",
 				"Tracer: 2",
-                "APMAmmo: 60"
+                "AmmoCount: 60"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "000037"
-        }
+        },
+		"AmmoCost": {
+			"PerUnitCost": 45
+		}
     },
     "AmmoID": "Ammunition_APM_Tracer",
     "Capacity": 60,

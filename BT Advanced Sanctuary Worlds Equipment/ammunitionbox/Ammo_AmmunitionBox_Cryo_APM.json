@@ -1,6 +1,11 @@
 {
     "Custom": {
-        "Flags": {
+        "Category": [
+			{
+				"CategoryID": "a/m/s/apm"
+			}
+		],
+		"Flags": {
             "flags": [
                 "not_broken"
             ]
@@ -11,13 +16,14 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "APMAmmo: 60",
-				"MoveSpeed": 50
+				"CostPerShot: 60",
+                "AmmoCount: 60",
+				"MoveSpeed: 50"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "000037"
-        }
+        },
+		"AmmoCost": {
+			"PerUnitCost": 60
+		}
     },
     "AmmoID" : "Ammunition_APM_Cryo",
     "Capacity" : 60,

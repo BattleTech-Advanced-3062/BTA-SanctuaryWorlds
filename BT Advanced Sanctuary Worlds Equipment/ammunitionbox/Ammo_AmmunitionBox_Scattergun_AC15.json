@@ -1,34 +1,40 @@
 {
     "Custom": {
-        "Flags": {
+        "Category": [
+			{
+				"CategoryID": "a/a/a/sg"
+			}
+		],
+		"Flags": {
             "flags": [
                 "not_broken"
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 40,
-            "StabilityDamagePerAmmo": 8
+            "ExplosionDamagePerAmmo": 80,
+            "StabilityDamagePerAmmo": 2
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "AC4Ammo: 20"
+				"CostPerShot: 800",
+				"AmmoCount: 8"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "000005"
-        }
+        },
+		"AmmoCost": {
+			"PerUnitCost": 800
+		}
     },
-    "AmmoID": "Ammunition_AC4",
-    "Capacity": 20,
+    "AmmoID": "Ammunition_SG15",
+    "Capacity": 8,
     "Description": {
-        "Cost": 10000,
+        "Cost": 40000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "AC4",
-        "UIName": "Ammo AC/4",
-        "Id": "Ammo_AmmunitionBox_Generic_AC4",
-        "Name": "AC/4 Ammo",
+        "Model": "Scattergun",
+        "UIName": "Ammo Scattergun/15",
+        "Id": "Ammo_AmmunitionBox_Scattergun_AC15",
+        "Name": "Scattergun/15 Ammo",
         "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E.",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },

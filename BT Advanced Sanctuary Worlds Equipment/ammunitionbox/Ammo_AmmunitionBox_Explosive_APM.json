@@ -1,6 +1,11 @@
 {
     "Custom": {
-        "Flags": {
+        "Category": [
+			{
+				"CategoryID": "a/m/s/apm"
+			}
+		],
+		"Flags": {
             "flags": [
                 "not_broken"
             ]
@@ -11,12 +16,13 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "APMAmmo: 60"
+				"CostPerShot: 30",
+                "AmmoCount: 60"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "000037"
-        }
+        },
+		"AmmoCost": {
+			"PerUnitCost": 30
+		}
     },
     "AmmoID": "Ammunition_APM_Explosive",
     "Capacity": 60,

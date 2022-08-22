@@ -8,20 +8,14 @@
 				"CategoryID": "NeverMelee"
 			}
 		],
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 300
-		},
 		"BonusDescriptions": {
 			"Bonuses": [
 				"IsArtillery",
 				"NoFireInMelee",
 				"AMSImmune",
-				"WpnRecoil: 4",
-				"ScatterRadius: 15, 35"
+				"WpnRecoil: 2",
+				"ScatterRadius: 20, 40"
 			]
-		},
-		"InventorySorter": {
-			"SortKey": "03022"
 		}
 	},
 	"Category": "Missile",
@@ -37,7 +31,7 @@
 	"AmmoCategory": "SIROCCO",
 	"StartingAmmoCapacity": 0,
 	"HeatGenerated": 40,
-	"Damage": 15,
+	"Damage": 10,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
@@ -49,14 +43,13 @@
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 4,
 	"AttackRecoil": 1,
-	"Instability": 10,
+	"Instability": 5,
 	"AMSImmune": true,
-	"FireTerrainChance": 0.1,
-	"MinMissRadius": 15,
-	"MaxMissRadius": 35,
+	"MinMissRadius": 20,
+	"MaxMissRadius": 40,
 	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
 	"Description": {
-		"Cost": 1152000,
+		"Cost": 1420000,
 		"Rarity": 14,
 		"Purchasable": true,
 		"Manufacturer": "Sanctuary Manufacturing",
@@ -64,7 +57,7 @@
 		"UIName": "Sirocco",
 		"Id": "Weapon_Sirocco",
 		"Name": "Sirocco",
-		"Details": "The Sanctuary Worlds developed a need for mech-mounted artillery early in their development. However, they ran into severe issues when attempting to develop a tube artillery for mechs (though these issues would eventually be conquered). Instead, Sanctuary engineers turned to missile-based systems and developed this, the Sirocco. The Sirocco fires a barrage of 4 explosive area of effect missiles at the target, saturating it in overlapping explosions. The Sirocco also is able to deploy a small variety of variant munitions. \n\n <b><color=#ffcc00>Uses Sircocco Ammo.</color></b>",
+		"Details": "The Sanctuary Worlds developed a need for mech-mounted artillery early in their development. However, they ran into severe issues when attempting to duplicate tube artillery for mechs (though these issues would eventually be conquered). Instead, Sanctuary engineers turned to missile-based systems and developed this, the Sirocco. The Sirocco fires a barrage of 4 explosive area of effect missiles at the target, saturating it in overlapping explosions. The Sirocco also is able to deploy a small variety of variant munitions. \n\n <b><color=#ffcc00>Uses Sircocco Ammo.</color></b>",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},
 	"BonusValueA": "",

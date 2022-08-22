@@ -1,38 +1,44 @@
 {
     "Custom": {
-        "Flags": {
+        "Category": [
+			{
+				"CategoryID": "a/m/t/sirocco"
+			}
+		],
+		"Flags": {
             "flags": [
                 "not_broken"
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 70,
-            "StabilityDamagePerAmmo": 10
+            "ExplosionDamagePerAmmo": 2,
+            "StabilityDamagePerAmmo": 1
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"AreaOfEffect: 60",
-				"AreaOfEffectDmg: 14",
-				"Scattergun: 10"
+				"NoAreaOfEffect",
+				"WeaponDamage: +10",
+				"CostPerShot: 150",
+				"AmmoCount: 10"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "000052"
-        }
+        },
+		"AmmoCost": {
+			"PerUnitCost": 150
+		}
     },
-    "AmmoID": "Ammunition_SG",
+    "AmmoID": "Ammunition_Sirocco_Shaped",
     "Capacity": 10,
     "Description": {
-        "Cost": 40000,
+        "Cost": 20000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "Scattergun",
-        "UIName": "Ammo Scattergun",
-        "Id": "Ammo_AmmunitionBox_Generic_Scattergun",
-        "Name": "Scattergun Ammo",
+        "Model": "Sirocco",
+        "UIName": "Ammo Sirocco",
+        "Id": "Ammo_AmmunitionBox_Shaped_SIROCCO",
+        "Name": "Sirocco Ammo",
         "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E.",
-        "Icon": "uixSvgIcon_ammoBox_Ballistic"
+        "Icon": "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA": "",
     "BonusValueB": "",

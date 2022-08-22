@@ -2,7 +2,7 @@
     "Custom": {
         "Category": [
 			{
-				"CategoryID": "a/m/s/apm"
+				"CategoryID": "a/m/s/drm"
 			}
 		],
 		"Flags": {
@@ -11,35 +11,34 @@
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 1,
+            "ExplosionDamagePerAmmo": 4,
             "StabilityDamagePerAmmo": 1
         },
         "BonusDescriptions": {
             "Bonuses": [
 				"CostPerShot: 60",
-				"Acid: 40%",
-                "AmmoCount: 60"
+				"AmmoCount: 60"
             ]
         },
 		"AmmoCost": {
 			"PerUnitCost": 60
 		}
     },
-    "AmmoID": "Ammunition_APM_Acid",
+    "AmmoID": "Ammunition_DRM",
     "Capacity": 60,
     "Description": {
-        "Cost": 40000,
+        "Cost": 20000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "APM Acid",
-        "UIName": "Ammo APM [ACID]",
-        "Id": "Ammo_AmmunitionBox_Acid_APM",
-        "Name": "APM Acid Ammo",
-        "Details": "This warhead replaces the normal explosive charge of the standard short-range missile with a small tank of a gelled Acid, weakening a Targets resistance and causing them to take 40% more damage from subsequent attacks. They deal additional damage to armor but are slightly less accurate.",
+        "Model": "DRM",
+        "UIName": "Ammo DRM",
+        "Id": "Ammo_AmmunitionBox_Generic_DRM",
+        "Name": "DRM Ammo",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA": "40$ Bonus Damage",
+    "BonusValueA": "",
     "BonusValueB": "",
     "ComponentType": "AmmunitionBox",
     "ComponentSubType": "Ammunition",

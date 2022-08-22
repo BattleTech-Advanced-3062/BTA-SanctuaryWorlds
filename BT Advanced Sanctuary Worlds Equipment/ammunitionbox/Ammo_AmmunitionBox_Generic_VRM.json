@@ -1,6 +1,11 @@
 {
     "Custom": {
-        "Flags": {
+        "Category": [
+			{
+				"CategoryID": "a/m/l/vrm"
+			}
+		],
+		"Flags": {
             "flags": [
                 "not_broken"
             ]
@@ -11,12 +16,13 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"VRMAmmo: 120"
+				"CostPerShot: 30",
+				"AmmoCount: 120"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "00040"
-        }
+        },
+		"AmmoCost": {
+			"PerUnitCost": 30
+		}
     },
     "AmmoID": "Ammunition_VRM",
     "Capacity": 120,
@@ -25,7 +31,7 @@
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "LRM",
+        "Model": "VRM",
         "UIName": "Ammo VRM",
         "Id": "Ammo_AmmunitionBox_Generic_VRM",
         "Name": "VRM Ammo",

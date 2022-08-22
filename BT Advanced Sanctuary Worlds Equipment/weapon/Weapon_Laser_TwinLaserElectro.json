@@ -5,12 +5,12 @@
 		},
 		"Category": [
 			{
-				"CategoryID": "w/e/l/elec"
+				"CategoryID": "w/e/l/twelec"
 			}
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ElecLaser: 3",
+				"ElecLaser: -3",
 				"WpnAccuracy: +1",
 				"PipsIgnored: 1"
 			]

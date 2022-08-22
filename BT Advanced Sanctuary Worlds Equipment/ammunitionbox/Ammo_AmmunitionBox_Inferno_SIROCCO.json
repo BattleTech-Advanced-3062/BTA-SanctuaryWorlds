@@ -1,36 +1,46 @@
 {
     "Custom": {
-        "Flags": {
+        "Category": [
+			{
+				"CategoryID": "a/m/t/sirocco"
+			}
+		],
+		"Flags": {
             "flags": [
                 "not_broken"
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 40,
-            "StabilityDamagePerAmmo": 10
+            "ExplosionDamagePerAmmo": 2,
+            "StabilityDamagePerAmmo": 1
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"DBACAmmo: 10"
+				"AreaOfEffect: 60",
+				"AreaOfEffectDmg: 5",
+				"AreaOfEffectHeatDmg: 5",
+				"AreaOfEffectSTABDmg: 5",
+				"CostPerShot: 300",
+				"AmmoCount: 20"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "000010"
-        }
+        },
+		"AmmoCost": {
+			"PerUnitCost": 300
+		}
     },
-    "AmmoID": "Ammunition_DBAC",
-    "Capacity": 10,
+    "AmmoID": "Ammunition_Sirocco_Inferno",
+    "Capacity": 20,
     "Description": {
         "Cost": 20000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "DBAC",
-        "UIName": "Ammo DBAC",
-        "Id": "Ammo_AmmunitionBox_Doublebarrel_AC",
-        "Name": "DBAC Ammo",
+        "Model": "Sirocco",
+        "UIName": "Ammo Sirocco",
+        "Id": "Ammo_AmmunitionBox_Inferno_SIROCCO",
+        "Name": "Sirocco Ammo",
         "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E.",
-        "Icon": "uixSvgIcon_ammoBox_Ballistic"
+        "Icon": "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA": "",
     "BonusValueB": "",

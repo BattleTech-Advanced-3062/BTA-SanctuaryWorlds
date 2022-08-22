@@ -18,8 +18,8 @@
    "CriticalDamageModifier": 1,
    "HitGenerator": "Cluster",
    "DisableClustering": false,
-   "ProjectilesPerShot": 3,
+   "ProjectilesPerShot": 2,
    "AOECapable": true,
-   "AOERange": 90,
-   "AOEDamage": 6
+   "AOERange": 45,
+   "AOEDamage": 2
 }

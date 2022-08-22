@@ -1,16 +1,16 @@
 {
    "Description": {
-      "Id": "Ammunition_SG",
-      "Name": "Scattergun Ammo",
-      "UIName": "Cluster",
-      "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+      "Id": "Ammunition_DBAC5",
+      "Name": "Double-Barrel Autocannon Ammo",
+      "UIName": "Normal",
+      "Details": "Moderate caliber rounds, suitable for long range fire in an AC/5.",
       "Icon": null,
       "Cost": 0,
       "Rarity": 0,
       "Purchasable": false
    },
    "Type": "Normal",
-   "Category": "SG",
+   "Category": "DBAC5",
    "HeatGenerated": 0,
    "HeatGeneratedModifier": 1,
    "ArmorDamageModifier": 1,

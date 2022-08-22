@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "a/s/a/mg"
+				"CategoryID": "a/s/a/gatling"
 			}
 		],
 		"ComponentExplosion": {
@@ -11,8 +11,12 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"GatlingAmmo: 150"
+				"CostPerShot: 30",
+				"AmmoCount: 150"
 			]
+		},
+		"AmmoCost": {
+			"PerUnitCost": 30
 		}
 	},
 	"AmmoID": "Ammunition_MG",

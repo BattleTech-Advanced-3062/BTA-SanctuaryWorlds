@@ -7,7 +7,7 @@
 		],
         "BonusDescriptions": {
             "Bonuses": [
-				"MoveSpeed: -20%"
+				"MoveSpeed: 20%"
             ]
         }
     },
