@@ -1,22 +1,27 @@
 {
 	"Custom": {
 		"CASE": {
-			"MaximumDamage": 10
+			"MaximumDamage": 3
 		},
 		"Category" : { 
 			"CategoryID" : "CASE" 
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"SHIELD: 3"
+			]
 		}
 	},
     "Description" : {
         "Cost" : 100000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Generic",
+        "Manufacturer" : "Sanctuary Manufacturing",
         "Model" : "Standard",
         "Id" : "emod_SHIELD",
         "UIName" : "SHIELD",
         "Name" : "SHIELD",
-        "Details" : "A natural evolution of the old CASE system that the Sacellum took with them on their exodus from the Inner Sphere, the SHIELD system is an advanced CASE-like system. A series of interlocking plates inside of a SHIELDed location combined with a rear vent out of the location allows for containment and channeling of any internal explosions in that location. Given the Sacellum's use of explosive chemical coolants, the SHIELD system has saved many mechs from total destruction. However, some amount of damage is still done to the internals (ten points worth) despite the SHIELD.",
+        "Details" : "A natural evolution of the old CASE system that the Sanctuary Worlders took with them on their exodus from the Inner Sphere, the SHIELD system is an advanced CASE-like system. Essentially the same principle as Inner Sphere CASE, the SHIELD is a series of interlocking and overlapping armor plates that surround explosive components such as ammunition and expels explosions back out through specially constructed channels to prevent damage to the unit.",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "",
@@ -26,7 +31,7 @@
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 1,
+    "Tonnage" : 0.5,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

@@ -2,11 +2,11 @@
 	"Custom": {
 		"BonusDescriptions": {
 			"Bonuses": [
-				"CoolingSystemDHS"
+				"CoolingSystemSDHS"
 			]
 		},
 		"Cooling": {
-			"HeatSinkDefId": "Gear_HeatSink_Generic_Double_Sacellum"
+			"HeatSinkDefId": "Gear_HeatSink_Generic_SanctuaryWorlds"
 		},
 		"WorkOrderCosts": {
 			"Default": {
@@ -18,23 +18,36 @@
 				"CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
 			}
 		},
-        "Category" : [
-            {"CategoryID": "Cooling"},
-            {"CategoryID": "EnginePart"}
-        ]
+        "Category": [
+			{
+				"CategoryID": "Cooling"
+			},
+			{
+				"CategoryID": "EnginePart"
+			},
+			{
+				"CategoryID": "SDHSKit"
+			}
+		],
+		"Flags": {
+			"flags": [
+				"ignore_damage",
+				"no_salvage"
+			]
+		}
     },
     "DissipationCapacity" : 0,
     "Description" : {
-        "Cost" : 2000000,
+        "Cost" : 1750000,
         "Rarity" : 0,
         "Purchasable" : false,
-        "Manufacturer" : "Lostech",
+        "Manufacturer" : "Sanctuary Engineering",
         "Model" : "Cooling System",
-        "UIName" : "Heat Sink Kit (Sacellum)",
+        "UIName" : "Heat Sink Kit (S)",
         "Id" : "emod_kit_sdhs",
-        "Name" : "Heat Sink Kit (Sacellum)",
-        "Details" : "In their isolation, the Dane Sacellum invented many unique technologies. One is the radical overhaul of the heat systems in their combat units. The Sacellum took the same path that the Federated Suns took in the early 3000s: chemical coolants designed to bleed off heat rapidly. However, where the Davions abandoned the technology, the Sacellum refined it to a finely honed point. They solved the issues and made these their primary heat sink system. Sacellum Heat Sinks are compact but even more effective than Inner Sphere or Clan Double Heat Sinks. However, the coolants remain highly reactive, meaning that the heat sinks explode when damaged.",
-        "Icon" : "uixSvgIcon_equipment_Heatsink"
+        "Name" : "Engine Sink Kit (S)",
+        "Details" : "Converts an SHS engine to SDHS. A Mech' <b>Cooling System</b> provides heat dissipation for components inside the mech and compatible extension points for additional heat sinks throughout the mech. It differs from the closed cooling system of the engine.",
+        "Icon" : "thermometer-cold"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",

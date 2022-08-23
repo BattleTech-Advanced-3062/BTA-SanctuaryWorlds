@@ -2,49 +2,51 @@
 	"Custom": {
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ArmorFactor: 20%",
-				"ReservedSlots: 8"
+				"ArmorFactor: 11%",
+				"ReservedSlots: 10"
 			]
+		},
+		"Color": {
+			"UIColor": "Gold"
 		},
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
 		"DynamicSlots": {
-            "ReservedSlots": 8,
+            "ReservedSlots": 10,
             "BackgroundColor": "GoldHalf",
             "ShowIcon": false,
-            "NameText": "Carbide",
+            "NameText": "Ferro-Fibrous (S)",
             "BonusAText": "Dynamic Slot",
             "BonusBText": " "
         },
 		"Weights": {
-			"ArmorFactor": 0.8
+			"ArmorFactor": 0.89286
 		},
 		"Flags": {
 			"flags": [
 				"ignore_damage",
 				"autorepair",
-				"not_broken",
-				"no_salvage"
+				"not_broken"
 			]
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "[[Chassis.Tonnage]] / 4",
-				"CBillCost": "250 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
+				"TechCost": "1.5 * [[Chassis.Tonnage]] / 15",
+				"CBillCost": "750 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
 			}
 		}
 	},
     "Description" : {
-        "Cost" : 150000,
+        "Cost" : 350000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Sacellum Manufacturing",
+        "Manufacturer" : "Sanctuary Manufacturing",
         "Model" : "Armor",
-        "UIName" : "Sacellum Carbide Armor",
-        "Id" : "emod_armorslots_sacellum_carbide",
-        "Name" : "Sacellum Carbide Armor",
-        "Details" : "The Sacellum never had a technological backslide, so they never lost the skill and technology to make Ferro-Fibrous armor. However, over time they even improved upon it, bettering its protection while making it considerbly less bulky. The end result is this, Sacellum Carbide armor. It differed enough in composition from its original Ferro-Fibrous that they renamed it to represent the differences.",
+        "UIName" : "Ferro-Fibrous Armor (S)",
+        "Id" : "emod_armorslots_sanctuaryferrofibrous",
+        "Name" : "Ferro-Fibrous Armor (S)",
+        "Details" : "The Sanctuary Worlds never had a technological backslide, so they never lost the skill and technology to make Ferro-Fibrous armor. However, over time they even improved upon it, bettering its protection while making it considerbly less bulky. The end result is this, Sanctuary Ferro-Fibrous armor, essentially the same as Inner Sphere Ferro-Fibrous armor but significantly less bulky.",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "",

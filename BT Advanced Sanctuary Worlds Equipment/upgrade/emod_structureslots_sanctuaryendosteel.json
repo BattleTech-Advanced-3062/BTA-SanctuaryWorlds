@@ -3,8 +3,7 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"StructureFactor: 50%",
-				"ReservedSlots: 8",
-				"StructureProtection: -20%"
+				"ReservedSlots: 8"
 			]
 		},
 		"Category" : { 
@@ -15,9 +14,6 @@
 		},
 		"Weights": {
 			"StructureFactor": 0.5
-		},
-		"ArmorStructureChanges": {
-			"StructureFactor": 0.8
 		},
 		"Flags": {
 			"flags": [
@@ -38,16 +34,16 @@
         "Cost" : 150000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Sacellum Manufacturing",
+        "Manufacturer" : "Sanctuary Manufacturing",
         "Model" : "Structure",
-        "UIName" : "Sacellum Endo-Steel",
-        "Id" : "emod_structureslots_sacellum_endosteel",
-        "Name" : "Sacellum Endo-Steel Structure",
-        "Details" : "Since the Sacellum did not have a technological dark age like the Inner Sphere did, they never stopped innovating and iterating on Endo-Steel. They eventually developed their own formula for the material that makes it less bulky at the cost of some level of fragility. It otherwise remains the same as Inner Sphere Endo-Steel.",
+        "UIName" : "Endo-Steel (S)",
+        "Id" : "emod_structureslots_sanctuaryendosteel",
+        "Name" : "Endo-Steel Structure (S)",
+        "Details" : "Since the Sanctuary did not have a technological dark age like the Inner Sphere did, they never stopped innovating and iterating on Endo-Steel. They eventually developed their own formula for the material that makes it less bulky at the cost of some level of fragility. It otherwise remains the same as Inner Sphere Endo-Steel.",
         "Icon" : "uixSvgIcon_quantity"
     },
-    "BonusValueA" : "-50% Structure Weight",
-    "BonusValueB" : "-20% Structure Health",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
