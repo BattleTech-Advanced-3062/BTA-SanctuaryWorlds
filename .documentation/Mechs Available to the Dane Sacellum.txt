@@ -4,7 +4,6 @@ Assaults:
 Mackie - 100 tons
 Banshee - 95 tons
 Emperor - 90 tons
-**UNUSED** Ymir - 90 tons
 Longbow - 85 tons
 Victor - 80 tons
 
@@ -12,16 +11,11 @@ Heavies:
 Helepolis - 75 tons
 Orion - 75 tons
 Archer - 70 tons
-**UNUSED** Battleaxe - 70 tons
 Warhammer - 70 tons
-**UNUSED** Hector - 70 tons
 Guillotine - 70 tons
 Thunderbolt - 65 tons
-**UNUSED** Von Rohrs - 65 tons
 Catapult - 65 tons
 Ostwar - 65 tons
-**UNUSED** Koschei - 65 tons
-**UNUSED** Bellerophon - 60 tons
 Ostroc - 60 tons
 Rifleman - 60 tons
 
@@ -29,22 +23,37 @@ Mediums:
 Wolverine - 55 tons
 Shadow Hawk - 55 tons
 Griffin - 55 tons
-**UNUSED** Gladiator - 55 tons
 Dervish - 55 tons
 Scorpion -- 55 tons
 Hunchback - 50 tons
-**UNUSED** Talos - 50 tons
 Phoenix Hawk - 45 tons
-**UNUSED** Icarus II - 40 tons
-**UNUSED** Swordsman - 40 tons
 
 Lights:
 Firestarter - 35 tons
-**UNUSED** Firebee - 35 tons
-**UNUSED** Toro - 35 tons
 Commando - 25 tons
 Wasp - 20 tons
 Flea - 20 tons
 Stinger - 20 tons
 Locust - 20 tons
 Thorn - 20 tons
+
+
+
+Models to Use:
+Agrotera
+Bruin
+Carronade
+Dark Crow
+Doloire
+Flamberge
+Generic SH6
+Gun
+Jade Phoenix
+Onager
+Pendragon
+Shrike
+Stinger Legacy
+Wasp Legacy
+Pixie Legacy
+Thunderstone
+Transient

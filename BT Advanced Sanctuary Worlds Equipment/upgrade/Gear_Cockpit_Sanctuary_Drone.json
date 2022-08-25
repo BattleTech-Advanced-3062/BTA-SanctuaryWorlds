@@ -3,8 +3,6 @@
 	"Custom": {
 		"Category" : [
 			{"CategoryID": "Cockpit"},
-			{"CategoryID": "LifeSupportA"},
-			{"CategoryID": "LifeSupportB"},
 		],
 		"WorkOrderCosts": {
 			"Install": {
@@ -16,10 +14,11 @@
 			"Bonuses": [
 				"Sensors: +30%",
 				"Sight: +30%",
-				"Health: +6",
+				"Health: +12",
 				"LanceResolve: +2",
 				"Defense: +1",
-				"ECMRadius: 30"
+				"ECMRadius: 30",
+				"DroneNetwork"
 			]
 		},
 		"Flags": {
@@ -28,6 +27,45 @@
 				"autorepair",
 				"not_broken",
 				"no_salvage"
+			]
+		},
+		"ActivatableComponent": {
+			"ButtonName": "Drone Network",
+			"CanNotBeActivatedManualy": false,
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "Drone_Network_Engagement",
+						"Name": "Drone Network",
+						"Details": "PASSIVE: Can be part of Drone network.",
+						"Icon": ""
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+						"operation": "Float_Add",
+						"modValue": "1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
 			]
 		}
 	},
@@ -38,22 +76,22 @@
         "Cost" : 870000,
         "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "Sacellum Droneworks",
+        "Manufacturer" : "Sanctuary Droneworks",
         "Model" : "Drone",
-        "UIName" : "Cockpit Sacellum Drone",
-        "Id" : "Gear_Cockpit_Sacellum_Drone",
-        "Name" : "Sacellum Drone Interface",
-        "Details" : "The Sacellum does not use human pilots in mechs for normal combat. Instead, they developed a remote-control drone interface that humans pilot from the safety of a home base. The drone cockpit provides various sensor benefits and the human pilot can better focus on battlefield situations when freed from the fear of death.",
-        "Icon" : "uixSvgIcon_equipment_Comms"
+        "UIName" : "Cockpit Sanctuary Drone",
+        "Id" : "Gear_Cockpit_Sanctuary_Drone",
+        "Name" : "Sanctuary Drone Interface",
+        "Details" : "The Sanctuary Worlders do not use human pilots in mechs for normal combat. Instead, they developed a remote-control drone interface that humans pilot from the safety of a home base. The drone cockpit provides many benefits, such as sensor and sight range bonuses, excellent protection against pilot feedback injuries, a small defensive ECM field, and even link together into an overlapping sensor network that offers improved targeting numbers for all units in the network.",
+        "Icon" : "satellite-communication"
     },
-    "BonusValueA" : "+6 Health/+2 Morale",
-    "BonusValueB" : "+30% Sensors/Sight",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
-    "Tonnage" : 2,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
     "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false
@@ -78,14 +116,14 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "Drone-MoraleBoost",
-                "Name" : "Drone Pilot Morale Boost",
-                "Details" : "Drone pilots have higher morale",
-                "Icon" : "uixSvgIcon_equipment_Cockpit"
+                "Name" : "Drone Cockpit Effects",
+                "Details" : "Drone pilots generate higher resolve for their controllers, provide defense against violent feedback, provide significant sensor and sight range bonuses, and also link together into a sensor network for better targeting.",
+                "Icon" : "satellite-communication"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -195,7 +233,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "BonusHealth",
                 "operation" : "Int_Add",
-                "modValue" : "6",
+                "modValue" : "12",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Pilot",
@@ -305,7 +343,7 @@
                         "Id": "Drone-ECM",
                         "Name": "Drone System Interference",
                         "Details": "The Drone system makes this unit harder to hit, +1 penalty to enemy attacks.",
-                        "Icon": "uixSvgIcon_equipment_Gyro"
+                        "Icon": "satellite-communication"
                     },
                     "statisticData": {
                         "statName": "ToHitThisActor",

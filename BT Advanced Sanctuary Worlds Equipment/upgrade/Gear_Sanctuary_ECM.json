@@ -7,10 +7,11 @@
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"Defense: +2",
-				"ECMRadius: 90",
+				"Defense: +1",
+				"ECMRadius: 150",
 				"ECMStacking",
-				"SensorLockImmune"
+				"SensorLockImmune",
+				"C3Jamming: 120"
 			]
 		}
 	},
@@ -21,15 +22,15 @@
 		"Cost": 930000,
 		"Rarity": 4,
 		"Purchasable": true,
-		"Manufacturer": "Sacellum Electronics",
-		"Model": "Sacellum ECM",
-		"UIName": "Sacellum ECM",
-		"Id": "Gear_Sacellum_ECM",
-		"Name": "Sacellum ECM",
-		"Details": "Given the Sacellum's tendancy to use widespread wireless controlled drones in combat, the Sacellum quickly learned a great deal about ECM technology, including how to harden drones against it. A side benefit is that they learned a lot about hardening their normal mechs and tanks even further against enemy ECM effects. The end result is this, the standard Sacellum ECM equipment. As powerful as the best ECM the Inner Sphere can muster but with the side benefit of reinforcing nearby ECM fields instead of overriding them like Inner Sphere ECM does and granting the carrying unit virtual immunity to enemy sensor locks, the Sacellum ECM is the last word in electronic battlefield mastery.",
-		"Icon": "uixSvgIcon_equipment_TTS"
+		"Manufacturer": "Sanctuary Electronics",
+		"Model": "Sanctuary ECM",
+		"UIName": "Sanctuary ECM",
+		"Id": "Gear_Sanctuary_ECM",
+		"Name": "Sanctuary ECM",
+		"Details": "Given the Sanctuary's tendancy to use widespread wireless controlled drones in combat, the Sanctuary Worlds quickly learned a great deal about ECM technology, including how to harden drones against it. A side benefit is that they learned a lot about hardening their normal mechs and tanks even further against enemy ECM effects. The end result is this, the standard Sanctuary ECM equipment. While not as powerful as the best ECM the Inner Sphere can muster. Sanctuary ECM comes with the side benefit of reinforcing nearby ECM fields instead of overriding them like Inner Sphere ECM does and granting the carrying unit virtual immunity to enemy sensor locks.",
+		"Icon": "circuitry"
 	},
-	"BonusValueA": "+2 Defense",
+	"BonusValueA": "",
 	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
@@ -45,7 +46,7 @@
             "Id": "Gear_Sacellum_ECM",
             "Name": "ECM",
             "ReticleColor": "#ffffff",
-            "Range": 90,
+            "Range": 150,
             "RemoveOnSensorLock": false,
             "State": "Persistent",
             "ApplySelf": true,
@@ -82,18 +83,71 @@
                         "Id": "Sacellum-ECM",
                         "Name": "Sacellum ECM Interference",
                         "Details": "Sacellum ECM making this unit harder to hit, +2 penalty to enemy attacks.",
-                        "Icon": "uixSvgIcon_equipment_Gyro"
+                        "Icon": "circuitry"
                     },
                     "statisticData": {
                         "statName": "ToHitThisActor",
                         "operation": "Float_Add",
-                        "modValue": "2.0",
+                        "modValue": "1.0",
                         "modType": "System.Single"
                     },
                     "nature": "Buff"
                 }
             ]
-        }
+        },
+		{
+			"Id": "Gear_GECM_ECM_C3",
+			"Name": "C3 Jamming",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Jamming",
+						"Name": "C3 Jamming",
+						"Details": "Sanctuary ECM is jamming C3 networks near it, disabling them for as long as they remain in the area.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"operation": "Float_Add",
+						"modValue": "-2",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
 	],
 	"statusEffects": [
 		{
@@ -110,7 +164,7 @@
 				"Id": "SacellumECM_SafeEvasive",
 				"Name": "Sensor Lock Immunity",
 				"Details": "This unit is immune to sensor lock.",
-				"Icon": "lv_sight-disabled"
+				"Icon": "circuitry"
 			},
 			"statisticData": {
 				"statName": "EvasiveSafeFromSensorLock",
