@@ -43,7 +43,7 @@
         "Purchasable" : false,
         "Manufacturer" : "Sanctuary Manufacturing",
         "Model" : "Sanctuary Extra-Light",
-        "UIName" : "XL Engine (S)",
+        "UIName" : "Engine XL (S)",
         "Id" : "emod_engineslots_sxl_center",
         "Name" : "XL Engine (S)",
         "Details" : "The Sanctuary Worlders took Extra-Light Engine technology with them on their great journey out of the Inner Sphere. Over time, their reproductions of the technology changed into this, the Sanctuary XL Engine. More compact than an Inner Sphere XL engine, the Sanctuary XL can withstand more damage than the IS XL can. However, the engine spreads power out somewhat, reducing effective power to the motive systems which reduces the equipped unit's walk speed somewhat.",

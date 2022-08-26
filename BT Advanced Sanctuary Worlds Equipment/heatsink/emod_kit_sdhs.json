@@ -43,7 +43,7 @@
         "Purchasable" : false,
         "Manufacturer" : "Sanctuary Engineering",
         "Model" : "Cooling System",
-        "UIName" : "Heat Sink Kit (S)",
+        "UIName" : "Heat Sink Kit (SDHS)",
         "Id" : "emod_kit_sdhs",
         "Name" : "Engine Sink Kit (S)",
         "Details" : "Converts an SHS engine to SDHS. A Mech' <b>Cooling System</b> provides heat dissipation for components inside the mech and compatible extension points for additional heat sinks throughout the mech. It differs from the closed cooling system of the engine.",

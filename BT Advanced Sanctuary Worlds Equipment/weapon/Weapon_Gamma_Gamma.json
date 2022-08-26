@@ -59,7 +59,7 @@
         "Id" : "Weapon_Gamma_Gamma",
         "Name" : "Gamma Cannon",
         "Details" : "The longest ranged direct-fire weapon in the Sacellum arsenal, the Gamma Cannon produces a tightly focused blast of gamma radiation and directs it to the targeted location, devastating anything it comes into contact with. The Gamma Cannon does devastating damage at immense range, but costs a lot of heat and is not a light or small weapon meaning it only is ever mounted on the most dangerous of Sanctuary mechs.",
-        "Icon" : "uixSvgIcon_weapon_Energy"
+        "Icon" : "particle"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",

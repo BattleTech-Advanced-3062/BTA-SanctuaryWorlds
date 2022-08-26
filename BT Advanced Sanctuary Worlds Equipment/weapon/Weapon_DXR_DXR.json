@@ -61,7 +61,7 @@
         "Id" : "Weapon_DXR_DXR",
         "Name" : "DXR",
         "Details" : "The Directed X-Ray Cannon, or DXR, fires an extremely intense blast of X-rays at the target, bathing them in destructive radiation. While this doesn't do that much direct damage, it does have the benefit of interfering with the unit's cooling mechanisms and causing an extreme surge of heat in the target.",
-        "Icon" : "uixSvgIcon_weapon_Energy"
+        "Icon" : "particle"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",

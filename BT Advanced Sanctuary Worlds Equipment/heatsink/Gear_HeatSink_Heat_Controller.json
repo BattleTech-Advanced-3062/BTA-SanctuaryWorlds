@@ -26,7 +26,7 @@
 		"Id": "Gear_HeatSink_Heat_Controller",
 		"Name": "Heat Controller",
 		"Details": "Essentially a complex computer-aided system for mech heat control developed by the Sanctuary Worlds to cope with the high heat of some of their weapons, the Heat Controller functions to manage heat generation during prolonged combat. Thanks to the controller, as well as the Sanctuary's native heat sink system, Sanctuary mechs often have excellent heat management. Interestingly, unlike similar Inner Sphere systems, the Heat Controller's effects can be stacked together, as long as it is used with Sanctuary heat sink systems.",
-		"Icon": "uixSvgIcon_equipment_HeatBank"
+		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
