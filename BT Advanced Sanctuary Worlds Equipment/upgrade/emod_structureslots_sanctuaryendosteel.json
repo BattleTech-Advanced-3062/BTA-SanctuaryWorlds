@@ -10,7 +10,10 @@
 			"CategoryID" : "Structure" 
 		},
 		"DynamicSlots": {
-			"ReservedSlots": 8
+			"ReservedSlots": 8,
+			"ShowIcon": true,
+			"NameText": "Endo-Steel (S)",
+            "BonusAText": "Dynamic Slot",
 		},
 		"Weights": {
 			"StructureFactor": 0.5
