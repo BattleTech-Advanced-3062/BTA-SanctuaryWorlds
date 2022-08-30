@@ -9,8 +9,8 @@
 			}
 		],
 		"ComponentExplosion": {
-			"ExplosionDamage": 150,
-			"StabilityDamage": 45
+			"ExplosionDamage": 250,
+			"StabilityDamage": 60
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
@@ -18,7 +18,8 @@
 				"NoFireInMelee",
 				"WpnAccuracy: +1",
 				"WpnRecoil: 3",
-				"WeaponBoom: 150"
+				"WpnCooldown: 2",
+				"WeaponBoom: 250"
 			]
 		}
 	},
@@ -34,8 +35,8 @@
 	],
 	"AmmoCategory": "HDRIVER",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 35,
-	"Damage": 150,
+	"HeatGenerated": 50,
+	"Damage": 250,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
@@ -49,7 +50,10 @@
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 3,
-	"Instability": 45,
+	"Instability": 60,
+	"Cooldown": 2,
+	"ProjectileSpeedMultiplier": 2.5,
+	"ImprovedBallistic": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
 	"Description": {
 		"Cost": 2400000,
