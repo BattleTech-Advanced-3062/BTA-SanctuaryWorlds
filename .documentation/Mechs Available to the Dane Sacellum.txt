@@ -31,10 +31,10 @@ Phoenix Hawk - 45 tons
 Lights:
 Firestarter - 35 tons
 Commando - 25 tons
-Wasp - 20 tons
+Wasp - 20 tons - Upgraded to Wasp II 25 tons
 Flea - 20 tons
-Stinger - 20 tons
-Locust - 20 tons
+Stinger - 20 tons - Upgraded to Stinger II 25 tons
+Locust - 20 tons - Upgraded to Locust II 25 tons
 Thorn - 20 tons
 
 
