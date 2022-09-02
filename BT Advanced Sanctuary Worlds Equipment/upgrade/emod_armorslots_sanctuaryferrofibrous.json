@@ -43,7 +43,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Manufacturing",
         "Model" : "Armor",
-        "UIName" : "Ferro-Fibrous Armor (S)",
+        "UIName" : "Ferro-Fibrous (S)",
         "Id" : "emod_armorslots_sanctuaryferrofibrous",
         "Name" : "Ferro-Fibrous Armor (S)",
         "Details" : "The Sanctuary Worlds never had a technological backslide, so they never lost the skill and technology to make Ferro-Fibrous armor. However, over time they even improved upon it, bettering its protection while making it considerbly less bulky. The end result is this, Sanctuary Ferro-Fibrous armor, essentially the same as Inner Sphere Ferro-Fibrous armor but significantly less bulky.",

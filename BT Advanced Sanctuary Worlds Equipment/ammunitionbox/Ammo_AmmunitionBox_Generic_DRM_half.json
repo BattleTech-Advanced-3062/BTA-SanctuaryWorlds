@@ -17,7 +17,7 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"CostPerShot: 60",
-				"AmmoCount: 100"
+				"AmmoCount: 50"
             ]
         },
 		"AmmoCost": {
@@ -25,15 +25,15 @@
 		}
     },
     "AmmoID": "Ammunition_DRM",
-    "Capacity": 100,
+    "Capacity": 50,
     "Description": {
         "Cost": 20000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
         "Model": "DRM",
-        "UIName": "Ammo DRM",
-        "Id": "Ammo_AmmunitionBox_Generic_DRM",
+        "UIName": "Ammo DRM [Half]",
+        "Id": "Ammo_AmmunitionBox_Generic_DRM_half",
         "Name": "DRM Ammo",
         "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
         "Icon": "uixSvgIcon_ammoBox_Missile"

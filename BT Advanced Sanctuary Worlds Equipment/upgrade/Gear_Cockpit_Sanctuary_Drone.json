@@ -78,7 +78,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Droneworks",
         "Model" : "Drone",
-        "UIName" : "Cockpit Sanctuary Drone",
+        "UIName" : "Sanctuary Drone Interface",
         "Id" : "Gear_Cockpit_Sanctuary_Drone",
         "Name" : "Sanctuary Drone Interface",
         "Details" : "The Sanctuary Worlders do not use human pilots in mechs for normal combat. Instead, they developed a remote-control drone interface that humans pilot from the safety of a home base. The drone cockpit provides many benefits, such as sensor and sight range bonuses, excellent protection against pilot feedback injuries, a small defensive ECM field, and even link together into an overlapping sensor network that offers improved targeting numbers for all units in the network.",
