@@ -11,7 +11,7 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"HeatController",
-				"TEHeatgen: -2%"
+				"TEHeatgen: -4%"
 			]
 		}
 	},
@@ -34,7 +34,7 @@
 	"ComponentSubType": "Heatsink",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 2,
+	"InventorySize": 1,
 	"Tonnage": 1,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
@@ -75,7 +75,7 @@
 				"effectsPersistAfterDestruction": false,
 				"statName": "HeatGenerated",
 				"operation": "Float_Multiply",
-				"modValue": "0.98",
+				"modValue": "0.96",
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "Weapon",
