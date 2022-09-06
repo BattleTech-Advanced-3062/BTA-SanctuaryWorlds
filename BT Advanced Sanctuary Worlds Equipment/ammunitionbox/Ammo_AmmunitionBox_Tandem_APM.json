@@ -18,7 +18,7 @@
             "Bonuses": [
 				"CostPerShot: 90",
                 "Crits: +100%",
-                "AmmoCount: 60"
+                "AmmoCount: 20"
             ]
         },
 		"AmmoCost": {
@@ -26,7 +26,7 @@
 		}
     },
     "AmmoID": "Ammunition_SRM_Tandem",
-    "Capacity": 60,
+    "Capacity": 20,
     "Description": {
         "Cost": 60000,
         "Rarity": 5,

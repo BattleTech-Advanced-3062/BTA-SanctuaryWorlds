@@ -8,7 +8,9 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"WpnCrits: +25%",
-				"NPCDEBUFF: -1"
+				"NPCDEBUFF: -1",
+				"WpnAccuracy: +2",
+				"PipsIgnored: 1"
             ]
         }
     },
@@ -25,7 +27,7 @@
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 25,
-    "Damage" : 60,
+    "Damage" : 10,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
@@ -36,8 +38,8 @@
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
-    "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 6,
+    "ShotsWhenFired" : 6,
+    "ProjectilesPerShot" : 1,
     "AttackRecoil" : 3,
     "Instability" : 0,
 	"ColorsTable": [
@@ -80,7 +82,7 @@
                 "duration" : 1,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
-                "stackLimit" : 2
+                "stackLimit" : 3
             },
             "targetingData" : {
                 "effectTriggerType" : "OnHit",

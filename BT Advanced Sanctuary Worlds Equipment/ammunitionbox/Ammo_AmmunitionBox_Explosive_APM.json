@@ -17,7 +17,7 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"CostPerShot: 30",
-                "AmmoCount: 60"
+                "AmmoCount: 20"
             ]
         },
 		"AmmoCost": {
@@ -25,7 +25,7 @@
 		}
     },
     "AmmoID": "Ammunition_APM_Explosive",
-    "Capacity": 60,
+    "Capacity": 20,
     "Description": {
         "Cost": 10000,
         "Rarity": 1,

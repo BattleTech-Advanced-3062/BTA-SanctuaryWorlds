@@ -19,7 +19,7 @@
             "Bonuses": [
 				"CostPerShot: 60",
                 "HeatDamage: +6",
-                "AmmoCount: 60"
+                "AmmoCount: 20"
             ]
         },
 		"AmmoCost": {
@@ -28,7 +28,7 @@
     },
 	
     "AmmoID" : "Ammunition_APM_Inferno",
-    "Capacity" : 60,
+    "Capacity" : 20,
     "Description" : {
         "Cost" : 10000,
         "Rarity" : 0,

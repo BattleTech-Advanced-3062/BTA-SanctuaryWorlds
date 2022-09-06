@@ -15,7 +15,7 @@
 		"DynamicSlots": {
             "ReservedSlots": 10,
             "BackgroundColor": "GoldHalf",
-            "ShowIcon": false,
+            "ShowIcon": true,
             "NameText": "Ferro-Fibrous (S)",
             "BonusAText": "Dynamic Slot",
             "BonusBText": " "

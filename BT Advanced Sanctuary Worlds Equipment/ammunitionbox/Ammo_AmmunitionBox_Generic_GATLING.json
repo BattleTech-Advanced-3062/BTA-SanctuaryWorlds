@@ -19,7 +19,7 @@
 			"PerUnitCost": 30
 		}
 	},
-	"AmmoID": "Ammunition_MG",
+	"AmmoID": "Ammunition_GATLING",
 	"Capacity": 150,
 	"Description": {
 		"Cost": 10000,

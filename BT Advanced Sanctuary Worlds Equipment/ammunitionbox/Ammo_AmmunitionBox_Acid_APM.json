@@ -18,7 +18,7 @@
             "Bonuses": [
 				"CostPerShot: 60",
 				"Acid: 40%",
-                "AmmoCount: 60"
+                "AmmoCount: 20"
             ]
         },
 		"AmmoCost": {
@@ -26,7 +26,7 @@
 		}
     },
     "AmmoID": "Ammunition_APM_Acid",
-    "Capacity": 60,
+    "Capacity": 20,
     "Description": {
         "Cost": 40000,
         "Rarity": 1,

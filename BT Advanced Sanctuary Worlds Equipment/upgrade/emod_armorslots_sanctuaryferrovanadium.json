@@ -22,7 +22,7 @@
 		"DynamicSlots": {
             "ReservedSlots": 8,
             "BackgroundColor": "GoldHalf",
-            "ShowIcon": false,
+            "ShowIcon": true,
             "NameText": "Ferro-Vanadium (S)",
             "BonusAText": "Dynamic Slot",
             "BonusBText": " "
