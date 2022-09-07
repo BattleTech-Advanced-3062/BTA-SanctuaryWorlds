@@ -4,7 +4,7 @@ Assaults:
 Mackie - 100 tons
 Banshee - 95 tons
 Emperor - 90 tons
-Longbow - 85 tons
+**DONE** Longbow - 85 tons
 Victor - 80 tons
 
 Heavies:
@@ -29,7 +29,7 @@ Hunchback - 50 tons
 Phoenix Hawk - 45 tons
 
 Lights:
-Firestarter - 35 tons
+**DONE** Firestarter - 35 tons
 Commando - 25 tons
 **DONE** Wasp - 20 tons - Upgraded to Wasp II 25 tons
 Flea - 20 tons
@@ -47,13 +47,13 @@ Dark Crow
 Doloire
 Flamberge
 Generic SH6
-Gun
+**DONE** Gun - Used for Locust II
 Jade Phoenix
 Onager
 Pendragon
 Shrike
-Stinger Legacy
-Wasp Legacy
+**DONE** Stinger Legacy - Used for Stinger II
+**DONE** Wasp Legacy - Used for Wasp II
 Pixie Legacy
 Thunderstone
 Transient

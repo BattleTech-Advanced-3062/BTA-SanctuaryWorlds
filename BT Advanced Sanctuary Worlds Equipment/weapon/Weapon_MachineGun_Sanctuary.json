@@ -8,8 +8,8 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"IsMG",
-				"WpnCrits: -95%",
-				"AntiBA: 25%",
+				"WpnCrits: -99%",
+				"AntiBA: 50%",
 				"VariableBurstCount: 6",
 				"PipsIgnored: 3"
 			]
@@ -35,7 +35,7 @@
 	"DamageVariance": 0,
 	"HeatDamage": 0,
 	"AccuracyModifier": 0,
-	"CriticalChanceMultiplier": 0.05,
+	"CriticalChanceMultiplier": 0.01,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 0,
@@ -43,7 +43,7 @@
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 0,
 	"Instability": 0,
-	"TrooperSquadDamageModifier": 1.25,
+	"TrooperSquadDamageModifier": 1.5,
 	"WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
 	"Description": {
 		"Cost": 10000,
@@ -54,7 +54,7 @@
 		"UIName": "MG (S)",
 		"Id": "Weapon_MachineGun_Sanctuary",
 		"Name": "MG (S)",
-		"Details": "Sacellum Machine Guns deal very little damage, have limited range, and depend upon volatile ammunition stores.",
+		"Details": "Sanctuary Machine Guns deal very little damage, have limited range, and depend upon volatile ammunition stores.",
 		"Icon": "uixSvgIcon_weapon_Support"
 	},
 	"BonusValueA": "",
