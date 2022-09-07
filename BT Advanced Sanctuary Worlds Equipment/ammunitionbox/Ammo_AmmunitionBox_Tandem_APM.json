@@ -25,7 +25,7 @@
 			"PerUnitCost": 90
 		}
     },
-    "AmmoID": "Ammunition_SRM_Tandem",
+    "AmmoID": "Ammunition_APM_Tandem",
     "Capacity": 20,
     "Description": {
         "Cost": 60000,
