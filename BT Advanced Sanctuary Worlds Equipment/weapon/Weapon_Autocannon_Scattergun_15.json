@@ -4,7 +4,8 @@
             "Bonuses": [
                 "AreaOfEffect: 30",
 				"AreaOfEffectDmg: 15",
-				"WpnRecoil: 3"
+				"WpnRecoil: 3",
+				"NoFireInMelee"
             ]
         },
         "Category": [

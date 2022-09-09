@@ -11,7 +11,8 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"ScatterRadius: 5, 15",
-				"AMSImmune"
+				"AMSImmune",
+				"NoFireInMelee"
 			]
 		}
 	},

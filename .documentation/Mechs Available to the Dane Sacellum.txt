@@ -13,7 +13,7 @@ Orion - 75 tons
 Archer - 70 tons
 **DONE** Warhammer - 70 tons
 Guillotine - 70 tons
-Thunderbolt - 65 tons
+**DONE** Thunderbolt - 65 tons
 **DONE** Catapult - 65 tons
 Ostwar - 65 tons
 Ostroc - 60 tons

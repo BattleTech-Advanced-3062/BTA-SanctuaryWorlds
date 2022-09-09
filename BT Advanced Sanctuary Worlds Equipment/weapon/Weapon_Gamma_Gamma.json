@@ -3,11 +3,15 @@
         "Category": [
 			{
 				"CategoryID": "w/e/p/gamma"
+			},
+			{
+				"CategoryID": "NeverMelee"
 			}
 		],
         "BonusDescriptions": {
             "Bonuses": [
-				"MoveSpeed: 20%"
+				"MoveSpeed: 20%",
+				"NoFireInMelee"
             ]
         }
     },

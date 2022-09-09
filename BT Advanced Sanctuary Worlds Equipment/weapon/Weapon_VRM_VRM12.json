@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "w/m/t/vrm"
+			},
+			{
+				"CategoryID": "NeverMelee"
 			}
 		],
 		"BonusDescriptions": {
@@ -10,7 +13,8 @@
 				"VRMScale",
 				"DmgIncrease: 200%",
 				"DmgIncreaseStart: 400",
-				"DmgIncreaseEnd: 800"
+				"DmgIncreaseEnd: 800",
+				"NoFireInMelee"
 			]
 		}
 	},
