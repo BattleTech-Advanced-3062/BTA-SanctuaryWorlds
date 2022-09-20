@@ -20,7 +20,7 @@ Ostroc - 60 tons
 **DONE** Rifleman - 60 tons
 
 Mediums: 
-Wolverine - 55 tons
+**DONE** Wolverine - 55 tons
 **DONE** Shadow Hawk - 55 tons
 Griffin - 55 tons
 Dervish - 55 tons
@@ -35,7 +35,7 @@ Commando - 25 tons
 Flea - 20 tons
 **DONE** Stinger - 20 tons - Upgraded to Stinger II 25 tons
 **DONE** Locust - 20 tons - Upgraded to Locust II 25 tons
-Thorn - 20 tons
+**DONE** Thorn - 20 tons
 
 
 
