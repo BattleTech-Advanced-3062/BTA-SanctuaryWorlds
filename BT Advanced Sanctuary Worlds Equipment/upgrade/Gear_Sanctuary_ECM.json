@@ -63,9 +63,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Sanctuary Electronics",
 		"Model": "Sanctuary ECM",
-		"UIName": "Sanctuary ECM",
+		"UIName": "ECM Suite (S)",
 		"Id": "Gear_Sanctuary_ECM",
-		"Name": "Sanctuary ECM",
+		"Name": "ECM Suite (S)",
 		"Details": "Given the Sanctuary's tendancy to use widespread wireless controlled drones in combat, the Sanctuary Worlds quickly learned a great deal about ECM technology, including how to harden drones against it. A side benefit is that they learned a lot about hardening their normal mechs and tanks even further against enemy ECM effects. The end result is this, the standard Sanctuary ECM equipment. While not as powerful as the best ECM the Inner Sphere can muster. Sanctuary ECM comes with the side benefit of reinforcing nearby ECM fields instead of overriding them like Inner Sphere ECM does and granting the carrying unit virtual immunity to enemy sensor locks.",
 		"Icon": "circuitry"
 	},

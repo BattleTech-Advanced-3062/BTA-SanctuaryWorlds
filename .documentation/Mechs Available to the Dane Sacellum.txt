@@ -5,7 +5,7 @@ Mackie - 100 tons
 Banshee - 95 tons
 Emperor - 90 tons
 **DONE** Longbow - 85 tons
-Victor - 80 tons
+**DONE** Victor - 80 tons
 
 Heavies:
 Helepolis - 75 tons

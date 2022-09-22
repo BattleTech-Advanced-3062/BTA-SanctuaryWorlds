@@ -22,9 +22,9 @@
         "Purchasable": true,
         "Manufacturer": "Sanctuary Electronics",
         "Model": "Sanctuary AP",
-        "UIName": "Sanctuary Probe",
+        "UIName": "Active Probe (S)",
         "Id": "Gear_Sanctuary_AP",
-        "Name": "Sanctuary Active Probe",
+        "Name": "Active Probe (S)",
         "Details": "The Sanctuary Worlds Active Probe uses the same basic sensor principles as standard Inner Sphere Active Probes: a high-powered electronic suite allows for early enemy target detection and for widespread locks against enemy targets. Because of the Sacellum's extensive experience with electronic warfare technology however, it is extremely powerful and is the rough equivalent to the best probes the Inner Sphere can muster.",
         "Icon": "radar-sweep"
     },
