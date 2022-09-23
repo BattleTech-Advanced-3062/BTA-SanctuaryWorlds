@@ -22,9 +22,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Heat Negator",
-		"UIName": "Heat Negator",
+		"UIName": "Heat Negator (S)",
 		"Id": "Gear_HeatSink_Heat_Negator",
-		"Name": "Heat Negator",
+		"Name": "Heat Negator (S)",
 		"Details": "Essentially a complex bank of radiators and vents, the Heat Negator is a computer-aided system for mech heat control developed by the Sanctuary Worlds to cope with the high heat of some of their weapons. Thanks to the power of the Heat Negator combined with the Sanctuary's heat sink systems, Sanctuary mechs rarely suffer heat concerns in combat. Interestingly, unlike similar Inner Sphere systems, the Heat Negator's effects can be stacked together, as long as it is used with Sanctuary heat sink systems",
 		"Icon": "uixSvgIcon_equipment_HeatBank"
 	},

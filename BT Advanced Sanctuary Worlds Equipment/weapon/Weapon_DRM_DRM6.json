@@ -49,9 +49,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Sanctuary Manufacturing",
 		"Model": "Directed Radiation Missile Launcher",
-		"UIName": "DRM6",
+		"UIName": "DRM6 (S)",
 		"Id": "Weapon_DRM_DRM6",
-		"Name": "DRM6",
+		"Name": "DRM6 (S)",
 		"Details": "The DRM, or Directed Radiation Missile, is a small direct-fire projectile that releases a burst of destructive radiation upon impact (as well as a small explosive charge). This radiation interferes with target heat dissipation systems and interferes with movement systems. The more DRMs that impact the target, the stronger the radiation effects as they are designed to compound with repeated applications.",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},

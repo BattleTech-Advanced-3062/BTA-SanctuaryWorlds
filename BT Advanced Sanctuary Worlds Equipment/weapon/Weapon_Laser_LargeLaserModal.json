@@ -60,9 +60,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
         "Model" : "Large Modal Laser",
-        "UIName" : "L Modal Laser",
+        "UIName" : "L Modal Laser (S)",
         "Id" : "Weapon_Laser_LargeLaserModal",
-        "Name" : "L Modal Laser",
+        "Name" : "L Modal Laser (S)",
         "Details" : "The workhorse of the modal laser family, the Large Modal Laser is specially calibrated to provide four distinct firing modes for maximum combat effectiveness. Between an accuracy mode, a damage mode, a range-boosting mode, and the default balanced mode, the Large Modal Laser is effective in all circumstances.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },

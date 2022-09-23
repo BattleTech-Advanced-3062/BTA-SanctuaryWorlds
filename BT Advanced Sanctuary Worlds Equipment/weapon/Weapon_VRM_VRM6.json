@@ -68,9 +68,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Manufacturing",
         "Model" : "Variable-Range Missile Launcher",
-        "UIName" : "VRM6",
+        "UIName" : "VRM6 (S)",
         "Id" : "Weapon_VRM_VRM6",
-        "Name" : "VRM6",
+        "Name" : "VRM6 (S)",
         "Details" : "The Variable-Range Missile Launcher, or VRM, is a weapon system designed to improve performance the further the missiles travel. Powered by a unique self-compounding rocket design, VRMs gain more and more velocity as they move, though they sputter out if they get too far away. Combined with a kinetic shaped charge for a payload and VRMs are capable of extreme damage at similarly extreme ranges.",
         "Icon" : "MRM"
     },

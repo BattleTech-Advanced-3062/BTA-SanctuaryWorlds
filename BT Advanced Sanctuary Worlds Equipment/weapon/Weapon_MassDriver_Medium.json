@@ -61,9 +61,9 @@
 		"Purchasable": false,
 		"Manufacturer": "Sanctuary Engineering",
 		"Model": "Coilgun",
-		"UIName": "Medium Mass Driver",
+		"UIName": "Medium Mass Driver (S)",
 		"Id": "Weapon_MassDriver_Medium",
-		"Name": "Medium Mass Driver",
+		"Name": "Medium Mass Driver (S)",
 		"Details": "Developed from ancient civilian sector technology, the Mass Driver is essentially a gigantic magnetic cannon that hurls a heavy metallic slug at targets, dealing incredible damage. However, Mass Drivers are heavy and restrictive, limiting how many can be mounted at once. The Medium Mass Driver is the 'standard' Mass Driver and can easily obliterate light units in a single strike, much less repeated strikes. <b><color=#099ff2>VOLATILE!</color></b>",
 		"Icon": "FerroMag"
 	},

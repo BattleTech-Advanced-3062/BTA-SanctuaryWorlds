@@ -54,9 +54,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Sanctuary Manufacturing",
 		"Model": "Missile Artillery",
-		"UIName": "Sirocco",
+		"UIName": "Sirocco (S)",
 		"Id": "Weapon_Sirocco",
-		"Name": "Sirocco",
+		"Name": "Sirocco (S)",
 		"Details": "The Sanctuary Worlds developed a need for mech-mounted artillery early in their development. However, they ran into severe issues when attempting to duplicate tube artillery for mechs (though these issues would eventually be conquered). Instead, Sanctuary engineers turned to missile-based systems and developed this, the Sirocco. The Sirocco fires a barrage of 4 explosive area of effect missiles at the target, saturating it in overlapping explosions. The Sirocco also is able to deploy a small variety of variant munitions. \n\n <b><color=#ffcc00>Uses Sircocco Ammo.</color></b>",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},

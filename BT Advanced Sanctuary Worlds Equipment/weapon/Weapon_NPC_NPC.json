@@ -59,9 +59,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
         "Model" : "Neutrino Projector Cannon",
-        "UIName" : "NPC",
+        "UIName" : "NPC (S)",
         "Id" : "Weapon_NPC_NPC",
-        "Name" : "NPC",
+        "Name" : "NPC (S)",
         "Details" : "The Neutrino Projector Cannon fires a series of quick neutrino bursts that scatter and blast through anything they encounter. The neutrinos also debilitate the target and interfere with delicate electronics used for targeting systems, forcing a small but increasing targeting impairment for energy weapons based on how many neutrinos hit the target. The NPC is known inside the Sanctuary Worlds for being a savage weapon, rarely unleashed on their battlefields, but all technology is required now that they have rediscovered the Inner Sphere and so the NPC has been put into service again.",
         "Icon" : "particle"
     },

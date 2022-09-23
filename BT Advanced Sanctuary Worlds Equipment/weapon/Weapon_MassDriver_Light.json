@@ -61,9 +61,9 @@
 		"Purchasable": false,
 		"Manufacturer": "Sanctuary Engineering",
 		"Model": "Coilgun",
-		"UIName": "Light Mass Driver",
+		"UIName": "Light Mass Driver (S)",
 		"Id": "Weapon_MassDriver_Light",
-		"Name": "Light Mass Driver",
+		"Name": "Light Mass Driver (S)",
 		"Details": "Developed from ancient civilian sector technology, the Mass Driver is essentially a gigantic magnetic cannon that hurls a heavy metallic slug at targets, dealing incredible damage. However, Mass Drivers are heavy and restrictive, limiting how many can be mounted at once. The Light Mass Driver is the smallest of the Mass Drivers, and still is capable of tremendous damage at excellent range with essentially no falloff in performance. <b><color=#099ff2>VOLATILE!</color></b>",
 		"Icon": "FerroMag"
 	},

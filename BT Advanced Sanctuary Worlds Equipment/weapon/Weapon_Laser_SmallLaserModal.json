@@ -63,9 +63,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
         "Model" : "Small Modal Laser",
-        "UIName" : "S Modal Laser",
+        "UIName" : "S Modal Laser (S)",
         "Id" : "Weapon_Laser_SmallLaserModal",
-        "Name" : "S Modal Laser",
+        "Name" : "S Modal Laser (S)",
         "Details" : "The smallest of the modal lasers, the Small Modal Laser is specially calibrated to provide four distinct firing modes for maximum combat effectiveness. Between an accuracy mode, a damage mode, a range-boosting mode, and the default balanced mode, the Small Modal Laser is effective in all circumstances.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },

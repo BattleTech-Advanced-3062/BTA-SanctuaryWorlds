@@ -9,7 +9,7 @@ Emperor - 90 tons
 
 Heavies:
 Helepolis - 75 tons
-Orion - 75 tons
+**DONE** Orion - 75 tons
 Archer - 70 tons
 **DONE** Warhammer - 70 tons
 **DONE** Guillotine - 70 tons
@@ -26,7 +26,7 @@ Griffin - 55 tons
 Dervish - 55 tons
 Scorpion -- 55 tons
 **DONE** Hunchback - 50 tons
-Phoenix Hawk - 45 tons
+**DONE** Phoenix Hawk - 45 tons
 
 Lights:
 **DONE** Firestarter - 35 tons

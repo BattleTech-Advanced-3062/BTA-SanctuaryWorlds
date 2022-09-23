@@ -54,10 +54,10 @@
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
-        "Model" : "Twin-Linked Laser",
-        "UIName" : "Twin-Linked Laser",
+        "Model" : "Twin-Linked Small Laser",
+        "UIName" : "Twin-Linked S Laser (S)",
         "Id" : "Weapon_Laser_TwinLinkedLaser",
-        "Name" : "Twin-Linked Laser",
+        "Name" : "Twin-Linked S Laser (S)",
         "Details" : "An unusual weapon with no direct analogues in either Inner Sphere or Sanctuary Worlds technology, the Twin-Linked Laser is, essentially, two Small Lasers stapled together. The increased power output and weight class this weapon as an Energy weapon, though it retains some of the accuracy of its Small Laser brethren. The Twin-Linked Laser is commonly seen among Sanctuary units and is a frequent presence on the battlefield.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },

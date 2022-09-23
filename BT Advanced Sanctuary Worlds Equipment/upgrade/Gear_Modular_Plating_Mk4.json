@@ -23,9 +23,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Sanctuary Manufacturing",
 		"Model": "Generic",
-		"UIName": "Modular Plating Mk. 4",
+		"UIName": "Modular Plating Mk. 4 (S)",
 		"Id": "Gear_Modular_Plating_Mk4",
-		"Name": "Modular Plating Mk. 4",
+		"Name": "Modular Plating Mk. 4 (S)",
 		"Details": "The Sanctuary Worlds took an unusual road to developing their BattleMech technology. Due to their low population in the early days, their technology led them down the road of durability and nothing is as emblematic of that mindset then Modular Plating is. Essentially just a series of weight-balanced Ferro-Fibrous armor plates bolted onto a mech's body, Modular Plating provides a modest armor boost in the location it is installed in. There are four ranks of Modular Armor, Mk. 1 through Mk. 4, with Mk. 1 being the lightest and Mk. 4 being the heaviest.",
 		"Icon": "layeredarmor"
 	},

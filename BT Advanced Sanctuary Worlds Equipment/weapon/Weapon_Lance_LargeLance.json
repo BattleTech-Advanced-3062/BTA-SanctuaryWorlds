@@ -57,9 +57,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
         "Model" : "Large Lance",
-        "UIName" : "L Lance",
+        "UIName" : "L Lance (S)",
         "Id" : "Weapon_Lance_LargeLance",
-        "Name" : "L Lance",
+        "Name" : "L Lance (S)",
         "Details" : "The Sanctuary Worlds developed laser technology in a different direction than the Inner Sphere. Where the Clans and the Inner Sphere developed extended range lasers, the Sanctuary Worlders developed the lance system. Essentially a high-powered and very precise laser scalpel, lances provide high armor penetration at longer range but do less traditional damage to armor itself. The Large Lance is the largest of the lance weapons and has the heaviest effect on enemy targets.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },

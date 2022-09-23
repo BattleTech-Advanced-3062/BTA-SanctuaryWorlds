@@ -60,9 +60,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Sanctuary Electronics",
         "Model" : "Medium Modal Laser",
-        "UIName" : "M Modal Laser",
+        "UIName" : "M Modal Laser (S)",
         "Id" : "Weapon_Laser_MediumLaserModal",
-        "Name" : "M Modal Laser",
+        "Name" : "M Modal Laser (S)",
         "Details" : "The middle-weight modal laser, the Medium Modal Laser is specially calibrated to provide four distinct firing modes for maximum combat effectiveness. Between an accuracy mode, a damage mode, a range-boosting mode, and the default balanced mode, the Medium Modal Laser is effective in all circumstances.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
