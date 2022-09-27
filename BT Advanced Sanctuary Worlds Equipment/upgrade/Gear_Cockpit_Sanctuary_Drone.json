@@ -2,7 +2,12 @@
 
 	"Custom": {
 		"Category" : [
-			{"CategoryID": "Cockpit"},
+			{
+				"CategoryID": "Cockpit"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
 		],
 		"WorkOrderCosts": {
 			"Install": {
