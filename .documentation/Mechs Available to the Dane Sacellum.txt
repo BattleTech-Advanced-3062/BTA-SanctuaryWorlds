@@ -10,7 +10,7 @@ Emperor - 90 tons
 Heavies:
 Helepolis - 75 tons
 **DONE** Orion - 75 tons
-Archer - 70 tons
+**DONE** Archer - 70 tons
 **DONE** Warhammer - 70 tons
 **DONE** Guillotine - 70 tons
 **DONE** Thunderbolt - 65 tons
@@ -30,9 +30,9 @@ Scorpion -- 55 tons
 
 Lights:
 **DONE** Firestarter - 35 tons
-Commando - 25 tons
+**DONE** Commando - 25 tons
 **DONE** Wasp - 20 tons - Upgraded to Wasp II 25 tons
-Flea - 20 tons
+**DONE** Trooper (Flea) - 20 tons
 **DONE** Stinger - 20 tons - Upgraded to Stinger II 25 tons
 **DONE** Locust - 20 tons - Upgraded to Locust II 25 tons
 **DONE** Thorn - 20 tons
@@ -54,6 +54,6 @@ Pendragon
 Shrike
 **DONE** Stinger Legacy - Used for Stinger II
 **DONE** Wasp Legacy - Used for Wasp II
-Pixie Legacy
+**DONE** Phoenix Hawk Legacy - Used for Pixie
 Thunderstone
 Transient
