@@ -1,33 +1,33 @@
 {
 	"Custom": {
 		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
+			"LeftLimit": "Lower",
+			"RightLimit": "Lower"
 		}
 	},
 	"Description": {
-		"Cost": 5800000,
+		"Cost": 5700000,
 		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Catapult",
-		"Id": "chassisdef_catapult_CPLT-S1",
-		"Name": "Catapult",
-		"Details": "Originally made for the Terran Hegemony, the Catapult accompanied the Sanctuary Worlders on their journey far beyond the Inner Sphere. They would develop the mech further, eventually developing the CPLT-S1 standard. Armed for mobile fire support much like the original Catapult, the -S1 carries a pair of VRM-12 launchers as well as a quartet of Medium Modal Lasers. Sanctuary-spec Ferro-Fibrous Armor and Double Heat Sinks round out the design while 4 Jump Jets keep the mech's traditional mobility.",
-		"Icon": "uixTxrIcon_catapult"
+		"UIName": "Ostroc",
+		"Id": "chassisdef_ostroc_OSR-3G",
+		"Name": "Ostroc",
+		"Details": "An old 'Mech, the Ostroc received litle love in the Sanctuary Worlds. History has forgotten why the Ostroc was largely looked over for most of the Sanctuary's history but looked over it was, until recently, making it fairly rare in their militaries. The OSR-3L is a somewhat more advanced upgrade of the Ostroc, made only recently as the 'Mech came back into prominence. Armed with twin Large and Medium Lances, as well as a VRM-6 for long-range, the -3L proved an adept combatant in almost any circumstance. 16 DHS and 3 Heat Negators struggle mightily to contain the mech's heat.",
+		"Icon": "uixTxrIcon_ostroc"
 	},
-	"MovementCapDefID": "movedef_catapult_CPLT-C1",
+	"MovementCapDefID": "movedef_ostroc",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_catapult",
-	"PrefabIdentifier": "chrPrfMech_catapultBase-001",
-	"PrefabBase": "catapult",
-	"Tonnage": 65,
-	"InitialTonnage": 6.5,
+	"HardpointDataDefID": "hardpointdatadef_ostroc",
+	"PrefabIdentifier": "chrprfmech_ostrochotd-001",
+	"PrefabBase": "ostroc",
+	"Tonnage": 60,
+	"InitialTonnage": 6,
 	"weightClass": "HEAVY",
-	"BattleValue": 7144000,
+	"BattleValue": 6922000,
 	"Heatsinks": 0,
-	"TopSpeed": 64,
+	"TopSpeed": 150,
 	"TurnRadius": 90,
 	"MaxJumpjets": 30,
 	"Stability": 160,
@@ -64,16 +64,7 @@
 		},
 		{
 			"Location": "LeftArm",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 100,
@@ -88,15 +79,19 @@
 					"Omni": false
 				},
 				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
 					"WeaponMount": "AntiPersonnel",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 150,
-			"MaxRearArmor": 75,
-			"InternalStructure": 75
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
 		},
 		{
 			"Location": "CenterTorso",
@@ -108,17 +103,21 @@
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
-				}
+				},
 			],
 			"Tonnage": 0,
 			"InventorySlots": 15,
-			"MaxArmor": 210,
-			"MaxRearArmor": 105,
-			"InternalStructure": 105
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
 		},
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
@@ -130,22 +129,13 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 150,
-			"MaxRearArmor": 75,
-			"InternalStructure": 75
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
 		},
 		{
 			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 100,
@@ -157,51 +147,51 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 140,
 			"MaxRearArmor": -1,
-			"InternalStructure": 75
+			"InternalStructure": 70
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 140,
 			"MaxRearArmor": -1,
-			"InternalStructure": 75
+			"InternalStructure": 70
 		}
 	],
 	"LOSSourcePositions": [
 		{
 			"x": 0,
-			"y": 12,
-			"z": 1
-		},
-		{
-			"x": 4,
-			"y": 12,
+			"y": 15,
 			"z": 0
 		},
 		{
-			"x": -4,
-			"y": 12,
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
 			"z": 0
 		}
 	],
 	"LOSTargetPositions": [
 		{
 			"x": 0,
-			"y": 12,
-			"z": 1
-		},
-		{
-			"x": 4,
-			"y": 12,
+			"y": 15,
 			"z": 0
 		},
 		{
-			"x": -4,
-			"y": 12,
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
 			"z": 0
 		},
 		{
@@ -215,17 +205,17 @@
 			"z": 0
 		}
 	],
-	"VariantName": "CPLT-S1",
+	"VariantName": "OSR-3G",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Heavy Fire Support",
-	"YangsThoughts": "Originally made for the Terran Hegemony, the Catapult accompanied the Sanctuary Worlders on their journey far beyond the Inner Sphere. They would develop the mech further, eventually developing the CPLT-S1 standard. Armed for mobile fire support much like the original Catapult, the -S1 carries a pair of VRM-12 launchers as well as a quartet of Medium Modal Lasers. Sanctuary-spec Ferro-Fibrous Armor and Double Heat Sinks round out the design while 4 Jump Jets keep the mech's traditional mobility.",
+	"StockRole": "Striker Cavalry",
+	"YangsThoughts": "An old 'Mech, the Ostroc received litle love in the Sanctuary Worlds. History has forgotten why the Ostroc was largely looked over for most of the Sanctuary's history but looked over it was, until recently, making it fairly rare in their militaries. The OSR-3G is a cutting edge Ostroc, the most advanced in the Sanctuary Worlds arsenals. Armed exclusively with two Gamma Cannons, the -3G puts its speed to work by finding the best places to strike from then fading away before return fire can be marshalled. 15 DHS do a fine job maintaining the guns while Endo-Steel and Ferro-Fibrous permit a little extra armor to be mounted.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_NimbleJumper_Catapult",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Ostroc",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -236,12 +226,14 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_sanctuaryendosteel",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
-			"hasPrefabName": true
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "Head",

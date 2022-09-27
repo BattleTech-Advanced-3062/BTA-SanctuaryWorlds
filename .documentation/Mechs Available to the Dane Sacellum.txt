@@ -16,15 +16,15 @@ Helepolis - 75 tons
 **DONE** Thunderbolt - 65 tons
 **DONE** Catapult - 65 tons
 Ostwar - 65 tons
-Ostroc - 60 tons
+**DONE** Ostroc - 60 tons
 **DONE** Rifleman - 60 tons
 
 Mediums: 
 **DONE** Wolverine - 55 tons
 **DONE** Shadow Hawk - 55 tons
-Griffin - 55 tons
-Dervish - 55 tons
-Scorpion -- 55 tons
+**DONE** Griffin - 55 tons
+**DONE** Dervish - 55 tons
+**DONE** Scorpion -- 55 tons
 **DONE** Hunchback - 50 tons
 **DONE** Phoenix Hawk - 45 tons
 
