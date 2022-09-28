@@ -15,7 +15,7 @@ Helepolis - 75 tons
 **DONE** Guillotine - 70 tons
 **DONE** Thunderbolt - 65 tons
 **DONE** Catapult - 65 tons
-Ostwar - 65 tons
+**DONE** Ostwar - 65 tons
 **DONE** Ostroc - 60 tons
 **DONE** Rifleman - 60 tons
 
