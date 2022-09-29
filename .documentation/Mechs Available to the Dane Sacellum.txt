@@ -3,12 +3,12 @@ Mechs Available to the Dane Sacellum
 Assaults: 
 Mackie - 100 tons
 Banshee - 95 tons
-Emperor - 90 tons
+**DONE** Emperor - 90 tons
 **DONE** Longbow - 85 tons
 **DONE** Victor - 80 tons
 
 Heavies:
-Helepolis - 75 tons
+**DONE** Helepolis - 75 tons
 **DONE** Orion - 75 tons
 **DONE** Archer - 70 tons
 **DONE** Warhammer - 70 tons
@@ -47,13 +47,14 @@ Dark Crow
 Doloire
 Flamberge
 Generic SH6
-**DONE** Gun - Used for Locust II
 Jade Phoenix
 Onager
 Pendragon
 Shrike
+Thunderstone
+Transient
+
 **DONE** Stinger Legacy - Used for Stinger II
 **DONE** Wasp Legacy - Used for Wasp II
 **DONE** Phoenix Hawk Legacy - Used for Pixie
-Thunderstone
-Transient
+**DONE** Gun - Used for Locust II
