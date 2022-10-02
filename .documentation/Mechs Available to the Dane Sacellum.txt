@@ -1,7 +1,7 @@
 Mechs Available to the Dane Sacellum
 
 Assaults: 
-Mackie - 100 tons
+**DONE** Mackie - 100 tons
 **DONE** Banshee - 95 tons
 **DONE** Emperor - 90 tons
 **DONE** Longbow - 85 tons
