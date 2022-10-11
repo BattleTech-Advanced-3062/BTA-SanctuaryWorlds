@@ -44,7 +44,7 @@ Agrotera
 Bruin
 Carronade
 Dark Crow
-Doloire
+**DONE** Doloire - Used for 85 ton Lithobolos
 Flamberge
 Generic SH6
 Jade Phoenix
@@ -53,6 +53,7 @@ Pendragon
 Shrike
 Thunderstone
 Transient
+Tiburon
 
 **DONE** Stinger Legacy - Used for Stinger II
 **DONE** Wasp Legacy - Used for Wasp II
