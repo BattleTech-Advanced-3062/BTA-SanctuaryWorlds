@@ -51,9 +51,9 @@ Jade Phoenix
 Onager
 Pendragon
 Shrike
-Thunderstone
+**DONE** Thunderstone - Used for the 80 ton Taranis
 Transient
-Tiburon
+**DONE** Tiburon - Used for 25 ton Cheetah
 
 **DONE** Stinger Legacy - Used for Stinger II
 **DONE** Wasp Legacy - Used for Wasp II

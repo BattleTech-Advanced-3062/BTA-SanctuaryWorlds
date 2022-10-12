@@ -34,7 +34,7 @@
 	"DamageVariance": 0,
 	"HeatDamage": 0,
 	"AccuracyModifier": 0,
-	"CriticalChanceMultiplier": 0.25,
+	"CriticalChanceMultiplier": 0.2,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 1,
@@ -80,7 +80,6 @@
 			"UIName": "x2",
 			"isBaseMode": true,
 			"ShotsWhenFired": 5,
-			"FlatJammingChance": 0.1,
 			"HeatGenerated": 5,
 			"RefireModifier": 1
 		},
@@ -89,7 +88,7 @@
 			"UIName": "x3",
 			"isBaseMode": false,
 			"ShotsWhenFired": 10,
-			"FlatJammingChance": 0.3,
+			"FlatJammingChance": 0.15,
 			"HeatGenerated": 10,
 			"RefireModifier": 2
 		}

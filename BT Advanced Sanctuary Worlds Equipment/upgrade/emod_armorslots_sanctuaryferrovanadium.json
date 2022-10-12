@@ -2,7 +2,7 @@
 	"Custom": {
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ArmorFactor: 5%",
+				"ArmorFactor: -5%",
 				"BallisticDamageReduction: 20%",
 				"MissileDamageReduction: 20%",
 				"ReservedSlots: 8",
@@ -27,6 +27,9 @@
             "BonusAText": "Dynamic Slot",
             "BonusBText": " "
         },
+		"ArmorStructureChanges": {
+			"ArmorFactor": 1.0
+		},
 		"Weights": {
 			"ArmorFactor": 0.95
 		},
