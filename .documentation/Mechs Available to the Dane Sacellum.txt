@@ -49,7 +49,7 @@ Flamberge
 Generic SH6
 Jade Phoenix
 Onager
-Pendragon
+**DONE** Pendragon - Used for the 90 ton Rashnu
 Shrike
 **DONE** Thunderstone - Used for the 80 ton Taranis
 Transient
