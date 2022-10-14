@@ -43,7 +43,7 @@ Models to Use:
 Agrotera
 Bruin
 Carronade
-Dark Crow
+**DONE** Dark Crow - Used for the 30 ton Blaze
 **DONE** Doloire - Used for 85 ton Lithobolos
 Flamberge
 Generic SH6
