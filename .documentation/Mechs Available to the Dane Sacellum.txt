@@ -50,7 +50,7 @@ Generic SH6
 Jade Phoenix
 Onager
 **DONE** Pendragon - Used for the 90 ton Rashnu
-Shrike
+**DONE** Shrike - Used for the 40 ton Screecher
 **DONE** Thunderstone - Used for the 80 ton Taranis
 Transient
 **DONE** Tiburon - Used for 25 ton Cheetah
