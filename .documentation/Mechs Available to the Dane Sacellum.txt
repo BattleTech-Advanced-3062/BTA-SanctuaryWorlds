@@ -45,10 +45,10 @@ Bruin
 Carronade
 **DONE** Dark Crow - Used for the 30 ton Blaze
 **DONE** Doloire - Used for 85 ton Lithobolos
-Flamberge
+**DONE** Flamberge - Used for the 60 ton Swooping Falcon
 Generic SH6
 Jade Phoenix
-Onager
+**DONE** Onager - Used for the 95 ton Crusher
 **DONE** Pendragon - Used for the 90 ton Rashnu
 **DONE** Shrike - Used for the 40 ton Screecher
 **DONE** Thunderstone - Used for the 80 ton Taranis
