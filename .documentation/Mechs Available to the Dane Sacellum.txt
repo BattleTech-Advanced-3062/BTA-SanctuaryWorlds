@@ -47,7 +47,7 @@ Carronade
 **DONE** Doloire - Used for 85 ton Lithobolos
 **DONE** Flamberge - Used for the 60 ton Swooping Falcon
 Generic SH6
-Jade Phoenix
+**DONE** Jade Phoenix - Used for the 50 ton Leaper
 **DONE** Onager - Used for the 95 ton Crusher
 **DONE** Pendragon - Used for the 90 ton Rashnu
 **DONE** Shrike - Used for the 40 ton Screecher

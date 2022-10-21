@@ -2,7 +2,7 @@
 	"Custom": {
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ArmorFactor: 11%",
+				"ArmorFactor: -11%",
 				"ReservedSlots: 10"
 			]
 		},
