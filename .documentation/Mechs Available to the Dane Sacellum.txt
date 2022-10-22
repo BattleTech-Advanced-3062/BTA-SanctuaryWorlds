@@ -3,9 +3,13 @@ Mechs Available to the Dane Sacellum
 Assaults: 
 **DONE** Mackie - 100 tons
 **DONE** Banshee - 95 tons
+**CUSTOM** Crusher - 95 tons
 **DONE** Emperor - 90 tons
+**CUSTOM** Rashnu - 90 tons
 **DONE** Longbow - 85 tons
+**CUSTOM** Lithobolos - 85 tons
 **DONE** Victor - 80 tons
+**CUSTOM** Taranis - 80 tons
 
 Heavies:
 **DONE** Helepolis - 75 tons
@@ -18,6 +22,7 @@ Heavies:
 **DONE** Ostwar - 65 tons
 **DONE** Ostroc - 60 tons
 **DONE** Rifleman - 60 tons
+**CUSTOM** Swooping Falcon - 60 tons
 
 Mediums: 
 **DONE** Wolverine - 55 tons
@@ -26,11 +31,16 @@ Mediums:
 **DONE** Dervish - 55 tons
 **DONE** Scorpion -- 55 tons
 **DONE** Hunchback - 50 tons
-**DONE** Phoenix Hawk - 45 tons
+**CUSTOM** Leaper - 50 tons
+**CUSTOM** Pixie - 45 tons
+**CUSTOM** Screecher - 40 tons
 
 Lights:
 **DONE** Firestarter - 35 tons
+**CUSTOM** Scrapper - 35 tons
+**CUSTOM** Blaze - 30 tons
 **DONE** Commando - 25 tons
+**CUSTOM** Cheetah - 25 tons
 **DONE** Wasp - 20 tons - Upgraded to Wasp II 25 tons
 **DONE** Trooper (Flea) - 20 tons
 **DONE** Stinger - 20 tons - Upgraded to Stinger II 25 tons
@@ -40,19 +50,19 @@ Lights:
 
 
 Models to Use:
-Agrotera
-Bruin
-Carronade
+Assassin II - Used for the 40 ton XXX
+Bruin - Used for the 45 ton XXX
+**DONE** Carronade - Used for the 35 ton Scrapper
 **DONE** Dark Crow - Used for the 30 ton Blaze
 **DONE** Doloire - Used for 85 ton Lithobolos
 **DONE** Flamberge - Used for the 60 ton Swooping Falcon
-Generic SH6
+Generic SH6 - Used for the 100 ton XXX
 **DONE** Jade Phoenix - Used for the 50 ton Leaper
 **DONE** Onager - Used for the 95 ton Crusher
 **DONE** Pendragon - Used for the 90 ton Rashnu
 **DONE** Shrike - Used for the 40 ton Screecher
 **DONE** Thunderstone - Used for the 80 ton Taranis
-Transient
+Transient - Used for the ??? ton XXX
 **DONE** Tiburon - Used for 25 ton Cheetah
 
 **DONE** Stinger Legacy - Used for Stinger II
