@@ -32,6 +32,7 @@ Mediums:
 **DONE** Scorpion -- 55 tons
 **DONE** Hunchback - 50 tons
 **CUSTOM** Leaper - 50 tons
+**CUSTOM** Lambda - 45 tons
 **CUSTOM** Pixie - 45 tons
 **CUSTOM** Screecher - 40 tons
 
@@ -51,7 +52,7 @@ Lights:
 
 Models to Use:
 Assassin II - Used for the 40 ton XXX
-Bruin - Used for the 45 ton XXX
+**DONE** Bruin - Used for the 45 ton Lambda
 **DONE** Carronade - Used for the 35 ton Scrapper
 **DONE** Dark Crow - Used for the 30 ton Blaze
 **DONE** Doloire - Used for 85 ton Lithobolos
