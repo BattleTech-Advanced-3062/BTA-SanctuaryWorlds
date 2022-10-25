@@ -34,6 +34,7 @@ Mediums:
 **CUSTOM** Leaper - 50 tons
 **CUSTOM** Lambda - 45 tons
 **CUSTOM** Pixie - 45 tons
+**CUSTOM** Liquidator - 40 tons
 **CUSTOM** Screecher - 40 tons
 
 Lights:
@@ -51,7 +52,7 @@ Lights:
 
 
 Models to Use:
-Assassin II - Used for the 40 ton XXX
+**DONE** Assassin II - Used for the 40 ton Liquidator
 **DONE** Bruin - Used for the 45 ton Lambda
 **DONE** Carronade - Used for the 35 ton Scrapper
 **DONE** Dark Crow - Used for the 30 ton Blaze
