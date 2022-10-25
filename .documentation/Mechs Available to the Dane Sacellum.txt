@@ -1,6 +1,7 @@
 Mechs Available to the Dane Sacellum
 
 Assaults: 
+**CUSTOM** Embrasure - 100 tons
 **DONE** Mackie - 100 tons
 **DONE** Banshee - 95 tons
 **CUSTOM** Crusher - 95 tons
@@ -58,7 +59,7 @@ Models to Use:
 **DONE** Dark Crow - Used for the 30 ton Blaze
 **DONE** Doloire - Used for 85 ton Lithobolos
 **DONE** Flamberge - Used for the 60 ton Swooping Falcon
-Generic SH6 - Used for the 100 ton XXX
+**DONE** Generic SH6 - Used for the 100 ton Embrasure
 **DONE** Jade Phoenix - Used for the 50 ton Leaper
 **DONE** Onager - Used for the 95 ton Crusher
 **DONE** Pendragon - Used for the 90 ton Rashnu
