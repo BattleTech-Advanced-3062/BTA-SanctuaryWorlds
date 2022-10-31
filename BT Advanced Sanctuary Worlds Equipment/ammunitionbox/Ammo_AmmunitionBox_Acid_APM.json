@@ -17,7 +17,7 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"CostPerShot: 60",
-				"Acid: 40%",
+				"Acid: 30%",
                 "AmmoCount: 20"
             ]
         },

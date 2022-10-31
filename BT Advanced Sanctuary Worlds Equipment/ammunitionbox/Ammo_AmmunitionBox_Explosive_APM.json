@@ -17,6 +17,7 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"CostPerShot: 30",
+				"DamagePerShell: 5",
                 "AmmoCount: 20"
             ]
         },

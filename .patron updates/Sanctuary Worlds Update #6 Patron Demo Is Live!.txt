@@ -1,0 +1,9 @@
+Sanctuary Worlds Update #6: Patron Demo Is Live!
+
+It's been a long road, getting from there to here, but it's finally arrived! The Patron-exclusive Sanctuary Worlds demo is here! Now, this demo has some caveats to it. First, it is *only* a tech preview. There is no plot, no factions, no new worlds or enemies to fight. This is *exclusively* the Sanctuary Worlds technology and mech roster for the player to mess around with and give me feedback about. Further, mechs are going to be wacky sizes as I've not done any resizing, so if a Locust II is the size of an Atlas, just roll with it for now. Finally, the new chassis have no icons, just white squares, as I've not had the icons made yet (this is purely visual, no gameplay effect, just saying to expect it).
+
+Otherwise, have at it! You can get the demo itself, as well as instructions and a save file with all the content in it, over on the BTA Discord in the Patron-only areas. Warning: the save file requires the three major DLCs as it was made with them (and because there's content from Heavy Metal in the save). I've opened up a Discord channel on the BTA server for feedback and welcome any feedback you can give about balance and gameplay feelings as well as any bugs you might encounter (there will probably be some bugs).
+
+There you go folks! Take a crack at the content and let me know what you think!
+
+BD

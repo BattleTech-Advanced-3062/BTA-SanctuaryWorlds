@@ -16,13 +16,15 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"CostPerShot: 90",
-                "Crits: +100%",
+                "Crits: -100%",
+				"ArmorDmgMod: -100%",
+				"StructureDmgMod: +1",
+				"CostPerShot: 150",
                 "AmmoCount: 20"
             ]
         },
 		"AmmoCost": {
-			"PerUnitCost": 90
+			"PerUnitCost": 150
 		}
     },
     "AmmoID": "Ammunition_APM_Tandem",

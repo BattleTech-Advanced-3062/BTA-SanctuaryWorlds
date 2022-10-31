@@ -52,7 +52,7 @@
             "statisticData": {
                 "statName": "DamageReductionMultiplierAll",
                 "operation": "Float_Add",
-                "modValue": "0.4",
+                "modValue": "0.3",
                 "modType": "System.Single"
             },
             "nature": "Debuff"

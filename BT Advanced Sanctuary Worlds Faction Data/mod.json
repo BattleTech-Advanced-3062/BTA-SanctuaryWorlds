@@ -1,0 +1,38 @@
+{
+	"Name": "BT Advanced Sanctuary Worlds Faction Data",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "who.gives.ashit",
+	"Description": "BTA SW Faction Info",
+	"Author": "BD",
+	"Contact": "",
+	"DependsOn": [],
+	"ConflictsWith": [],
+	"Manifest": [
+		{
+			"Type": "Sprite",
+			"Path": "Logos"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "Emblems"
+		},
+		{
+			"Type": "Texture2D",
+			"Path": "Emblems"
+		},
+		{
+			"Type": "FactionDef",
+			"Path": "Factions",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "HeraldryDef",
+			"Path": "Heraldry"
+		},
+		{
+			"Type": "CastDef",
+			"Path": "Cast"
+		}
+	]
+}
