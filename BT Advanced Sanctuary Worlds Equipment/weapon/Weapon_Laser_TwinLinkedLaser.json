@@ -48,6 +48,7 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
+	"FireDelayMultiplier": 0.2,
     "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
     "Description" : {
         "Cost" : 75000,

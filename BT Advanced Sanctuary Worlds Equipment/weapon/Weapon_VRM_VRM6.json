@@ -11,9 +11,9 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"VRMScale",
-				"DmgIncrease: 200%",
-				"DmgIncreaseStart: 400",
-				"DmgIncreaseEnd: 800",
+				"VRMClose",
+				"VRMMedium",
+				"VRMLong",
 				"NoFireInMelee"
 			]
 		}
@@ -22,16 +22,16 @@
     "Type" : "LRM",
     "WeaponSubType" : "LRM5",
     "MinRange" : 150,
-    "MaxRange" : 1000,
+    "MaxRange" : 600,
     "RangeSplit" : [
-        250,
-        500,
-        750
+        300,
+        400,
+        500
     ],
     "AmmoCategory" : "VRM",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 9,
-    "Damage" : 3,
+    "Damage" : 4,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -40,7 +40,7 @@
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
-    "IndirectFireCapable" : false,
+    "IndirectFireCapable" : true,
     "RefireModifier" : 0,
     "ShotsWhenFired" : 6,
     "ProjectilesPerShot" : 1,
@@ -56,11 +56,6 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
-	"DistantVariance": 2,
-	"DamageFalloffStartDistance": 400,
-	"DamageFalloffEndDistance": 800,
-	"DistantVarianceReversed": true,
-	"RangedDmgFalloffType": "Linear",
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
     "Description" : {
         "Cost" : 160000,
@@ -85,9 +80,40 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "statusEffects" : [
-        
-    ],
+    "statusEffects" : [],
+	"Modes": [
+		{
+			"Id": "short",
+			"UIName": "Close",
+			"isBaseMode": false,
+			"ShortRange": -150.0,
+			"MediumRange": -200.0,
+			"LongRange": -250.0,
+			"MaxRange": -300.0,
+			"DamagePerShot": -2.0,
+			"AccuracyModifier": 1
+		},
+		{
+			"Id": "mid",
+			"UIName": "Medium",
+			"isBaseMode": true,
+			"forbiddenRangeEnable": true,
+			"ForbiddenRange": 299
+		},
+		{
+			"Id": "long",
+			"UIName": "Long",
+			"isBaseMode": false,
+			"ShortRange": 300.0,
+			"MediumRange": 250.0,
+			"LongRange": 300.0,
+			"MaxRange": 400.0,
+			"DamagePerShot": 2.0,
+			"forbiddenRangeEnable": true,
+			"ForbiddenRange": 599,
+			"AccuracyModifier": -1
+		}
+	],
     "ComponentTags" : {
         "items" : [
             "component_type_stock",

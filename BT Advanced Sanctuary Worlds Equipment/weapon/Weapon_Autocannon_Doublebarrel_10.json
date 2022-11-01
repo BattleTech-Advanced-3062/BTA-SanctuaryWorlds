@@ -24,7 +24,7 @@
     "AmmoCategory" : "DBAC10",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 10,
-    "Damage" : 30,
+    "Damage" : 35,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -38,7 +38,8 @@
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
-    "Instability" : 10,
+    "Instability" : 15,
+	"FireDelayMultiplier": 0.2,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC10",
     "Description" : {
         "Cost" : 240000,

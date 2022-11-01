@@ -24,7 +24,7 @@
     "AmmoCategory" : "DBAC20",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 20,
-    "Damage" : 45,
+    "Damage" : 55,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -38,7 +38,8 @@
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
-    "Instability" : 20,
+    "Instability" : 25,
+	"FireDelayMultiplier": 0.2,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC20",
     "Description" : {
         "Cost" : 240000,

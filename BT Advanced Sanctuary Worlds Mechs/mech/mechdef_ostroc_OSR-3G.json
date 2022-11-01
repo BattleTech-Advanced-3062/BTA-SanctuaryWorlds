@@ -28,7 +28,7 @@
 		"UIName": "Ostroc OSR-3G",
 		"Id": "mechdef_ostroc_OSR-3G",
 		"Name": "Ostroc",
-		"Details": "An old 'Mech, the Ostroc received litle love in the Sanctuary Worlds. History has forgotten why the Ostroc was largely looked over for most of the Sanctuary's history but looked over it was, until recently, making it fairly rare in their militaries. The OSR-3L is a somewhat more advanced upgrade of the Ostroc, made only recently as the 'Mech came back into prominence. Armed with twin Large and Medium Lances, as well as a VRM-6 for long-range, the -3L proved an adept combatant in almost any circumstance. 16 DHS and 3 Heat Negators struggle mightily to contain the mech's heat.",
+		"Details": "An old 'Mech, the Ostroc received litle love in the Sanctuary Worlds. History has forgotten why the Ostroc was largely looked over for most of the Sanctuary's history but looked over it was, until recently, making it fairly rare in their militaries. The OSR-3G is a cutting edge Ostroc, the most advanced in the Sanctuary Worlds arsenals. Armed exclusively with two Gamma Cannons, the -3G puts its speed to work by finding the best places to strike from then fading away before return fire can be marshalled. 15 DHS do a fine job maintaining the guns while Endo-Steel and Ferro-Fibrous permit a little extra armor to be mounted.",
 		"Icon": "uixTxrIcon_ostroc"
 	},
 	"simGameMechPartCost": 700000,

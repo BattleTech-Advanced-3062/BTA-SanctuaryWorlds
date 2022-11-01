@@ -14,7 +14,7 @@
 		"UIName": "Wasp II",
 		"Id": "chassisdef_waspii_WSP-2-3V",
 		"Name": "Wasp II",
-		"Details": "Among the Sanctuary's light mech roster is the Wasp II, based on the Teran Hegemony's favorite light mech, the Wasp. The Wasp II gained 5 tons of weight over the original Wasp but keeps the same speed and maneuverability profile, making it an able scout. The Wasp II is often used as a cheap force filler and its loadout shows. Armed with only a Medium Electro-Laser and a DRM-4, the Wasp II does not excel in direct combat but is excellent at flanking and scouting duties.",
+		"Details": "Among the Sanctuary's light mech roster is the Wasp II, based on the Teran Hegemony's favorite light mech, the Wasp. The Wasp II gained 5 tons of weight over the original Wasp but keeps the same speed and maneuverability profile, making it an able scout. The WSP-2-3V is a bit of a more expensive take on the Wasp II. Equipped with an XL engine, the -3V uses the freed tonnage to carry a single weapon, a Large Modal Laser that gives it unparalleled flexibility on the battlefield. The -3V proved popular, though it remains a fragile design.",
 		"Icon": "uixTxrIcon_wasp"
 	},
 	"MovementCapDefID": "movedef_commando_COM-2D",
@@ -125,11 +125,11 @@
 			"Location": "LeftLeg",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Missile",
+					"WeaponMount": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMount": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -199,7 +199,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Scout",
-	"YangsThoughts": "Among the Sanctuary's light mech roster is the Wasp II, based on the Teran Hegemony's favorite light mech, the Wasp. The Wasp II gained 5 tons of weight over the original Wasp but keeps the same speed and maneuverability profile, making it an able scout. The Wasp II is often used as a cheap force filler and its loadout shows. Armed with only a Medium Electro-Laser and a DRM-4, the Wasp II does not excel in direct combat but is excellent at flanking and scouting duties.",
+	"YangsThoughts": "Among the Sanctuary's light mech roster is the Wasp II, based on the Teran Hegemony's favorite light mech, the Wasp. The Wasp II gained 5 tons of weight over the original Wasp but keeps the same speed and maneuverability profile, making it an able scout. The WSP-2-3V is a bit of a more expensive take on the Wasp II. Equipped with an XL engine, the -3V uses the freed tonnage to carry a single weapon, a Large Modal Laser that gives it unparalleled flexibility on the battlefield. The -3V proved popular, though it remains a fragile design.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

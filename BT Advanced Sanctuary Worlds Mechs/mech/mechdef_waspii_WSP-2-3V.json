@@ -30,7 +30,7 @@
 		"UIName": "Wasp II WSP-2-3V",
 		"Id": "mechdef_waspii_WSP-2-3V",
 		"Name": "Wasp II",
-		"Details": "Among the Sanctuary's light mech roster is the Wasp II, based on the Teran Hegemony's favorite light mech, the Wasp. The Wasp II gained 5 tons of weight over the original Wasp but keeps the same speed and maneuverability profile, making it an able scout. The Wasp II is often used as a cheap force filler and its loadout shows. Armed with only a Medium Electro-Laser and a DRM-4, the Wasp II does not excel in direct combat but is excellent at flanking and scouting duties.",
+		"Details": "Among the Sanctuary's light mech roster is the Wasp II, based on the Teran Hegemony's favorite light mech, the Wasp. The Wasp II gained 5 tons of weight over the original Wasp but keeps the same speed and maneuverability profile, making it an able scout. The WSP-2-3V is a bit of a more expensive take on the Wasp II. Equipped with an XL engine, the -3V uses the freed tonnage to carry a single weapon, a Large Modal Laser that gives it unparalleled flexibility on the battlefield. The -3V proved popular, though it remains a fragile design.",
 		"Icon": "uixTxrIcon_wasp"
 	},
 	"simGameMechPartCost": 250000,
@@ -154,7 +154,29 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_std_center",
+			"ComponentDefID": "emod_engineslots_sxl_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -384,30 +406,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "Weapon_DRM_DRM4",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_DRM_half",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaserElectro",
+			"ComponentDefID": "Weapon_Laser_LargeLaserModal",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
