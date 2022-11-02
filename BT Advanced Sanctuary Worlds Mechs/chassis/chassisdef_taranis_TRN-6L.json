@@ -211,7 +211,9 @@
 	],
 	"VariantName": "TRN-6L",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"OmniMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Mobile Armor Support",

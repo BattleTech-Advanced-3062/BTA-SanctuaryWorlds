@@ -211,7 +211,9 @@
 	],
 	"VariantName": "TRN-5D",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"OmniMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Mobile Armor Support",

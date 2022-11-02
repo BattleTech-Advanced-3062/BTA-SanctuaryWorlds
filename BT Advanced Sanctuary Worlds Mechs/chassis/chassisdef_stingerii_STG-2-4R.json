@@ -188,7 +188,9 @@
 	],
 	"VariantName": "STG-2-4R",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"OmniMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Scout",

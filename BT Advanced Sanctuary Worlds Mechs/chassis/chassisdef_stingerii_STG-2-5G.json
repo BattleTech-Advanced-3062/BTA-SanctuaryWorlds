@@ -189,7 +189,9 @@
 	],
 	"VariantName": "STG-2-5G",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"OmniMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Scout",

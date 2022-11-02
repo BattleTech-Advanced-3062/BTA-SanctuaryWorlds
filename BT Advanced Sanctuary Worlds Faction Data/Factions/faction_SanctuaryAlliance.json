@@ -52,11 +52,14 @@
 		"Locals",
 		"AuriganDirectorate",
 		"AuriganPirates",
-		"WordOfBlake"
+		"WordOfBlake",
+		"MallardRepublic",
+		"JacobsonHaven",
+		"DaneSacellum"
 	],
 	"Presence": 0.1,
 	"factionID": "SanctuaryAlliance",
-	"icon": "uixTxrLogo_Axumite",
+	"icon": "uixTxrLogo_SanctuaryAlliance",
 	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
 	"factionMapColor": "rgba(197,9,199,0.8)",
 	"DefaultCombatLeaderCastDefId": "castDef_SanctuaryAlliance",
@@ -69,7 +72,7 @@
 		"We've heard that Inner Sphere mercenary companies are often of passing skill, let us hope that is true in this case.",
 		"You've done yeoman's work for us in the past, and so we once again offer you this work. I trust the payment is sufficient?.",
 		"Good to see you again, Commander. You've proven yourself reliable and I am pleased to offer you this choice contract, if it pleases.",
-		"Ah, Commander, a pleasure to see you again! An excellent contract recently passed my desk and I think you'd be perfect for it.."
+		"Ah, Commander, a pleasure to see you again! An excellent contract recently passed my desk and I think you'd be perfect for it."
 	],
 	"MissionSuccessStatements": [
 		"Well done, mercenary. You are proving yourself reliable and effective, just what the Alliance likes to see."

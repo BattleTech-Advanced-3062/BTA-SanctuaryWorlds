@@ -404,6 +404,17 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_LDRIVER",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
