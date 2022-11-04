@@ -15,7 +15,7 @@
 	"factionID": "DaneSacellum",
 	"icon": "uixTxrLogo_DaneSacellum",
 	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
-	"factionMapColor": "rgba(193,21,11,0.8)",
+	"factionMapColor": "rgba(197,9,199,0.8)",
 	"DefaultCombatLeaderCastDefId": "castDef_DaneSacellum",
 	"DefaultRepresentativeCastDefId": "castDef_DaneSacellum",
 	"heraldryDefId": "heraldrydef_DaneSacellum",

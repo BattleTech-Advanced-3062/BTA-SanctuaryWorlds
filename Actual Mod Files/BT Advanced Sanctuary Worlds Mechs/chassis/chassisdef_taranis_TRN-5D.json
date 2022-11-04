@@ -14,14 +14,14 @@
 		"UIName": "Taranis",
 		"Id": "chassisdef_taranis_TRN-5D",
 		"Name": "Taranis",
-		"Details": "Named for an ancient Terran god of thunder, the Taranis is a powerful and mobile design that brings thick armor and unexpected speed to the battlefield. Powered by a 320-rated Dense engine and clan in Ferro-Vanadium armor which is supported by several pieces of Modular Plating, the Taranis can take a kicking and keep on ticking. For firepower, it twin DXRs and DRM-4s, supported by a trio of Twin-Linked Small Lasers. 14 DHS keep it all running.",
+		"Details": "Named for an ancient Terran god of thunder, the Taranis is a powerful and mobile design that brings thick armor and unexpected speed to the battlefield. Powered by a 320-rated Dense engine and clad in Ferro-Vanadium armor which is supported by several pieces of Modular Plating, the Taranis can take a kicking and keep on ticking. For firepower, it twin DXRs and DRM-4s, supported by a trio of Twin-Linked Small Lasers. 14 DHS keep it all running.",
 		"Icon": "uixTxrIcon_taranis"
 	},
 	"MovementCapDefID": "movedef_zeus_ZEU-6S",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_zeus",
-	"PrefabIdentifier": "chrPrfMech_zeusBase-001",
-	"PrefabBase": "zeus",
+	"HardpointDataDefID": "hardpointdatadef_thunderstone",
+	"PrefabIdentifier": "chrprfmech_thunderstonebase-001",
+	"PrefabBase": "thunderstone",
 	"Tonnage": 80,
 	"InitialTonnage": 8,
 	"weightClass": "ASSAULT",
@@ -217,7 +217,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Mobile Armor Support",
-	"YangsThoughts": "Named for an ancient Terran god of thunder, the Taranis is a powerful and mobile design that brings thick armor and unexpected speed to the battlefield. Powered by a 320-rated Dense engine and clan in Ferro-Vanadium armor which is supported by several pieces of Modular Plating, the Taranis can take a kicking and keep on ticking. For firepower, it twin DXRs and DRM-4s, supported by a trio of Twin-Linked Small Lasers. 14 DHS keep it all running.",
+	"YangsThoughts": "Named for an ancient Terran god of thunder, the Taranis is a powerful and mobile design that brings thick armor and unexpected speed to the battlefield. Powered by a 320-rated Dense engine and clad in Ferro-Vanadium armor which is supported by several pieces of Modular Plating, the Taranis can take a kicking and keep on ticking. For firepower, it twin DXRs and DRM-4s, supported by a trio of Twin-Linked Small Lasers. 14 DHS keep it all running.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

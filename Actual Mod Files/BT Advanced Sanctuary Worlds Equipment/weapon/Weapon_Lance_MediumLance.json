@@ -60,7 +60,7 @@
         "UIName" : "M Lance (S)",
         "Id" : "Weapon_Lance_MediumLance",
         "Name" : "M Lance (S)",
-        "Details" : "The Sanctuary Worlds developed laser technology in a different direction than the Inner Sphere. Where the Clans and the Inner Sphere developed extended range lasers, the Sanctuary Worlders developed the lance system. Essentially a high-powered and very precise laser scalpel, lances provide high armor penetration at longer range but do less traditional damage to armor itself. The Large Lance is the largest of the lance weapons and has the heaviest effect on enemy targets.",
+        "Details" : "The Sanctuary Worlds developed laser technology in a different direction than the Inner Sphere. Where the Clans and the Inner Sphere developed extended range lasers, the Sanctuary Worlders developed the lance system. Essentially a high-powered and very precise laser scalpel, lances provide high armor penetration at longer range but do less traditional damage to armor itself. The Medium Lance is the middle-weight of the lance weapons and is the workhorse of the Lance family.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",

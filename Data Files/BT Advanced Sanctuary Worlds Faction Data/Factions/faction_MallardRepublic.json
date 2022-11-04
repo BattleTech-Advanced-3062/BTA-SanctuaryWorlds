@@ -15,7 +15,7 @@
 	"factionID": "MallardRepublic",
 	"icon": "uixTxrLogo_MallardRepublic",
 	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
-	"factionMapColor": "rgba(193,21,11,0.8)",
+	"factionMapColor": "rgba(17,96,203,0.8)",
 	"DefaultCombatLeaderCastDefId": "castDef_MallardRepublic",
 	"DefaultRepresentativeCastDefId": "castDef_MallardRepublic",
 	"heraldryDefId": "heraldrydef_MallardRepublic",
