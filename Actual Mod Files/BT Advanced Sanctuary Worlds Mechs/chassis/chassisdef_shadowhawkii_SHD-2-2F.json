@@ -222,8 +222,19 @@
 	"YangsThoughts": "Eventually, the Sanctuary Worlds powers realized a dire need in their combat doctrines, that being mech-based artillery and/or fire support. Looking for a quick solution, the Jacobson Haven quickly developed the SHD-2-2F using the newly created Bombard Cannon system. Armed with a pair of Bombard/9s as well as a more traditional VRM-18, the -2F proved very adept at saturating enemy targets from a long distance. However, the speed of the mech's development meant that it entirely lacked close-range armaments, making it effectiveless defenseless up close.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_ShadowHawkII",
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Quirk_Battlefists_ShadowHawkII",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Quirk_Battlefists_ShadowHawkII",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

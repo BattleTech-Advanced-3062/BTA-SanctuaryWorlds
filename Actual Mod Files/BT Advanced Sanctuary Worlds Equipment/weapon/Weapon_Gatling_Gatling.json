@@ -27,7 +27,7 @@
 	"AmmoCategory": "GATLING",
 	"StartingAmmoCapacity": 0,
 	"HeatGenerated": 5,
-	"Damage": 3,
+	"Damage": 4,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,

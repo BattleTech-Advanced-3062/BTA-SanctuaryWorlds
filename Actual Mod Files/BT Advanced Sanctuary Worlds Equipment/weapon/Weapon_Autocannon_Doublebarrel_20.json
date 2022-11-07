@@ -24,7 +24,7 @@
     "AmmoCategory" : "DBAC20",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 20,
-    "Damage" : 55,
+    "Damage" : 60,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,

@@ -1,35 +1,39 @@
 {
 	"Description": {
-		"Id": "starsystemdef_Schwellenbach",
-		"Name": "Schwellenbach",
-		"Details": "The capital of the Mallard Republic, Schwellenbach is a world wrapped in red tape. Nothing gets done here without extensive time in committee, leading to its nickname through the sector as the Waiting World, since all you do here is wait on bureaucracy.",
+		"Id": "starsystemdef_Aldrich",
+		"Name": "Aldrich",
+		"Details": "Aldrich is a heavily developed and wealthy planet and nobles from across the Sanctuary Worlds come to Aldrich to enjoy its various delights, such as its plentiful breweries and wineries and the many sporting events held here. Aldrich is also the home of the Sanctuary Games, a once per decade sporting competition that sees a halt to all hostilities as the Sanctuary comes together to compete for prize and glory",
 		"Icon": ""
 	},
 	"Position": {
-		"x": 935.039,
-		"y": -627.715,
+		"x": 940.039,
+		"y": -645.715,
 		"z": 0
 	},
 	"Tags": {
 		"items": [
 			"planet_size_large",
 			"planet_climate_ice",
+			"planet_feature_moon01",
+			"planet_feature_rings",
 			"planet_pop_large",
 			"planet_civ_innersphere",
-			"planet_other_capital",
+			"planet_other_hub",
 			"planet_other_megacity",
 			"planet_industry_rich",
-			"planet_industry_electronics",
-			"planet_industry_manufacturing",
-			"planet_industry_aquaculture",
+			"planet_industry_recreation",
 			"planet_faction_mallardrepublic",
-			"planet_name_Schwellenbach"
+			"planet_name_Aldrich"
 		],
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
-		"polarFrozen",
-		"tundraFrozen",
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall",
+		"lowlandsCoastal",
+		"jungleTropical",
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
@@ -41,7 +45,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 14,
+	"JumpDistance": 26,
 	"ownerID": "MallardRepublic",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
@@ -136,13 +140,13 @@
 		"itemCollection_faction_MallardRepublic"
 	],
 	"BlackMarketShopItems": null,
-	"CoreSystemID": "starsystemdef_Schwellenbach",
+	"CoreSystemID": "starsystemdef_Aldrich",
 	"StartingSystemModes": [
 		"KAMEA_CAMPAIGN",
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 10,
+	"DefaultDifficulty": 8,
 	"DifficultyList": [],
 	"DifficultyModes": [],
 	"contractEmployerIDs": [

@@ -7,7 +7,7 @@
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"WpnCrits: +35%",
+				"WpnCrits: +25%",
 				"AntiBA: 100%"
 			]
 		}
@@ -24,15 +24,15 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 25,
-    "Damage" : 15,
+    "HeatGenerated" : 20,
+    "Damage" : 20,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
-    "HeatDamage" : 45,
+    "HeatDamage" : 30,
     "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1.35,
+    "CriticalChanceMultiplier" : 1.25,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,

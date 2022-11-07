@@ -7,6 +7,7 @@
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
+				"Streak",
 				"WpnAccuracy: +1",
 				"PipsIgnored: 4",
 				"AntiBA: 25%"
@@ -41,6 +42,8 @@
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 0,
     "Instability" : 0,
+	"Streak": true,
+	"HitGenerator": "Streak",
 	"ColorsTable": [
     {
       "C": "#ffd966",

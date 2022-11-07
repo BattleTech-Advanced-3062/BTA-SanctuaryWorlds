@@ -1,36 +1,33 @@
 {
 	"Description": {
-		"Id": "starsystemdef_Schwellenbach",
-		"Name": "Schwellenbach",
-		"Details": "The capital of the Mallard Republic, Schwellenbach is a world wrapped in red tape. Nothing gets done here without extensive time in committee, leading to its nickname through the sector as the Waiting World, since all you do here is wait on bureaucracy.",
+		"Id": "starsystemdef_Yarborough",
+		"Name": "Yarborough",
+		"Details": "The Republican Senate has chambers on Yarborough which they retire to once a year, ostensibly to connect with the common man. In reality, the Senate uses Yarborough as a vacation home and rarely gets any work done while in recess there. The locals love it though, as there is an entire economy around the Senate's yearly visit.",
 		"Icon": ""
 	},
 	"Position": {
-		"x": 935.039,
-		"y": -627.715,
+		"x": 914.039,
+		"y": -648.715,
 		"z": 0
 	},
 	"Tags": {
 		"items": [
-			"planet_size_large",
-			"planet_climate_ice",
+			"planet_size_medium",
+			"planet_climate_terran",
+			"planet_feature_asteroids",
 			"planet_pop_large",
 			"planet_civ_innersphere",
-			"planet_other_capital",
-			"planet_other_megacity",
+			"planet_other_hub",
 			"planet_industry_rich",
-			"planet_industry_electronics",
-			"planet_industry_manufacturing",
-			"planet_industry_aquaculture",
+			"planet_industry_recreation",
 			"planet_faction_mallardrepublic",
-			"planet_name_Schwellenbach"
+			"planet_name_Yarborough"
 		],
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
-		"tundraFrozen",
-		"urbanHighTech"
+		"tundraFrozen"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -41,7 +38,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 14,
+	"JumpDistance": 9,
 	"ownerID": "MallardRepublic",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
@@ -136,13 +133,13 @@
 		"itemCollection_faction_MallardRepublic"
 	],
 	"BlackMarketShopItems": null,
-	"CoreSystemID": "starsystemdef_Schwellenbach",
+	"CoreSystemID": "starsystemdef_Yarborough",
 	"StartingSystemModes": [
 		"KAMEA_CAMPAIGN",
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 10,
+	"DefaultDifficulty": 6,
 	"DifficultyList": [],
 	"DifficultyModes": [],
 	"contractEmployerIDs": [

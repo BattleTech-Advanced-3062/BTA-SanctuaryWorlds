@@ -1,36 +1,34 @@
 {
 	"Description": {
-		"Id": "starsystemdef_Schwellenbach",
-		"Name": "Schwellenbach",
-		"Details": "The capital of the Mallard Republic, Schwellenbach is a world wrapped in red tape. Nothing gets done here without extensive time in committee, leading to its nickname through the sector as the Waiting World, since all you do here is wait on bureaucracy.",
+		"Id": "starsystemdef_Naudain",
+		"Name": "Naudain",
+		"Details": "Naudain is a quiet backwater world, mostly used in the Republic for vacations and as a breadbasket for export to the rest of the Republic. The world is well defended though, and Republican forces have fortified the planet against any invasion.",
 		"Icon": ""
 	},
 	"Position": {
-		"x": 935.039,
-		"y": -627.715,
+		"x": 923.039,
+		"y": -637.715,
 		"z": 0
 	},
 	"Tags": {
 		"items": [
-			"planet_size_large",
-			"planet_climate_ice",
-			"planet_pop_large",
-			"planet_civ_innersphere",
-			"planet_other_capital",
-			"planet_other_megacity",
-			"planet_industry_rich",
-			"planet_industry_electronics",
-			"planet_industry_manufacturing",
+			"planet_size_small",
+			"planet_climate_arid",
+			"planet_feature_rings",
+			"planet_feature_moon01",
+			"planet_pop_medium",
+			"planet_civ_periphery",
+			"planet_industry_poor",
+			"planet_industry_agriculture",
 			"planet_industry_aquaculture",
 			"planet_faction_mallardrepublic",
-			"planet_name_Schwellenbach"
+			"planet_name_Naudain"
 		],
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
-		"polarFrozen",
-		"tundraFrozen",
-		"urbanHighTech"
+		"desertParched",
+		"badlandsParched"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -41,7 +39,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 14,
+	"JumpDistance": 29,
 	"ownerID": "MallardRepublic",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
@@ -136,13 +134,13 @@
 		"itemCollection_faction_MallardRepublic"
 	],
 	"BlackMarketShopItems": null,
-	"CoreSystemID": "starsystemdef_Schwellenbach",
+	"CoreSystemID": "starsystemdef_Naudain",
 	"StartingSystemModes": [
 		"KAMEA_CAMPAIGN",
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 10,
+	"DefaultDifficulty": 5,
 	"DifficultyList": [],
 	"DifficultyModes": [],
 	"contractEmployerIDs": [

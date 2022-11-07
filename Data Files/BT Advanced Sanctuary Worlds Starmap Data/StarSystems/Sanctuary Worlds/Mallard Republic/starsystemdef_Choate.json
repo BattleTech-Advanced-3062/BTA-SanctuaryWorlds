@@ -1,36 +1,39 @@
 {
 	"Description": {
-		"Id": "starsystemdef_Schwellenbach",
-		"Name": "Schwellenbach",
-		"Details": "The capital of the Mallard Republic, Schwellenbach is a world wrapped in red tape. Nothing gets done here without extensive time in committee, leading to its nickname through the sector as the Waiting World, since all you do here is wait on bureaucracy.",
+		"Id": "starsystemdef_Choate",
+		"Name": "Choate",
+		"Details": "Some worlds in the Sanctuary have seen nothing but war and conflict. Choate is one such planet, having been fought over for centuries thanks to its immense natural resources. Currently, Choate rests in the hands of the Mallard Republic, who won the planet after an extended campaign against the Jacobson Haven.",
 		"Icon": ""
 	},
 	"Position": {
-		"x": 935.039,
-		"y": -627.715,
+		"x": 900.039,
+		"y": -655.715,
 		"z": 0
 	},
 	"Tags": {
 		"items": [
-			"planet_size_large",
-			"planet_climate_ice",
-			"planet_pop_large",
-			"planet_civ_innersphere",
-			"planet_other_capital",
-			"planet_other_megacity",
-			"planet_industry_rich",
-			"planet_industry_electronics",
-			"planet_industry_manufacturing",
+			"planet_size_medium",
+			"planet_climate_rocky",
+			"planet_pop_medium",
+			"planet_feature_moon02",
+			"planet_civ_periphery",
+			"planet_other_battlefield",
+			"planet_other_megaforest",
+			"planet_industry_agriculture",
 			"planet_industry_aquaculture",
+			"planet_industry_chemicals",
+			"planet_industry_mining",
 			"planet_faction_mallardrepublic",
-			"planet_name_Schwellenbach"
+			"planet_name_Choate"
 		],
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
-		"polarFrozen",
-		"tundraFrozen",
-		"urbanHighTech"
+		"highlandsSpring",
+		"highlandsFall",
+		"desertParched",
+		"badlandsParched",
+		"lunarVacuum"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -41,7 +44,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 14,
+	"JumpDistance": 27,
 	"ownerID": "MallardRepublic",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
@@ -136,13 +139,13 @@
 		"itemCollection_faction_MallardRepublic"
 	],
 	"BlackMarketShopItems": null,
-	"CoreSystemID": "starsystemdef_Schwellenbach",
+	"CoreSystemID": "starsystemdef_Choate",
 	"StartingSystemModes": [
 		"KAMEA_CAMPAIGN",
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 10,
+	"DefaultDifficulty": 4,
 	"DifficultyList": [],
 	"DifficultyModes": [],
 	"contractEmployerIDs": [
