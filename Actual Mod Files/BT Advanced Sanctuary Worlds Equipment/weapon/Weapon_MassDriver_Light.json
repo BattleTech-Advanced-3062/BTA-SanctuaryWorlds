@@ -18,7 +18,7 @@
 				"NoFireInMelee",
 				"WpnAccuracy: +1",
 				"WpnRecoil: 1",
-				"WpnCooldown: 2",
+				"WpnCooldown: 1",
 				"WeaponBoom: 150"
 			]
 		}
@@ -50,8 +50,8 @@
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 3,
-	"Instability": 20,
-	"Cooldown": 2,
+	"Instability": 40,
+	"Cooldown": 1,
 	"ProjectileSpeedMultiplier": 2.5,
 	"ImprovedBallistic": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
@@ -78,7 +78,33 @@
 	"AllowedLocations": "CenterTorso,LeftTorso,RightTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"statusEffects": [],
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnWeaponFire",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "WeaponEffect-SelfknockdownCheck_OnFire",
+				"Name": "self knockdown check",
+				"Details": "self knockdown check.",
+				"Icon": "uixSvgIcon_run_n_gun"
+			},
+			"statisticData": {
+				"statName": "SelfknockdownCheck_OnFire",
+				"operation": "Float_Add",
+				"modValue": "0.65",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
