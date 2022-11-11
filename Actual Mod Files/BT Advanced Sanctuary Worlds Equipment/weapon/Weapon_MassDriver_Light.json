@@ -16,6 +16,8 @@
 			"Bonuses": [
 				"MassDriver",
 				"NoFireInMelee",
+				"Knockdown",
+				"KnockdownChance: 65%",
 				"WpnAccuracy: +1",
 				"WpnRecoil: 1",
 				"WpnCooldown: 1",
