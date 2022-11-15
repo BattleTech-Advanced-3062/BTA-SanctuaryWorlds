@@ -1,0 +1,123 @@
+{
+	"Description": {
+		"Id": "3063-02-14",
+		"Name": "MercNews Broadcast",
+	"Details": "SANCTUARY ALLIANCE RAIDS AURIGAN COALITION!\r\n\n\nCoromodir, [[DM.Factions[faction_AuriganRestoration],Aurigan Coalition]]: In an unexpected move, Aurigan Coalition officials report that Sanctuary Alliance units have been seen raiding several of their worlds along the Taurian border. The Alliance units are making no efforts to conceal their presence nor are they looking to seize control over the area. In fact, in an unusual move, their units seem to be uncoordinated and acting somewhat erratically, attacking targets seemingly at random and simply burning and destroying as they go. The [[DM.BaseDescriptionDefs[LoreACM],Aurigan Coalition Military]] has been scrambled and High Lady Arano has issued a call for peace with the Sanctuary Alliance.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "mercnews_subscription",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "continue",
+				"Name": "Continue.",
+				"Details": "Broadcast continues",
+				"Icon": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "continue1",
+						"Name": "MercNews Broadcast",
+						"Details": "What We Know So Far\r\n\n\nThe High Lady's call for peace has apparently been answered: the Sanctuary Alliance has released an official statement disavowing these raids and claiming they are rogue actors. It has issued orders to the rogue units to stand down lest they face termination at the hands of the ACM. High Lady Arano has accepted the Alliance's assurances and has directed the ACM to destroy the rogue units forthwith. MercNews will continute reporting as the situation develops.",
+						"Icon": ""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_SanctuaryAlliance_raids_starsystemdef_Qalzi_Flipped",
+									"WIIC_set_starsystemdef_Qalzi_Flipped_defender_strength_20",
+									"WIIC_set_starsystemdef_Qalzi_Flipped_attacker_strength_10",
+									"WIIC_SanctuaryAlliance_raids_starsystemdef_RegisRoost_Flipped",
+									"WIIC_set_starsystemdef_RegisRoost_Flipped_defender_strength_20",
+									"WIIC_set_starsystemdef_RegisRoost_Flipped_attacker_strength_10",
+									"WIIC_SanctuaryAlliance_raids_starsystemdef_Katinka_Flipped",
+									"WIIC_set_starsystemdef_Katinka_Flipped_defender_strength_20",
+									"WIIC_set_starsystemdef_Katinka_Flipped_attacker_strength_10",
+									"WIIC_SanctuaryAlliance_raids_starsystemdef_Gangtok_Flipped",
+									"WIIC_set_starsystemdef_Gangtok_Flipped_defender_strength_20",
+									"WIIC_set_starsystemdef_Gangtok_Flipped_attacker_strength_10",
+									"WIIC_SanctuaryAlliance_raids_starsystemdef_Heliat_Flipped",
+									"WIIC_set_starsystemdef_Heliat_Flipped_defender_strength_20",
+									"WIIC_set_starsystemdef_Heliat_Flipped_attacker_strength_10",
+									"WIIC_SanctuaryAlliance_raids_starsystemdef_Artru_Flipped",
+									"WIIC_set_starsystemdef_Artru_Flipped_defender_strength_20",
+									"WIIC_set_starsystemdef_Artru_Flipped_attacker_strength_10",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Spitz",
+									"WIIC_set_starsystemdef_Spitz_defender_strength_30",
+									"WIIC_set_starsystemdef_Spitz_attacker_strength_25",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Paf",
+									"WIIC_set_starsystemdef_Paf_defender_strength_30",
+									"WIIC_set_starsystemdef_Paf_attacker_strength_25",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Pyrrhus",
+									"WIIC_set_starsystemdef_Pyrrhus_defender_strength_30",
+									"WIIC_set_starsystemdef_Pyrrhus_attacker_strength_25",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Carthage",
+									"WIIC_set_starsystemdef_Carthage_defender_strength_30",
+									"WIIC_set_starsystemdef_Carthage_attacker_strength_25",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Argos",
+									"WIIC_set_starsystemdef_Argos_defender_strength_30",
+									"WIIC_set_starsystemdef_Argos_attacker_strength_25",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Mystras",
+									"WIIC_set_starsystemdef_Mystras_defender_strength_30",
+									"WIIC_set_starsystemdef_Mystras_attacker_strength_25",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Ahlat",
+									"WIIC_set_starsystemdef_Ahlat_defender_strength_30",
+									"WIIC_set_starsystemdef_Ahlat_attacker_strength_25",
+									"WIIC_TaurianConcordat_raids_starsystemdef_Hellespont",
+									"WIIC_set_starsystemdef_Hellespont_defender_strength_30",
+									"WIIC_set_starsystemdef_Hellespont_attacker_strength_25"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": null,
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

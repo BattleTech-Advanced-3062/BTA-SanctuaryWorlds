@@ -96,15 +96,10 @@
 			"statisticData": {
 				"appliesEachTick": false,
 				"effectsPersistAfterDestruction": false,
-				"statName": "DamageReductionMultiplierAll",
+				"statName": "DamageReductionMultiplierBallistic",
 				"operation": "Float_Multiply",
 				"modValue": "0.8",
-				"modType": "System.Single",
-				"targetAmmoCategory": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "Ballistic",
-				"targetWeaponSubType": "NotSet",
-				"targetWeaponType": "NotSet"
+				"modType": "System.Single"
 			}
 		},
 		{
@@ -129,15 +124,10 @@
 			"statisticData": {
 				"appliesEachTick": false,
 				"effectsPersistAfterDestruction": false,
-				"statName": "DamageReductionMultiplierAll",
+				"statName": "DamageReductionMultiplierMissile",
 				"operation": "Float_Multiply",
 				"modValue": "0.8",
-				"modType": "System.Single",
-				"targetAmmoCategory": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "Missile",
-				"targetWeaponSubType": "NotSet",
-				"targetWeaponType": "NotSet"
+				"modType": "System.Single"
 			}
 		}
     ],

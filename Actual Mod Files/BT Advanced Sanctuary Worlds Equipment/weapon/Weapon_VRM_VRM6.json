@@ -30,7 +30,7 @@
     ],
     "AmmoCategory" : "VRM",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 9,
+    "HeatGenerated" : 6,
     "Damage" : 4,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
