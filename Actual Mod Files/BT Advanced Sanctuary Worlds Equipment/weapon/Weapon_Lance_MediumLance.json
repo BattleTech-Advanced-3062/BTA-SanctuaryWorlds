@@ -15,8 +15,8 @@
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaser",
-    "MinRange" : 30,
-    "MaxRange" : 240,
+    "MinRange" : 0,
+    "MaxRange" : 360,
     "RangeSplit" : [
         60,
         150,

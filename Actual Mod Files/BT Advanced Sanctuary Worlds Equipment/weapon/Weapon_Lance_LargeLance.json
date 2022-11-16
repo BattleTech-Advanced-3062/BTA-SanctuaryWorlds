@@ -16,7 +16,7 @@
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaser",
     "MinRange" : 0,
-    "MaxRange" : 360,
+    "MaxRange" : 480,
     "RangeSplit" : [
         120,
         240,
@@ -43,7 +43,7 @@
 	"StructureDamage": 20,
 	"ColorsTable": [
     {
-      "C": "#000000",
+      "C": "#999999",
       "I": 5
     }
 	],

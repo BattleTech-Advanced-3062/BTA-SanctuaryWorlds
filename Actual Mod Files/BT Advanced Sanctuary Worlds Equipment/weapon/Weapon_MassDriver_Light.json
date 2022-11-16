@@ -18,7 +18,7 @@
 				"NoFireInMelee",
 				"Knockdown",
 				"KnockdownChance: 65%",
-				"WpnAccuracy: +1",
+				"WpnAccuracy: +2",
 				"WpnRecoil: 1",
 				"WpnCooldown: 1",
 				"WeaponBoom: 150"
@@ -44,7 +44,7 @@
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
-	"AccuracyModifier": -1,
+	"AccuracyModifier": -2,
 	"CriticalChanceMultiplier": 1,
 	"AOECapable": false,
 	"IndirectFireCapable": false,

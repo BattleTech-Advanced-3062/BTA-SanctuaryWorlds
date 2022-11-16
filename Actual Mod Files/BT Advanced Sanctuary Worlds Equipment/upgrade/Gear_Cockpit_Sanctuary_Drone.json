@@ -17,6 +17,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
+				"DroneInterface",
 				"Health: +12",
 				"LanceResolve: +2",
 				"Defense: +1",
