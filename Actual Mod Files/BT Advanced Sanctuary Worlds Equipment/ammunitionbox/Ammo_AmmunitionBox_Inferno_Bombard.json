@@ -16,14 +16,15 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"AreaOfEffect: 45",
-				"AreaOfEffectDmg: 2",
+				"ProjectilesPerShot: 2",
+				"AreaOfEffect: 60",
+				"AreaOfEffectDmg: 1",
 				"AreaOfEffectHeatDmg: 2",
 				"WeaponDamage: -1",
 				"HeatDamage: 1",
 				"OHDamage: 50%",
 				"CostPerShot: 300",
-				"AmmoCount: 40"
+				"AmmoCount: 60"
             ]
         },
 		"AmmoCost": {
@@ -31,7 +32,7 @@
 		}
     },
     "AmmoID": "Ammunition_Bombard_Inferno",
-    "Capacity": 40,
+    "Capacity": 60,
     "Description": {
         "Cost": 20000,
         "Rarity": 1,

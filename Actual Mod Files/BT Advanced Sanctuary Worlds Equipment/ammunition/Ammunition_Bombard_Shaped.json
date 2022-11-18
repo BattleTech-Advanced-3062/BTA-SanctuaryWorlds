@@ -18,6 +18,7 @@
    "CriticalDamageModifier": 1,
    "HitGenerator": "Cluster",
    "DisableClustering": false,
-   "DamagePerShot": 4.0,
-   "AccuracyModifier": 1.0
+   "ProjectilesPerShot": 2,
+   "DamagePerShot": 6.0,
+   "AccuracyModifier": -1.0
 }

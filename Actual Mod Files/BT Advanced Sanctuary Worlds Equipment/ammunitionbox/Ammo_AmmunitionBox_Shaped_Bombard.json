@@ -16,10 +16,11 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
+				"ProjectilesPerShot: 2",
 				"NoAreaOfEffect",
-				"WeaponDamage: +4",
+				"WeaponDamage: +6",
 				"CostPerShot: 300",
-				"AmmoCount: 40"
+				"AmmoCount: 60"
             ]
         },
 		"AmmoCost": {
@@ -27,7 +28,7 @@
 		}
     },
     "AmmoID": "Ammunition_Bombard_Shaped",
-    "Capacity": 40,
+    "Capacity": 60,
     "Description": {
         "Cost": 20000,
         "Rarity": 1,

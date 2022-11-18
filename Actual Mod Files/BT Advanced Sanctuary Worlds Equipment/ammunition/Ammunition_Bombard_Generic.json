@@ -20,6 +20,6 @@
    "DisableClustering": false,
    "ProjectilesPerShot": 2,
    "AOECapable": true,
-   "AOERange": 45,
-   "AOEDamage": 2
+   "AOERange": 60,
+   "AOEDamage": 4
 }
