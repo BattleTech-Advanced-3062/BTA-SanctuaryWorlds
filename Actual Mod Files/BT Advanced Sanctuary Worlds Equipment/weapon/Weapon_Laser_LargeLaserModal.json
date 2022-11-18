@@ -28,7 +28,7 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 27,
+    "HeatGenerated" : 25,
     "Damage" : 50,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -46,7 +46,7 @@
     "Instability" : 0,
 	"ColorsTable": [
 		{
-		  "C": "#999999",
+		  "C": "#663cd1",
 		  "I": 5
 		}
 	],
@@ -87,9 +87,9 @@
 			"Id": "lv2",
 			"UIName": "Dmg",
 			"isBaseMode": false,
-			"DamagePerShot": 20,
-			"HeatGenerated": 20,
-			"AccuracyModifier": 2
+			"DamagePerShot": 15,
+			"HeatGenerated": 10,
+			"AccuracyModifier": 1
 		},
 		{
 			"Id": "lv3",
@@ -97,13 +97,14 @@
 			"isBaseMode": false,
 			"DamagePerShot": -10,
 			"HeatGenerated": 10,
-			"AccuracyModifier": -2
+			"AccuracyModifier": -1,
+			"EvasivePipsIgnored" : 1
 		},
 		{
 			"Id": "lv4",
 			"UIName": "Range",
-			"DamagePerShot": -15,
-			"AccuracyModifier": 2,
+			"DamagePerShot": -10,
+			"AccuracyModifier": 1,
 			"ShortRange": 60.0,
 			"MediumRange": 120.0,
 			"LongRange": 180.0,

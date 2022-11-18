@@ -17,7 +17,7 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"AreaOfEffect: 60",
-				"AreaOfEffectDmg: 15",
+				"AreaOfEffectDmg: 20",
 				"AreaOfEffectSTABDmg: 5",
 				"CostPerShot: 150",
 				"AmmoCount: 20"

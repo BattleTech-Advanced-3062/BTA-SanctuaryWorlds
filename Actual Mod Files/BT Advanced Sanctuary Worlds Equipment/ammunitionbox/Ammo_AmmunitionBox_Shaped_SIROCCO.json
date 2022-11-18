@@ -17,7 +17,7 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"NoAreaOfEffect",
-				"WeaponDamage: +10",
+				"WeaponDamage: +15",
 				"CostPerShot: 150",
 				"AmmoCount: 10"
             ]

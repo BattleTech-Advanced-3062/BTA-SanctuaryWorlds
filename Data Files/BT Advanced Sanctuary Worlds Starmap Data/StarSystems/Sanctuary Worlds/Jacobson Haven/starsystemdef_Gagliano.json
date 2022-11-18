@@ -133,7 +133,7 @@
 		"itemCollection_faction_JacobsonHaven"
 	],
 	"BlackMarketShopItems": null,
-	"CoreSystemID": "starsystemdef_Gaglianoi",
+	"CoreSystemID": "starsystemdef_Gagliano",
 	"StartingSystemModes": [
 		"KAMEA_CAMPAIGN",
 		"CAREER",

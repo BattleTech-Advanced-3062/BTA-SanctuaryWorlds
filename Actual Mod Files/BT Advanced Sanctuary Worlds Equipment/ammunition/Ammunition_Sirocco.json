@@ -18,7 +18,7 @@
    "CriticalDamageModifier": 1,
    "AOECapable": true,
    "AOERange": 60,
-   "AOEDamage": 15,
+   "AOEDamage": 20,
    "AOEInstability": 5,
    "AdditionalImpactVFX": "WFX_Nuke",
    "AdditionalImpactVFXScaleX":3,

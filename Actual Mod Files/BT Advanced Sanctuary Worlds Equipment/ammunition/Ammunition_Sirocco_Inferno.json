@@ -20,7 +20,7 @@
    "HeatDamagePerShot": 5.0,
    "AOECapable": true,
    "AOERange": 60,
-   "AOEDamage": 5,
+   "AOEDamage": 10,
    "AOEHeatDamage": 5,
    "AOEInstability": 5,
    "AdditionalImpactVFX": "WFX_Nuke",

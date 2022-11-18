@@ -16,7 +16,7 @@
    "ArmorDamageModifier": 1,
    "ISDamageModifier": 1,
    "CriticalDamageModifier": 1,
-   "DamagePerShot": 10.0,
+   "DamagePerShot": 15.0,
    "AdditionalImpactVFX": "WFX_Nuke",
    "AdditionalImpactVFXScaleX":3,
    "AdditionalImpactVFXScaleY":3,

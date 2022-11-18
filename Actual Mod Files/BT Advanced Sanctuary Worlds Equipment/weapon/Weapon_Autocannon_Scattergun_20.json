@@ -48,7 +48,7 @@
 	"DisableClustering": false,
 	"AOECapable": true,
 	"AOERange": 30,
-	"AOEDamage": 20,
+	"AOEDamage": 5,
 	"HitGenerator": "Cluster",
 	"ImprovedBallistic": true,
 	"BallisticDamagePerPallet": true,

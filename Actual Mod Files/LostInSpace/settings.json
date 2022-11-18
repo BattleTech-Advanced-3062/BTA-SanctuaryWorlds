@@ -2,6 +2,9 @@
 	"debugLog": true,
 	"traceLog": true,
 	"hiddenSystems": {
+		"starsystemdef_TheSwansEye": [
+			"LiS__NavReq__ShieldWorldHider__starsystemdef_TheSwansEye__HIDDEN"
+		],
 		"starsystemdef_JumpPoint272": [
 			"LiS__NavReq__ShieldWorldHider__starsystemdef_JumpPoint272__HIDDEN"
 		],
@@ -49,6 +52,9 @@
 		],
 		"starsystemdef_Yetholm": [
 			"LiS__NavReq__ShieldWorldHider__starsystemdef_Yetholm__HIDDEN"
+		],
+		"starsystemdef_StarCluster65": [
+			"LiS__NavReq__SanctuaryWorldHider__starsystemdef_StarCluster65__HIDDEN"
 		],
 		"starsystemdef_JumpPoint278": [
 			"LiS__NavReq__SanctuaryWorldHider__starsystemdef_JumpPoint278__HIDDEN"

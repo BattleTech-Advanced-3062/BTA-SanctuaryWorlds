@@ -2,6 +2,7 @@
     "Custom": {
         "BonusDescriptions": {
             "Bonuses": [
+				"DBACModes",
 				"WpnRecoil: 2"
             ]
         },
@@ -38,7 +39,7 @@
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
-    "Instability" : 15,
+    "Instability" : 0,
 	"FireDelayMultiplier": 0.2,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC10",
     "Description" : {
@@ -64,9 +65,21 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "statusEffects" : [
-        
-    ],
+    "statusEffects" : [],
+	"Modes": [
+		{
+			"Id": "lv1",
+			"UIName": "Dmg",
+			"isBaseMode": true
+		},
+		{
+			"Id": "lv2",
+			"UIName": "Stab",
+			"isBaseMode": false,
+			"DamagePerShot": -40,
+			"Instability" : 30
+		}
+	],
     "ComponentTags" : {
         "items" : [
             "component_type_stock",

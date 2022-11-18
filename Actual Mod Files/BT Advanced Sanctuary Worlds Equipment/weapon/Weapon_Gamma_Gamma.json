@@ -112,7 +112,7 @@
 		  },
 		  "targetingData": {
 			"effectTriggerType": "OnHit",
-			"showInStatusPanel": true
+			"showInStatusPanel": false
 		  },
 		  "effectType": "StatisticEffect",
 		  "Description": {

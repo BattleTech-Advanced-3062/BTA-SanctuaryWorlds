@@ -87,9 +87,9 @@
 			"Id": "lv2",
 			"UIName": "Dmg",
 			"isBaseMode": false,
-			"DamagePerShot": 15,
-			"HeatGenerated": 15,
-			"AccuracyModifier": 2
+			"DamagePerShot": 8,
+			"HeatGenerated": 8,
+			"AccuracyModifier": 1
 		},
 		{
 			"Id": "lv3",
@@ -97,13 +97,14 @@
 			"isBaseMode": false,
 			"DamagePerShot": -5,
 			"HeatGenerated": 5,
-			"AccuracyModifier": -2
+			"AccuracyModifier": -1,
+			"EvasivePipsIgnored" : 1
 		},
 		{
 			"Id": "lv4",
 			"UIName": "Range",
-			"DamagePerShot": -10,
-			"AccuracyModifier": 2,
+			"DamagePerShot": -6,
+			"AccuracyModifier": 1,
 			"ShortRange": 30.0,
 			"MediumRange": 60.0,
 			"LongRange": 90.0,
