@@ -52,6 +52,7 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
+	"ProjectileSpeedMultiplier": 2.0,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
         "Cost" : 350000,

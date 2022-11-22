@@ -20,7 +20,7 @@
 				"ArmorDmgMod: +50%",
 				"StructureDmgMod: -50%",
 				"AreaOfEffect: 45",
-				"AreaOfEffectDmg: 2",
+				"AreaOfEffectDmg: 1",
 				"CostPerShot: 300",
 				"AmmoCount: 60"
             ]

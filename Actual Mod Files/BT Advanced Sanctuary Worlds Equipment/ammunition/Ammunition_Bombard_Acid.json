@@ -20,7 +20,7 @@
    "DisableClustering": false,
    "AOECapable": true,
    "AOERange": 45,
-   "AOEDamage": 2,
+   "AOEDamage": 1,
    "statusEffects": [
         {
             "durationData": {

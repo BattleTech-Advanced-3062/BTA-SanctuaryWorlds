@@ -2,8 +2,8 @@
     "Custom": {
         "BonusDescriptions": {
             "Bonuses": [
-                "AreaOfEffect: 30",
-				"AreaOfEffectDmg: 20",
+                "AreaOfEffect: 60",
+				"AreaOfEffectDmg: 5",
 				"WpnRecoil: 4",
 				"NoFireInMelee"
             ]
@@ -47,7 +47,7 @@
     "Instability": 2,
 	"DisableClustering": false,
 	"AOECapable": true,
-	"AOERange": 30,
+	"AOERange": 60,
 	"AOEDamage": 5,
 	"HitGenerator": "Cluster",
 	"ImprovedBallistic": true,

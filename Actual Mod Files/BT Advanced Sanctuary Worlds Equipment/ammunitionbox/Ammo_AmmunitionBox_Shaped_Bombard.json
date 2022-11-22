@@ -18,7 +18,7 @@
             "Bonuses": [
 				"ProjectilesPerShot: 2",
 				"NoAreaOfEffect",
-				"WeaponDamage: +6",
+				"WeaponDamage: +2",
 				"CostPerShot: 300",
 				"AmmoCount: 60"
             ]

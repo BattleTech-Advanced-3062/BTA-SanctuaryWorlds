@@ -18,7 +18,7 @@
             "Bonuses": [
 				"ProjectilesPerShot: 2",
 				"AreaOfEffect: 60",
-				"AreaOfEffectDmg: 4",
+				"AreaOfEffectDmg: 2",
 				"CostPerShot: 300",
 				"AmmoCount: 60"
             ]

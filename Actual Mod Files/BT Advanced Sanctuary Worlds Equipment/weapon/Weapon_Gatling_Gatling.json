@@ -7,7 +7,7 @@
 		],
 		"BonusDescriptions": {
 			"Bonuses": [
-				"WpnCrits: -80%",
+				"WpnCrits: -90%",
 				"AntiBA: 100%",
 				"ProjectileBurst: 5",
 				"VariableBurstCount: 3"
@@ -34,7 +34,7 @@
 	"DamageVariance": 0,
 	"HeatDamage": 0,
 	"AccuracyModifier": 0,
-	"CriticalChanceMultiplier": 0.2,
+	"CriticalChanceMultiplier": 0.1,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 1,
@@ -80,8 +80,9 @@
 			"UIName": "x2",
 			"isBaseMode": true,
 			"ShotsWhenFired": 5,
+			"FlatJammingChance": 0.05,
 			"HeatGenerated": 5,
-			"RefireModifier": 1
+			"RefireModifier": 2
 		},
 		{
 			"Id": "x3",
@@ -90,7 +91,7 @@
 			"ShotsWhenFired": 10,
 			"FlatJammingChance": 0.15,
 			"HeatGenerated": 10,
-			"RefireModifier": 2
+			"RefireModifier": 3
 		}
 	],
 	"statusEffects": [],
