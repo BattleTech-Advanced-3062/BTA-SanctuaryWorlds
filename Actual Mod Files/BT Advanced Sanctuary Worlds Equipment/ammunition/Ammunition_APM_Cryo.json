@@ -24,7 +24,7 @@
         "useActivationsOfTarget": true,
         "ticksOnEndOfRound": false,
         "ticksOnMovements": false,
-        "stackLimit": 6,
+        "stackLimit": 3,
         "clearedWhenAttacked": false
       },
       "targetingData": {
@@ -37,14 +37,14 @@
         "forcePathRebuild": false,
         "forceVisRebuild": false,
         "showInTargetPreview": false,
-        "showInStatusPanel": false
+        "showInStatusPanel": true
       },
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "APMCryo-WalkSlow",
         "Name": "Walk Impaired",
         "Details": "The Mech's Movement is reduced.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
+        "Icon": "snowflake"
       },
       "nature": "Debuff",
       "statisticData": {
@@ -75,7 +75,7 @@
         "useActivationsOfTarget": true,
         "ticksOnEndOfRound": false,
         "ticksOnMovements": false,
-        "stackLimit": 6,
+        "stackLimit": 3,
         "clearedWhenAttacked": false
       },
       "targetingData": {
