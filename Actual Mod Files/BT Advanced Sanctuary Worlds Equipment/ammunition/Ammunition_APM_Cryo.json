@@ -30,19 +30,19 @@
       "targetingData": {
         "effectTriggerType": "OnHit",
         "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
+        "extendDurationOnTrigger": 1,
         "specialRules": "NotSet",
         "effectTargetType": "NotSet",
         "range": 0,
         "forcePathRebuild": false,
         "forceVisRebuild": false,
-        "showInTargetPreview": false,
+        "showInTargetPreview": true,
         "showInStatusPanel": true
       },
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "APMCryo-WalkSlow",
-        "Name": "Walk Impaired",
+        "Name": "Cryo Walk Impaired",
         "Details": "The Mech's Movement is reduced.",
         "Icon": "snowflake"
       },
@@ -93,7 +93,7 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "APMCryo-RunSlow",
-        "Name": "Sprint Impaired",
+        "Name": "Cryo Sprint Impaired",
         "Details": "The Mech's Movement is reduced.",
         "Icon": "uixSvgIcon_status_sensorsImpaired"
       },

@@ -47,6 +47,15 @@
 	"AMSImmune": true,
 	"MinMissRadius": 20,
 	"MaxMissRadius": 40,
+	"ColorsTable": [
+		{
+		  "C": "#2986cc",
+		  "I": 5
+		}
+	],
+	"ImprovedBallistic": true,
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
 	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
 	"Description": {
 		"Cost": 1420000,

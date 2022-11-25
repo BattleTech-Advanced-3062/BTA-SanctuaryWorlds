@@ -50,7 +50,6 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
-    "AMSHitChance": 0,
 	"MissileHealth": 4,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
     "Description" : {
