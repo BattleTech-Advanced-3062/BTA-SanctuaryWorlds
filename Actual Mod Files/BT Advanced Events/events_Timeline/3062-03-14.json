@@ -35,7 +35,7 @@
 					"Description": {
 						"Id": "continue1",
 						"Name": "MercNews Broadcast",
-						"Details": "What We Know So Far\r\n\n\nThe invaders seem to use BattleMech technology though their units appear to have blacked out cockpits and unusual weaponry. Scattered reports indicate that the invading forces do not engage in radio communication of any kind, even among themselves, leading to confusion about how they coordinate their efforts. Despite this lack of communication, they move in perfect synchronicity during their attacks. Supposedly, they are not taking any prisoners, instead destroying combat units and pushing forwards, ignoring civilians and anyone who does not resist their movement. More to come as MercNews gets more information!.",
+						"Details": "WHAT WE KNOW SO FAR:\r\n\n\nThe invaders seem to use BattleMech technology though their units appear to have blacked out cockpits and unusual weaponry. Scattered reports indicate that the invading forces do not engage in radio communication of any kind, even among themselves, leading to confusion about how they coordinate their efforts. Despite this lack of communication, they move in perfect synchronicity during their attacks. Supposedly, they are not taking any prisoners, instead destroying combat units and pushing forwards, ignoring civilians and anyone who does not resist their movement. More to come as MercNews gets more information!",
 						"Icon": ""
 					},
 					"Weight": 100,
@@ -70,16 +70,16 @@
 									"WIIC_set_starsystemdef_Lastpost_defender_strength_10",
 									"WIIC_set_starsystemdef_Lastpost_attacker_strength_40",
 									"WIIC_SanctuaryAlliance_attacks_starsystemdef_Tyrrhenia",
-									"WIIC_set_starsystemdef_Tyrrhenia_defender_strength_15",
+									"WIIC_set_starsystemdef_Tyrrhenia_defender_strength_10",
 									"WIIC_set_starsystemdef_Tyrrhenia_attacker_strength_40",
 									"WIIC_SanctuaryAlliance_attacks_starsystemdef_BelleIsle",
-									"WIIC_set_starsystemdef_BelleIsle_defender_strength_15",
+									"WIIC_set_starsystemdef_BelleIsle_defender_strength_10",
 									"WIIC_set_starsystemdef_BelleIsle_attacker_strength_40",
 									"WIIC_SanctuaryAlliance_attacks_starsystemdef_Carvajal",
-									"WIIC_set_starsystemdef_Carvajal_defender_strength_15",
+									"WIIC_set_starsystemdef_Carvajal_defender_strength_10",
 									"WIIC_set_starsystemdef_Carvajal_attacker_strength_40",
 									"WIIC_SanctuaryAlliance_attacks_starsystemdef_Mirfak",
-									"WIIC_set_starsystemdef_Mirfak_defender_strength_15",
+									"WIIC_set_starsystemdef_Mirfak_defender_strength_10",
 									"WIIC_set_starsystemdef_Mirfak_attacker_strength_40"
 								],
 								"tagSetSourceFile": ""

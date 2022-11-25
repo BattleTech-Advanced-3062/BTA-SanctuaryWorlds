@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "3064-02-14",
 		"Name": "MercNews Broadcast",
-	"Details": "SANCTUARY WORLDS UNVEILED!\r\n\n\nCapone, [[DM.Factions[faction_JacobsonHaven],Jacobson Haven]]: Almost two years after the initial invasion of the Taurian Concordat by the Sanctuary Alliance, precisely who it is an alliance of and what the Sanctuary itself is has been revealed. Beyond Alliance space lies a cluster of worlds called the Sanctuary and there it seems that the three governments in the Sanctuary, the Jacobson Haven, Mallard Republic, and Dane Sacellum, have decided to open their borders and welcome visitors at long last. All three nations have put a broadcast out offering work for any mercenary willing to accept. It seems that the political situation in the Sanctuary is much like that in the Inner Sphere, one where mercenaries can make a good living.",
+	"Details": "SANCTUARY WORLDS UNVEILED!\r\n\n\nCapone, [[DM.Factions[faction_JacobsonHaven],Jacobson Haven]]: Almost two years after the initial invasion of the Taurian Concordat by the Sanctuary Alliance, precisely who it is an alliance of and what the Sanctuary itself is has been revealed. Beyond Alliance space lies a cluster of worlds called the Sanctuary and there it seems that the three governments in the Sanctuary, the [[DM.Factions[faction_JacobsonHaven],Jacobson Haven]], [[DM.Factions[faction_MallardRepublic],Mallard Republic]], and [[DM.Factions[faction_DaneSacellum],Dane Sacellum]], have decided to open their borders and welcome visitors at long last. All three nations have put a broadcast out offering work for any mercenary willing to accept. It seems that the political situation in the Sanctuary is much like that in the Inner Sphere, one where mercenaries can make a good living.",
 		"Icon": "uixTxrSpot_ComputerScreen.png"
 	},
 	"Scope": "Company",
@@ -35,7 +35,7 @@
 					"Description": {
 						"Id": "continue1",
 						"Name": "MercNews Broadcast",
-						"Details": "Who Are the Sanctuary Nations?\r\n\n\nThe three governments are each very different and have different mores. It seems that the Jacobson Haven is a morally flexible nation where money is the loudest voice while in the Dane Sacellum faith takes center stage in its citizen's lives. Finally, the Mallard Republic appears to be a highly bureaucratic republic with a great deal of paperwork. Each nation seems to have much to offer mercenaries and all three are offering access to Sanctuary technology for those mercenaries willing to work into their favor. Truly, the sky seems to be the limit for opportunities in this new region.",
+						"Details": "WHO ARE THE SANCTUARY NATIONS?\r\n\n\nThe three governments are each very different and have different mores. It seems that the [[DM.Factions[faction_JacobsonHaven],Jacobson Haven]] is a morally flexible nation where money is the loudest voice while in the [[DM.Factions[faction_DaneSacellum],Dane Sacellum]] faith takes center stage in its citizen's lives. Finally, the [[DM.Factions[faction_MallardRepublic],Mallard Republic]] appears to be a highly bureaucratic republic with a great deal of paperwork. Each nation seems to have much to offer mercenaries and all three are offering access to Sanctuary technology for those mercenaries willing to work into their favor. Truly, the sky seems to be the limit for opportunities in this new region.",
 						"Icon": ""
 					},
 					"Weight": 100,

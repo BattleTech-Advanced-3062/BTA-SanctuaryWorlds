@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "3062-11-14",
 		"Name": "MercNews Broadcast",
-	"Details": "CONCORDAT-ALLIANCE WAR GRINDS ONWARDS!\r\n\n\nTaurus, [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]]: After 8 full months of brutal combat, the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]] reports that it has managed to partially halt the Sanctuary Alliance's invasion. Though the TDF was taken by surprise at first and the Alliance made excellent gains in the conflict, now that the war machine of the Concordat has been kicked into high gear the Alliance's progress towards the Taurian core worlds has finally been brought to a halt. Though conflict continues and the Alliance has continued to attack several more worlds on the Rimward edge of the Concordat, the core systems of the Concordat appear to be secure. Now, the question is: can the TDF reclaim their lost planets?.",
+	"Details": "CONCORDAT-ALLIANCE WAR GRINDS ONWARDS!\r\n\n\nTaurus, [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]]: After 8 full months of brutal combat, the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]] reports that it has managed to partially halt the Sanctuary Alliance's invasion. Though the [[DM.BaseDescriptionDefs[LoreTDF],TDF]] was taken by surprise at first and the Alliance made excellent gains in the conflict, now that the war machine of the Concordat has been kicked into high gear the Alliance's progress towards the Taurian core worlds has finally been brought to a halt. Though conflict continues and the Alliance has continued to attack several more worlds on the Rimward edge of the Concordat, the core systems of the Concordat appear to be secure. Now, the question is: can the [[DM.BaseDescriptionDefs[LoreTDF],TDF]] reclaim their lost planets?.",
 		"Icon": "uixTxrSpot_ComputerScreen.png"
 	},
 	"Scope": "Company",
@@ -35,7 +35,7 @@
 					"Description": {
 						"Id": "continue1",
 						"Name": "MercNews Broadcast",
-						"Details": "What We Know So Far\r\n\n\nAt this point, the Sanctuary Alliance remains much the same mystery as it was four months ago. It has been officially confirmed that the Alliance does in fact rely entirely on drone systes for its combat units, with reports from their captured planets indicating that even their infantry forces are robotic in nature as rebellions on those worlds have been put down with ruthless efficiency by said robotic infantry. According to the [[DM.BaseDescriptionDefs[LoreTMI],TMI]], there have been several communications between Alliance officials and Concordat leadership, though the nature of these communications remains unknown.",
+						"Details": "WHAT WE KNOW SO FAR:\r\n\n\nAt this point, the Sanctuary Alliance remains much the same mystery as it was four months ago. It has been officially confirmed that the Alliance does in fact rely entirely on [[DM.BaseDescriptionDefs[LoreDroneSystems],drone]] systems for its combat units, with reports from their captured planets indicating that even their infantry forces are robotic in nature as rebellions on those worlds have been put down with ruthless efficiency by said robotic infantry. According to the [[DM.BaseDescriptionDefs[LoreTMI],TMI]], there have been several communications between Alliance officials and Concordat leadership, though the nature of these communications remains unknown.",
 						"Icon": ""
 					},
 					"Weight": 100,
@@ -71,31 +71,7 @@
 									"WIIC_set_starsystemdef_Hellespont_attacker_strength_20",
 									"WIIC_SanctuaryAlliance_attacks_starsystemdef_Gaucin",
 									"WIIC_set_starsystemdef_Gaucin_defender_strength_10",
-									"WIIC_set_starsystemdef_Gaucin_attacker_strength_20",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Celano",
-									"WIIC_set_starsystemdef_Celano_defender_strength_30",
-									"WIIC_set_starsystemdef_Celano_attacker_strength_25",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Gant",
-									"WIIC_set_starsystemdef_Gant_defender_strength_30",
-									"WIIC_set_starsystemdef_Gant_attacker_strength_25",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Davetal",
-									"WIIC_set_starsystemdef_Davetal_defender_strength_30",
-									"WIIC_set_starsystemdef_Davetal_attacker_strength_25",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Micros",
-									"WIIC_set_starsystemdef_Micros_defender_strength_30",
-									"WIIC_set_starsystemdef_Micros_attacker_strength_25",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Charleston",
-									"WIIC_set_starsystemdef_Charleston_defender_strength_30",
-									"WIIC_set_starsystemdef_Charleston_attacker_strength_25",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Dicallus",
-									"WIIC_set_starsystemdef_Dicallus_defender_strength_30",
-									"WIIC_set_starsystemdef_Dicallus_attacker_strength_25",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Cadiz(TC)",
-									"WIIC_set_starsystemdef_Cadiz(TC)_defender_strength_30",
-									"WIIC_set_starsystemdef_Cadiz(TC)_attacker_strength_25",
-									"WIIC_TaurianConcordat_raids_starsystemdef_Orkney(TC)",
-									"WIIC_set_starsystemdef_Orkney(TC)_defender_strength_30",
-									"WIIC_set_starsystemdef_Orkney(TC)_attacker_strength_25"
+									"WIIC_set_starsystemdef_Gaucin_attacker_strength_20"
 								],
 								"tagSetSourceFile": ""
 							},
