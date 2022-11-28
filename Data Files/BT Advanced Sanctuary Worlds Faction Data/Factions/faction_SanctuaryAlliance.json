@@ -2,7 +2,7 @@
 	"ID": "faction_SanctuaryAlliance",
 	"Name": "Sanctuary Alliance",
 	"ShortName": "SanctuaryAlliance",
-	"Demonym": "Worlder",
+	"Demonym": "Alliance",
 	"Government": "Alliance",
 	"Allies": [],
 	"Enemies": [
