@@ -66,7 +66,7 @@
             "Description": {
                 "Id": "StatusEffect_SanctuaryHeatNegator",
                 "Name": "Heat Negator",
-                "Details": "Heat Negator system venting 5 heat",
+                "Details": "Heat Negator system venting 4 heat",
                 "Icon": "uixSvgIcon_equipment_ThermalExchanger"
             },
             "nature": "Buff",
