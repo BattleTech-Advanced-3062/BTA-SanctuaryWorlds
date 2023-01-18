@@ -3,6 +3,7 @@ Mechs Available to the Dane Sacellum
 Assaults: 
 **CUSTOM** Embrasure - 100 tons
 **DONE** Mackie - 100 tons
+**CUSTOM** Piledriver - 100 tons
 **DONE** Banshee - 95 tons
 **CUSTOM** Crusher - 95 tons
 **DONE** Emperor - 90 tons
@@ -67,6 +68,7 @@ Models to Use:
 **DONE** Thunderstone - Used for the 80 ton Taranis
 Transient - Used for the ??? ton XXX
 **DONE** Tiburon - Used for 25 ton Cheetah
+Generic SH5 - Used for 100 ton Piledriver
 
 **DONE** Stinger Legacy - Used for Stinger II
 **DONE** Wasp Legacy - Used for Wasp II
